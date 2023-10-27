@@ -1,2266 +1,3971 @@
 [
   {
-    "Instructor Name": "Haidan Li",
-    "Department": "Accounting"
+    "Name": "Haidan Li",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Stacey Ritter",
-    "Department": "Accounting"
+    "Name": "Stacey Ritter",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christopher Paisley",
-    "Department": "Accounting"
+    "Name": "Christopher Paisley | Chris Paisley",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kevin Li",
-    "Department": "Accounting"
+    "Name": "Ke Li | Kevin Li",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Stephen Carter",
-    "Department": "Accounting"
+    "Name": "Stephen Carter",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Joseph Maglione",
-    "Department": "Accounting"
+    "Name": "Joseph Maglione | Joe Maglione",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Wendy Donohoe",
-    "Department": "Accounting"
+    "Name": "Wendy Donohoe",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Haoning Richter",
-    "Department": "Accounting"
+    "Name": "Haoning Richter",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Qiru Zhang",
-    "Department": "Accounting"
+    "Name": "Qiru Zhang",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Amanda Badger",
-    "Department": "Accounting"
+    "Name": "Amanda Badger",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Suzanne Luttman",
-    "Department": "Accounting"
+    "Name": "Suzanne Luttman",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Calegari",
-    "Department": "Accounting"
+    "Name": "Michael Calegari",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Xiaochen Zhu",
-    "Department": "Accounting"
+    "Name": "Xiaochen Zhu",
+    "Department Name": "Accounting",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Magda Metwally",
-    "Department": "Applied Mathematics"
+    "Name": "Magda Metwally",
+    "Department Name": "Applied Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Francisco Villarroya Alvarez",
-    "Department": "Applied Mathematics"
+    "Name": "Francisco Villarroya Alvarez",
+    "Department Name": "Applied Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Robert Kleinhenz",
-    "Department": "Applied Mathematics"
+    "Name": "Robert Kleinhenz",
+    "Department Name": "Applied Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Isaura Cruz",
-    "Department": "Anthropology"
+    "Name": "Isaura Cruz",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ana Casareto",
-    "Department": "Anthropology"
+    "Name": "Ana Casareto",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maia Dedrick",
-    "Department": "Anthropology"
+    "Name": "Maia Dedrick",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ryan Anderson",
-    "Department": "Anthropology"
+    "Name": "Ryan Anderson",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "James McKenna",
-    "Department": "Anthropology"
+    "Name": "James McKenna",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Samantha Grace",
-    "Department": "Anthropology"
+    "Name": "Samantha Grace | Sam Grace",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nathan Anderson",
-    "Department": "Anthropology"
+    "Name": "Nathan Anderson",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mythri Jegathesan",
-    "Department": "Anthropology"
+    "Name": "Mythri Jegathesan",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Veronica Miranda",
-    "Department": "Anthropology"
+    "Name": "Veronica Miranda",
+    "Department Name": "Anthropology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mohammed Kadalah",
-    "Department": "Arabic"
+    "Name": "Mohammed Kadalah",
+    "Department Name": "Arabic",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gaby Greenlee",
-    "Department": "Art History"
+    "Name": "Gaby Greenlee",
+    "Department Name": "Art History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shriya Sridharan",
-    "Department": "Art History"
+    "Name": "Shriya Sridharan",
+    "Department Name": "Art History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Andrea Pappas",
-    "Department": "Art History"
+    "Name": "Andrea Pappas",
+    "Department Name": "Art History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Heather Clydesdale",
-    "Department": "Art History"
+    "Name": "Heather Clydesdale",
+    "Department Name": "Art History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Blake DeMaria",
-    "Department": "Art History"
+    "Name": "Blake DeMaria",
+    "Department Name": "Art History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jessica Eastburn",
-    "Department": "Studio Art"
+    "Name": "Jessica Eastburn",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ryan Carrington",
-    "Department": "Studio Art"
+    "Name": "Ryan Carrington",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Robert Detweiler | Kelly Detweiler",
-    "Department": "Studio Art"
+    "Name": "Robert Detweiler | Kelly Detweiler",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ryan Reynolds",
-    "Department": "Studio Art"
+    "Name": "Ryan Reynolds",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Martin",
-    "Department": "Studio Art"
+    "Name": "Michael Martin",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Renee Billingslea",
-    "Department": "Studio Art"
+    "Name": "Renee Billingslea",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Francisco Jimenez | Pancho Jimenez",
-    "Department": "Studio Art"
+    "Name": "Francisco Jimenez | Pancho Jimenez",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Qiuwen Li",
-    "Department": "Studio Art"
+    "Name": "Qiuwen Li",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Danielle Heitmuller",
-    "Department": "Studio Art"
+    "Name": "Danielle Heitmuller",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Takeshi Moro",
-    "Department": "Studio Art"
+    "Name": "Takeshi Moro",
+    "Department Name": "Studio Art",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Biao Lu | Bill Lu",
-    "Department": "Bioengineering"
+    "Name": "Biao Lu | Bill Lu",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yuling Yan",
-    "Department": "Bioengineering"
+    "Name": "Yuling Yan",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ismail Araci | Emre Araci",
-    "Department": "Bioengineering"
+    "Name": "Ismail Araci | Emre Araci",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hamed Akbari",
-    "Department": "Bioengineering"
+    "Name": "Hamed Akbari",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Paul Nauleau",
-    "Department": "Bioengineering"
+    "Name": "Paul Nauleau",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Prashanth Asuri",
-    "Department": "Bioengineering"
+    "Name": "Prashanth Asuri",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Eun Ju Park | Emily Park",
-    "Department": "Bioengineering"
+    "Name": "Eun Ju Park | Emily Park",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Zhiwen Zhang",
-    "Department": "Bioengineering"
+    "Name": "Zhiwen Zhang",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Murat Baday",
-    "Department": "Bioengineering"
+    "Name": "Murat Baday",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maryam Mobed-Miremadi",
-    "Department": "Bioengineering"
+    "Name": "Maryam Mobed-Miremadi",
+    "Department Name": "Bioengineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Raphael Ritson-Williams",
-    "Department": "Biology"
+    "Name": "Raphael Ritson-Williams",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Brody Sandel",
-    "Department": "Biology"
+    "Name": "Brody Sandel",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Erin Schwartz",
-    "Department": "Biology"
+    "Name": "Erin Schwartz",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Pascale Guiton",
-    "Department": "Biology"
+    "Name": "Pascale Guiton",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Angel Islas",
-    "Department": "Biology"
+    "Name": "Angel Islas",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Janice Edgerly Rooks",
-    "Department": "Biology"
+    "Name": "Janice Edgerly Rooks",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Farzaneh Ghiasvand",
-    "Department": "Biology"
+    "Name": "Farzaneh Ghiasvand",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christelle Sabatier",
-    "Department": "Biology"
+    "Name": "Christelle Sabatier",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Dawn Hart",
-    "Department": "Biology"
+    "Name": "Dawn Hart",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michelle Badura",
-    "Department": "Biology"
+    "Name": "Michelle Badura",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Giorgio Lagna",
-    "Department": "Biology"
+    "Name": "Giorgio Lagna",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Craig Stephens",
-    "Department": "Biology"
+    "Name": "Craig Stephens",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Brian Bayless",
-    "Department": "Biology"
+    "Name": "Brian Bayless",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "James Grainger",
-    "Department": "Biology"
+    "Name": "James Grainger",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Vanessa Errisuriz",
-    "Department": "Biology"
+    "Name": "Vanessa Errisuriz",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Elizabeth Dahlhoff",
-    "Department": "Biology"
+    "Name": "Elizabeth Dahlhoff",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Laura Cocas | Laura Cocas",
-    "Department": "Biology"
+    "Name": "Laura Cocas | Laura Cocas",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Virginia Matzek",
-    "Department": "Biology"
+    "Name": "Virginia Matzek",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michelle Marvier",
-    "Department": "Biology"
+    "Name": "Michelle Marvier",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "John Dialesandro",
-    "Department": "Biology"
+    "Name": "John Dialesandro",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Leilani Miller",
-    "Department": "Biology"
+    "Name": "Leilani Miller",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Justen Whittall",
-    "Department": "Biology"
+    "Name": "Justen Whittall",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Katy Korsmeyer",
-    "Department": "Biology"
+    "Name": "Katy Korsmeyer",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Katherine Saxton",
-    "Department": "Biology"
+    "Name": "Katherine Saxton",
+    "Department Name": "Biology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Holubar | Mike Holubar",
-    "Department": "Business"
+    "Name": "Michael Holubar | Mike Holubar",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Majid Nik Tehrani",
-    "Department": "Business"
+    "Name": "Majid Nik Tehrani",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Dana | Michael Dana",
-    "Department": "Business"
+    "Name": "Michael Dana | Michael Dana",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Marshall Mort",
-    "Department": "Business"
+    "Name": "Marshall Mort",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Deirdre Frontczak",
-    "Department": "Business"
+    "Name": "Deirdre Frontczak",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christopher Norris | Chris Norris",
-    "Department": "Business"
+    "Name": "Christopher Norris | Chris Norris",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Reginald Duhe",
-    "Department": "Business"
+    "Name": "Reginald Duhe",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Aquilina",
-    "Department": "Business"
+    "Name": "Michael Aquilina",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Brett Yokom",
-    "Department": "Business"
+    "Name": "Brett Yokom",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Dam",
-    "Department": "Business"
+    "Name": "Michael Dam",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jacqueline Posner",
-    "Department": "Business"
+    "Name": "Jacqueline Posner",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Denise Ho",
-    "Department": "Business"
+    "Name": "Denise Ho",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Timothy Harris | Tim Harris",
-    "Department": "Business"
+    "Name": "Timothy Harris | Tim Harris",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "William Mains | Bill Mains",
-    "Department": "Business"
+    "Name": "William Mains | Bill Mains",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Meghan Cress",
-    "Department": "Business"
+    "Name": "Meghan Cress",
+    "Department Name": "Business",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sukhmander Singh",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Sukhmander Singh",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mohaddeseh Peyro",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Mohaddeseh Peyro",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Reynaud Serrette",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Reynaud Serrette",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Andy Schatzman",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Andy Schatzman",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Aria Amirbahman",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Aria Amirbahman",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Rong He | Rachel He",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Rong He | Rachel He",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Rocio Lilen Segura",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Rocio Lilen Segura",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Edwin Maurer",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Edwin Maurer",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hisham Said",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Hisham Said",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Tonya Nilsson",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Tonya Nilsson",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Laura Doyle",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Laura Doyle",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Tracy Abbott",
-    "Department": "Civil, Envr & Sust Engineering"
+    "Name": "Tracy Abbott",
+    "Department Name": "Civil, Envr & Sust Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Joshua Visser",
-    "Department": "Chemistry"
+    "Name": "Joshua Visser",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Raymond Gipson",
-    "Department": "Chemistry"
+    "Name": "Raymond Gipson",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hoda Mirafzal",
-    "Department": "Chemistry"
+    "Name": "Hoda Mirafzal",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Amy Shachter",
-    "Department": "Chemistry"
+    "Name": "Amy Shachter",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Linda Brunauer",
-    "Department": "Chemistry"
+    "Name": "Linda Brunauer",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ian Carter-O'Connell",
-    "Department": "Chemistry"
+    "Name": "Ian Carter-O'Connell",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Megan Tichy",
-    "Department": "Chemistry"
+    "Name": "Megan Tichy",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Meaghan Deegan",
-    "Department": "Chemistry"
+    "Name": "Meaghan Deegan",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Steven Suljak",
-    "Department": "Chemistry"
+    "Name": "Steven Suljak",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Benjamin Stokes",
-    "Department": "Chemistry"
+    "Name": "Benjamin Stokes",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Brian McNelis",
-    "Department": "Chemistry"
+    "Name": "Brian McNelis",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Carrasco",
-    "Department": "Chemistry"
+    "Name": "Michael Carrasco",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Beatrice Ruhland",
-    "Department": "Chemistry"
+    "Name": "Beatrice Ruhland",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Paul Abbyad",
-    "Department": "Chemistry"
+    "Name": "Paul Abbyad",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Korin Wheeler",
-    "Department": "Chemistry"
+    "Name": "Korin Wheeler",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Grace Stokes",
-    "Department": "Chemistry"
+    "Name": "Grace Stokes",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Amelia Fuller",
-    "Department": "Chemistry"
+    "Name": "Amelia Fuller",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Eric Tillman",
-    "Department": "Chemistry"
+    "Name": "Eric Tillman",
+    "Department Name": "Chemistry",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yujie Ge",
-    "Department": "Chinese"
+    "Name": "Yujie Ge",
+    "Department Name": "Chinese",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hsin-hung Yeh | Hsin-hung Yeh",
-    "Department": "Chinese"
+    "Name": "Hsin-hung Yeh | Hsin-hung Yeh",
+    "Department Name": "Chinese",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Brita Bookser",
-    "Department": "Child Studies"
+    "Name": "Brita Bookser",
+    "Department Name": "Child Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Elizabeth Day",
-    "Department": "Child Studies"
+    "Name": "Elizabeth Day",
+    "Department Name": "Child Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gabriel Young | Gabe Young",
-    "Department": "Child Studies"
+    "Name": "Gabriel Young | Gabe Young",
+    "Department Name": "Child Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Omar Davila | Omar Davila",
-    "Department": "Child Studies"
+    "Name": "Omar Davila | Omar Davila",
+    "Department Name": "Child Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Elizabeth Crofton-Sleigh | Lissa Crofton-Sleigh",
-    "Department": "Classics"
+    "Name": "Elizabeth Crofton-Sleigh | Lissa Crofton-Sleigh",
+    "Department Name": "Classics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christopher Fuhrmann",
-    "Department": "Classics"
+    "Name": "Christopher Fuhrmann",
+    "Department Name": "Classics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Serena Crosson",
-    "Department": "Classics"
+    "Name": "Serena Crosson",
+    "Department Name": "Classics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nicholas Lindberg",
-    "Department": "Classics"
+    "Name": "Nicholas Lindberg",
+    "Department Name": "Classics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Daniel Turkeltaub",
-    "Department": "Classics"
+    "Name": "Daniel Turkeltaub",
+    "Department Name": "Classics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": ". Sunwolf",
-    "Department": "Communication"
+    "Name": ". Sunwolf",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Charlotta Kratz",
-    "Department": "Communication"
+    "Name": "Charlotta Kratz",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Whalen",
-    "Department": "Communication"
+    "Name": "Michael Whalen",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Andrew Ishak",
-    "Department": "Communication"
+    "Name": "Andrew Ishak",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Stephenson Whitestone | Stephenson Whitestone",
-    "Department": "Communication"
+    "Name": "Stephenson Whitestone | Stephenson Whitestone",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Emily Reese",
-    "Department": "Communication"
+    "Name": "Emily Reese",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lisa Davis",
-    "Department": "Communication"
+    "Name": "Lisa Davis",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Laura Ellingson",
-    "Department": "Communication"
+    "Name": "Laura Ellingson",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hsin-I Cheng",
-    "Department": "Communication"
+    "Name": "Hsin-I Cheng",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michele Sieglitz",
-    "Department": "Communication"
+    "Name": "Michele Sieglitz",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Fernando Silva | Fern Silva",
-    "Department": "Communication"
+    "Name": "Fernando Silva | Fern Silva",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Charles Raphael | Chad Raphael",
-    "Department": "Communication"
+    "Name": "Charles Raphael | Chad Raphael",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Melissa Brown",
-    "Department": "Communication"
+    "Name": "Melissa Brown",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Barbara Kelley",
-    "Department": "Communication"
+    "Name": "Barbara Kelley",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sreela Sarkar",
-    "Department": "Communication"
+    "Name": "Sreela Sarkar",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "David Jeong",
-    "Department": "Communication"
+    "Name": "David Jeong",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Paul Soukup",
-    "Department": "Communication"
+    "Name": "Paul Soukup",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Rohit Chopra",
-    "Department": "Communication"
+    "Name": "Rohit Chopra",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Emily Perez",
-    "Department": "Communication"
+    "Name": "Emily Perez",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Justin Boren | Justin Boren",
-    "Department": "Communication"
+    "Name": "Justin Boren | Justin Boren",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Amy Eriksson",
-    "Department": "Communication"
+    "Name": "Amy Eriksson",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nicole Opper | Nico Opper",
-    "Department": "Communication"
+    "Name": "Nicole Opper | Nico Opper",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maria Judnick",
-    "Department": "Communication"
+    "Name": "Maria Judnick",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Chan Thai",
-    "Department": "Communication"
+    "Name": "Chan Thai",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gordon Young",
-    "Department": "Communication"
+    "Name": "Gordon Young",
+    "Department Name": "Communication",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shiva Houshmand",
-    "Department": "Computer Science"
+    "Name": "Shiva Houshmand",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Anh Thai Nhan",
-    "Department": "Computer Science"
+    "Name": "Anh Thai Nhan",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Natalie Linnell",
-    "Department": "Computer Science"
+    "Name": "Natalie Linnell",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nicholas Tran",
-    "Department": "Computer Science"
+    "Name": "Nicholas Tran",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Anant Dhayal",
-    "Department": "Computer Science"
+    "Name": "Anant Dhayal",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Smita Ghosh",
-    "Department": "Computer Science"
+    "Name": "Smita Ghosh",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hien Vu",
-    "Department": "Computer Science"
+    "Name": "Hien Vu",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ray Li",
-    "Department": "Computer Science"
+    "Name": "Ray Li",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Daniel Ostrov",
-    "Department": "Computer Science"
+    "Name": "Daniel Ostrov",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sara Krehbiel",
-    "Department": "Computer Science"
+    "Name": "Sara Krehbiel",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Venkatesh Srinivasan",
-    "Department": "Computer Science"
+    "Name": "Venkatesh Srinivasan",
+    "Department Name": "Computer Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ha Yang Kim",
-    "Department": "Computer Science and Engineering"
+    "Name": "Ha Yang Kim",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Angela Musurlian",
-    "Department": "Computer Science and Engineering"
+    "Name": "Angela Musurlian",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Schimpf",
-    "Department": "Computer Science and Engineering"
+    "Name": "Michael Schimpf",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Navid Shaghaghi",
-    "Department": "Computer Science and Engineering"
+    "Name": "Navid Shaghaghi",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Xiang Li",
-    "Department": "Computer Science and Engineering"
+    "Name": "Xiang Li",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Phillip Jedlovec | Pj Jedlovec",
-    "Department": "Computer Science and Engineering"
+    "Name": "Phillip Jedlovec | Pj Jedlovec",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Younghyun Cho",
-    "Department": "Computer Science and Engineering"
+    "Name": "Younghyun Cho",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ahmed Amer\n\nJane Curry",
-    "Department": "Computer Science and Engineering"
+    "Name": "Ahmed Amer",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Farokh Eskafi",
-    "Department": "Computer Science and Engineering"
+    "Name": "Jane Curry",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Behnam Dezfouli",
-    "Department": "Computer Science and Engineering"
+    "Name": "Farokh Eskafi",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Weijia Shang",
-    "Department": "Computer Science and Engineering"
+    "Name": "Behnam Dezfouli",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Andrew Wolfe | Andy Wolfe",
-    "Department": "Computer Science and Engineering"
+    "Name": "Weijia Shang",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Salem Al Agtash",
-    "Department": "Computer Science and Engineering"
+    "Name": "Andrew Wolfe | Andy Wolfe",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yuhong Liu",
-    "Department": "Computer Science and Engineering"
+    "Name": "Salem Al Agtash",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ihan Hsiao | Sharon Hsiao",
-    "Department": "Computer Science and Engineering"
+    "Name": "Yuhong Liu",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yi Fang",
-    "Department": "Computer Science and Engineering"
+    "Name": "Ihan Hsiao | Sharon Hsiao",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kai Lukoff",
-    "Department": "Computer Science and Engineering"
+    "Name": "Yi Fang",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Darren Atkinson",
-    "Department": "Computer Science and Engineering"
+    "Name": "Kai Lukoff",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ahmed Amer",
-    "Department": "Computer Science and Engineering"
+    "Name": "Darren Atkinson",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sean Choi",
-    "Department": "Computer Science and Engineering"
+    "Name": "Ahmed Amer",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shiva Jahangiri",
-    "Department": "Computer Science and Engineering"
+    "Name": "Sean Choi",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Richard Barber",
-    "Department": "Dance"
+    "Name": "Shiva Jahangiri",
+    "Department Name": "Computer Science and Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "David Popalisky",
-    "Department": "Dance"
+    "Name": "Richard Barber",
+    "Department Name": "Dance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Pauline Kanter",
-    "Department": "Dance"
+    "Name": "David Popalisky",
+    "Department Name": "Dance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ronnie Reddick",
-    "Department": "Dance"
+    "Name": "Pauline Kanter",
+    "Department Name": "Dance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Karyn Connell",
-    "Department": "Dance"
+    "Name": "Ronnie Reddick",
+    "Department Name": "Dance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Leandro Damasco",
-    "Department": "Dance"
+    "Name": "Karyn Connell",
+    "Department Name": "Dance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kristin Kusanovich",
-    "Department": "Dance"
+    "Name": "Leandro Damasco",
+    "Department Name": "Dance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Dat Tran | Dat Tran\n\nShoba Krishnan",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Kristin Kusanovich",
+    "Department Name": "Dance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Donald Chan | Don Chan",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Dat Tran | Dat Tran\n\nShoba Krishnan",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maria Kyrarini",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Donald Chan | Don Chan",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hoeseok Yang",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Maria Kyrarini",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mahmudur Rahman | Mahmud Rahman",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Hoeseok Yang",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Stephen Hudgens",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Mahmudur Rahman | Mahmud Rahman",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Dat Tran | Dat Tran",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Stephen Hudgens",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Cary Yang",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Dat Tran | Dat Tran",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yu Zheng",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Cary Yang",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Aleksandar Zecevic",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Yu Zheng",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kurt Schab",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Aleksandar Zecevic",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shoba Krishnan",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Kurt Schab",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Anoosheh Heidarzadeh",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Shoba Krishnan",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Leo Casey",
-    "Department": "Electrical and Computer Engineering"
+    "Name": "Anoosheh Heidarzadeh",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Patricia Cameron-Loyd",
-    "Department": "Economics"
+    "Name": "Leo Casey",
+    "Department Name": "Electrical and Computer Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Orkhan Hasanaliyev",
-    "Department": "Economics"
+    "Name": "Patricia Cameron-Loyd",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hui Huang",
-    "Department": "Economics"
+    "Name": "Orkhan Hasanaliyev",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Damian Park",
-    "Department": "Economics"
+    "Name": "Hui Huang",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Dongsoo Shin",
-    "Department": "Economics"
+    "Name": "Damian Park",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Vito Cormun",
-    "Department": "Economics"
+    "Name": "Dongsoo Shin",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Zoey (Zhengzheng) Wang",
-    "Department": "Economics"
+    "Name": "Vito Cormun",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kris Mitchener",
-    "Department": "Economics"
+    "Name": "Zoey (Zhengzheng) Wang",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kevin Chiu",
-    "Department": "Economics"
+    "Name": "Kris Mitchener",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jianlin Wang",
-    "Department": "Economics"
+    "Name": "Kevin Chiu",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Wenxin Xie",
-    "Department": "Economics"
+    "Name": "Jianlin Wang",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shireen AlAzzawi",
-    "Department": "Economics"
+    "Name": "Wenxin Xie",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sofia Kotsiri",
-    "Department": "Economics"
+    "Name": "Shireen AlAzzawi",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Rita Madarassy",
-    "Department": "Economics"
+    "Name": "Sofia Kotsiri",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gabriela Dobrescu",
-    "Department": "Economics"
+    "Name": "Rita Madarassy",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Helen Popper",
-    "Department": "Economics"
+    "Name": "Gabriela Dobrescu",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nihal Sahan",
-    "Department": "Economics"
+    "Name": "Helen Popper",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gregory Baker",
-    "Department": "Economics"
+    "Name": "Nihal Sahan",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Serguei Maliar",
-    "Department": "Economics"
+    "Name": "Gregory Baker",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Alexander Field",
-    "Department": "Economics"
+    "Name": "Serguei Maliar",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christian Helmers",
-    "Department": "Economics"
+    "Name": "Alexander Field",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Kevane",
-    "Department": "Economics"
+    "Name": "Christian Helmers",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "William Sundstrom",
-    "Department": "Economics"
+    "Name": "Michael Kevane",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Adina Ardelean",
-    "Department": "Economics"
+    "Name": "William Sundstrom",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Claudia McIsaac",
-    "Department": "Exp Lrn Social Justice"
+    "Name": "Adina Ardelean",
+    "Department Name": "Economics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Victor Lemus",
-    "Department": "Exp Lrn Social Justice"
+    "Name": "Claudia McIsaac",
+    "Department Name": "Exp Lrn Social Justice",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Olivier Bochettaz",
-    "Department": "English"
+    "Name": "Victor Lemus",
+    "Department Name": "Exp Lrn Social Justice",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Cindy Chavez Swenson",
-    "Department": "English"
+    "Name": "Olivier Bochettaz",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "David Coad",
-    "Department": "English"
+    "Name": "Cindy Chavez Swenson",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Simon Crafts",
-    "Department": "English"
+    "Name": "David Coad",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Lasley",
-    "Department": "English"
+    "Name": "Simon Crafts",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lina Geriguis",
-    "Department": "English"
+    "Name": "Michael Lasley",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Leonard Crosby",
-    "Department": "English"
+    "Name": "Lina Geriguis",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Matthew Driscoll | Matt Driscoll",
-    "Department": "English"
+    "Name": "Leonard Crosby",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ryan Ikeda",
-    "Department": "English"
+    "Name": "Matthew Driscoll | Matt Driscoll",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mostafa Jalal",
-    "Department": "English"
+    "Name": "Ryan Ikeda",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sean Negus",
-    "Department": "English"
+    "Name": "Mostafa Jalal",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christopher Pascua",
-    "Department": "English"
+    "Name": "Sean Negus",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Amna Yusuf",
-    "Department": "English"
+    "Name": "Christopher Pascua",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kirstyn Leuner",
-    "Department": "English"
+    "Name": "Amna Yusuf",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Theresa Conefrey",
-    "Department": "English"
+    "Name": "Kirstyn Leuner",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Margarita Levantovskaya",
-    "Department": "English"
+    "Name": "Theresa Conefrey",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Scott Wagar",
-    "Department": "English"
+    "Name": "Margarita Levantovskaya",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Danielle Morgan",
-    "Department": "English"
+    "Name": "Scott Wagar",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maura Tarnoff",
-    "Department": "English"
+    "Name": "Danielle Morgan",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nora Eltahawy",
-    "Department": "English"
+    "Name": "Maura Tarnoff",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jose Villagrana",
-    "Department": "English"
+    "Name": "Nora Eltahawy",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Aparajita Nanda",
-    "Department": "English"
+    "Name": "Jose Villagrana",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jean-Pierre Lacrampe",
-    "Department": "English"
+    "Name": "Aparajita Nanda",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mathew Gomes | Matt Gomes",
-    "Department": "English"
+    "Name": "Jean-Pierre Lacrampe",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Cruz Medina",
-    "Department": "English"
+    "Name": "Mathew Gomes | Matt Gomes",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Daniel B. Summerhill",
-    "Department": "English"
+    "Name": "Cruz Medina",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Simone Billings",
-    "Department": "English"
+    "Name": "Daniel B. Summerhill",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Melissa Donegan",
-    "Department": "English"
+    "Name": "Simone Billings",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Loring Pfeiffer",
-    "Department": "English"
+    "Name": "Melissa Donegan",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jacquelyn Hendricks",
-    "Department": "English"
+    "Name": "Loring Pfeiffer",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michelle Burnham",
-    "Department": "English"
+    "Name": "Jacquelyn Hendricks",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Robin Tremblay-McGaw",
-    "Department": "English"
+    "Name": "Michelle Burnham",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Amy Lueck",
-    "Department": "English"
+    "Name": "Robin Tremblay-McGaw",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lazlo Ilya Pearlman | Lazlo Ilya Pearlman",
-    "Department": "English"
+    "Name": "Amy Lueck",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Juan Velasco-Moreno",
-    "Department": "English"
+    "Name": "Lazlo Ilya Pearlman | Lazlo Ilya Pearlman",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kirk Glaser",
-    "Department": "English"
+    "Name": "Juan Velasco-Moreno",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Stephen Carroll",
-    "Department": "English"
+    "Name": "Kirk Glaser",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Allia Griffin",
-    "Department": "English"
+    "Name": "Stephen Carroll",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Brian Thorstenson",
-    "Department": "English"
+    "Name": "Allia Griffin",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nicholas Leither",
-    "Department": "English"
+    "Name": "Brian Thorstenson",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Raghavendra Morusupalli | Rao Morusupalli",
-    "Department": "Engineering"
+    "Name": "Nicholas Leither",
+    "Department Name": "English",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Fatemeh Davoudi Kakhki",
-    "Department": "Engineering"
+    "Name": "Raghavendra Morusupalli | Rao Morusupalli",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Junho Park",
-    "Department": "Engineering"
+    "Name": "Fatemeh Davoudi Kakhki",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jessica Kuczenski | Jes Kuczenski",
-    "Department": "Engineering"
+    "Name": "Junho Park",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kathryn Moles | Katia Moles",
-    "Department": "Engineering"
+    "Name": "Jessica Kuczenski | Jes Kuczenski",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Matthew Gaudet | Matthew Gaudet",
-    "Department": "Engineering"
+    "Name": "Kathryn Moles | Katia Moles",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Fatemeh Davoudi Kakhki\n\nJessica Kuczenski | Jes Kuczenski",
-    "Department": "Engineering"
+    "Name": "Matthew Gaudet | Matthew Gaudet",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Bob Schaffer | Bob Schaffer",
-    "Department": "Engineering"
+    "Name": "Fatemeh Davoudi Kakhki\n\nJessica Kuczenski | Jes Kuczenski",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Katherine Sun | Kathy Sun",
-    "Department": "Engineering"
+    "Name": "Bob Schaffer | Bob Schaffer",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "William Jacobs",
-    "Department": "Engineering"
+    "Name": "Katherine Sun | Kathy Sun",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kimberly Hill | Kimberly Hill",
-    "Department": "Engineering"
+    "Name": "William Jacobs",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mark Weiner",
-    "Department": "Engineering"
+    "Name": "Kimberly Hill | Kimberly Hill",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Andy Kulikowski II",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Mark Weiner",
+    "Department Name": "Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Theodore Grudin | Ted Grudin",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Andy Kulikowski II",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Carolyn Trist",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Theodore Grudin | Ted Grudin",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Iris Stewart-Frey",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Carolyn Trist",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Charles Gabbe | C.J. Gabbe",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Iris Stewart-Frey",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christopher Bacon",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Charles Gabbe | C.J. Gabbe",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Leslie Gray",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Christopher Bacon",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Stephanie Hughes",
-    "Department": "Environ Studies & Sciences"
+    "Name": "Leslie Gray",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jesica Fernandez",
-    "Department": "Ethnic Studies"
+    "Name": "Stephanie Hughes",
+    "Department Name": "Environ Studies & Sciences",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Pearl Barros",
-    "Department": "Ethnic Studies"
+    "Name": "Jesica Fernandez",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Anthony Hazard",
-    "Department": "Ethnic Studies"
+    "Name": "Pearl Barros",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "James Lai",
-    "Department": "Ethnic Studies"
+    "Name": "Anthony Hazard",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "CJ Jones",
-    "Department": "Ethnic Studies"
+    "Name": "James Lai",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Harry Odamtten",
-    "Department": "Ethnic Studies"
+    "Name": "CJ Jones",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Bryson White",
-    "Department": "Ethnic Studies"
+    "Name": "Harry Odamtten",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Di Di",
-    "Department": "Ethnic Studies"
+    "Name": "Bryson White",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sonia Gomez",
-    "Department": "Ethnic Studies"
+    "Name": "Di Di",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Joseph Ori | Joe Ori",
-    "Department": "Finance"
+    "Name": "Sonia Gomez",
+    "Department Name": "Ethnic Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hoje Jo",
-    "Department": "Finance"
+    "Name": "Joseph Ori | Joe Ori",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ye Cai",
-    "Department": "Finance"
+    "Name": "Hoje Jo",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Manish Tewari",
-    "Department": "Finance"
+    "Name": "Ye Cai",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gregory Perelman",
-    "Department": "Finance"
+    "Name": "Manish Tewari",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Chinh Nguyen | Tony Nguyen",
-    "Department": "Finance"
+    "Name": "Gregory Perelman",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gustavo Schwenkler",
-    "Department": "Finance"
+    "Name": "Chinh Nguyen | Tony Nguyen",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yunjeen Kim",
-    "Department": "Finance"
+    "Name": "Gustavo Schwenkler",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Elyas Fermand",
-    "Department": "Finance"
+    "Name": "Yunjeen Kim",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Scott Daugherty",
-    "Department": "Finance"
+    "Name": "Elyas Fermand",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jonathan Masse",
-    "Department": "Finance"
+    "Name": "Scott Daugherty",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Wen-Yao Ku",
-    "Department": "Finance"
+    "Name": "Jonathan Masse",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Daniel Trepanier | Dan Trepanier",
-    "Department": "Finance"
+    "Name": "Wen-Yao Ku",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Karl Motey",
-    "Department": "Finance"
+    "Name": "Daniel Trepanier | Dan Trepanier",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Meir Statman",
-    "Department": "Finance"
+    "Name": "Karl Motey",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Keziah Poole",
-    "Department": "French & Francophone Studies"
+    "Name": "Meir Statman",
+    "Department Name": "Finance",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jeffrey Burkholder",
-    "Department": "French & Francophone Studies"
+    "Name": "Keziah Poole",
+    "Department Name": "French & Francophone Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nina Tanti",
-    "Department": "French & Francophone Studies"
+    "Name": "Jeffrey Burkholder",
+    "Department Name": "French & Francophone Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jimia Boutouba",
-    "Department": "French & Francophone Studies"
+    "Name": "Nina Tanti",
+    "Department Name": "French & Francophone Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ruth Conza-Roman",
-    "Department": "German Studies"
+    "Name": "Jimia Boutouba",
+    "Department Name": "French & Francophone Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Josef Hellebrandt",
-    "Department": "German Studies"
+    "Name": "Ruth Conza-Roman",
+    "Department Name": "German Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Brillman",
-    "Department": "History"
+    "Name": "Josef Hellebrandt",
+    "Department Name": "German Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Megan Gudgeirsson | Meg Gudgeirsson",
-    "Department": "History"
+    "Name": "Michael Brillman",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mateo Carrillo",
-    "Department": "History"
+    "Name": "Megan Gudgeirsson | Meg Gudgeirsson",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Marwan Daoud Hanania",
-    "Department": "History"
+    "Name": "Mateo Carrillo",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Paul Mariani",
-    "Department": "History"
+    "Name": "Marwan Daoud Hanania",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Barbara Molony",
-    "Department": "History"
+    "Name": "Paul Mariani",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thomas Turley",
-    "Department": "History"
+    "Name": "Barbara Molony",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gregory Wigmore | Greg Wigmore",
-    "Department": "History"
+    "Name": "Thomas Turley",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Matthew Newsom Kerr",
-    "Department": "History"
+    "Name": "Gregory Wigmore | Greg Wigmore",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nancy Unger | Nancy Unger",
-    "Department": "History"
+    "Name": "Matthew Newsom Kerr",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Naomi Andrews",
-    "Department": "History"
+    "Name": "Nancy Unger | Nancy Unger",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Amy Randall",
-    "Department": "History"
+    "Name": "Naomi Andrews",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Irene Bubula-Phillips",
-    "Department": "Italian Studies"
+    "Name": "Amy Randall",
+    "Department Name": "History",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maria Bertola | Marie Bertola",
-    "Department": "Italian Studies"
+    "Name": "Irene Bubula-Phillips",
+    "Department Name": "Italian Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Evelyn Ferraro",
-    "Department": "Italian Studies"
+    "Name": "Maria Bertola | Marie Bertola",
+    "Department Name": "Italian Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Tomoko Takeda",
-    "Department": "Japanese Studies"
+    "Name": "Evelyn Ferraro",
+    "Department Name": "Italian Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Seiko Fujii | Seiko Horibe",
-    "Department": "Japanese Studies"
+    "Name": "Tomoko Takeda",
+    "Department Name": "Japanese Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Georgina Santiago De Robles | Georgina Santiago",
-    "Department": "Lead Scholars Program"
+    "Name": "Seiko Fujii | Seiko Horibe",
+    "Department Name": "Japanese Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Neena Troxell",
-    "Department": "Lead Scholars Program"
+    "Name": "Georgina Santiago De Robles | Georgina Santiago",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ricardo Cortez",
-    "Department": "Lead Scholars Program"
+    "Name": "Neena Troxell",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lori Salazar",
-    "Department": "Lead Scholars Program"
+    "Name": "Ricardo Cortez",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Raymond Plaza",
-    "Department": "Lead Scholars Program"
+    "Name": "Lori Salazar",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Clare Gordon Bettencourt",
-    "Department": "Lead Scholars Program"
+    "Name": "Raymond Plaza",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thomas Fields",
-    "Department": "Lead Scholars Program"
+    "Name": "Clare Gordon Bettencourt",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thiadora Pina",
-    "Department": "Lead Scholars Program"
+    "Name": "Thomas Fields",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Veronica Villa",
-    "Department": "Lead Scholars Program"
+    "Name": "Thiadora Pina",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Natasha Zubair",
-    "Department": "Lead Scholars Program"
+    "Name": "Veronica Villa",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mary Long",
-    "Department": "Mathematics"
+    "Name": "Natasha Zubair",
+    "Department Name": "Lead Scholars Program",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Reza Shariatmadari",
-    "Department": "Mathematics"
+    "Name": "Mary Long",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Priya Babu",
-    "Department": "Mathematics"
+    "Name": "Reza Shariatmadari",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Katelyn Byington | Katelyn White Byington",
-    "Department": "Mathematics"
+    "Name": "Priya Babu",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "William Dana | Will Dana",
-    "Department": "Mathematics"
+    "Name": "Katelyn Byington | Katelyn White Byington",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Joshua Grice",
-    "Department": "Mathematics"
+    "Name": "William Dana | Will Dana",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gayathri Chakravarthy",
-    "Department": "Mathematics"
+    "Name": "Joshua Grice",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Fady El Chidiac",
-    "Department": "Mathematics"
+    "Name": "Gayathri Chakravarthy",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shruthi Sridhar",
-    "Department": "Mathematics"
+    "Name": "Fady El Chidiac",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Luvreet Sangha",
-    "Department": "Mathematics"
+    "Name": "Shruthi Sridhar",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Linda Burks",
-    "Department": "Mathematics"
+    "Name": "Luvreet Sangha",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Robert Bekes",
-    "Department": "Mathematics"
+    "Name": "Linda Burks",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Laurie Poe",
-    "Department": "Mathematics"
+    "Name": "Robert Bekes",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Chi-Yun Hsu",
-    "Department": "Mathematics"
+    "Name": "Laurie Poe",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Corey Irving",
-    "Department": "Mathematics"
+    "Name": "Chi-Yun Hsu",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Norman Paris",
-    "Department": "Mathematics"
+    "Name": "Corey Irving",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shilpa Dasgupta",
-    "Department": "Mathematics"
+    "Name": "Norman Paris",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Dennis Smolarski",
-    "Department": "Mathematics"
+    "Name": "Shilpa Dasgupta",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mehdi Ahmadi",
-    "Department": "Mathematics"
+    "Name": "Dennis Smolarski",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shamil Asgarli",
-    "Department": "Mathematics"
+    "Name": "Mehdi Ahmadi",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mona Musa",
-    "Department": "Mathematics"
+    "Name": "Shamil Asgarli",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "George Schaeffer",
-    "Department": "Mathematics"
+    "Name": "Mona Musa",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Preeti Mohindru",
-    "Department": "Mathematics"
+    "Name": "George Schaeffer",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Marco Atzori",
-    "Department": "Mathematics"
+    "Name": "Preeti Mohindru",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sarah McGinley | Tamsen McGinley",
-    "Department": "Mathematics"
+    "Name": "Marco Atzori",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Byron Walden",
-    "Department": "Mathematics"
+    "Name": "Sarah McGinley | Tamsen McGinley",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Glenn Appleby",
-    "Department": "Mathematics"
+    "Name": "Byron Walden",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Rodney Broome\n\nSthanu Mahadev",
-    "Department": "Mechanical Engineering"
+    "Name": "Glenn Appleby",
+    "Department Name": "Mathematics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Peter Woytowitz",
-    "Department": "Mechanical Engineering"
+    "Name": "Rodney Broome\n\nSthanu Mahadev",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sthanu Mahadev",
-    "Department": "Mechanical Engineering"
+    "Name": "Peter Woytowitz",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "On Shun Pak",
-    "Department": "Mechanical Engineering"
+    "Name": "Sthanu Mahadev",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Robert Marks",
-    "Department": "Mechanical Engineering"
+    "Name": "On Shun Pak",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Drazen Fabris",
-    "Department": "Mechanical Engineering"
+    "Name": "Robert Marks",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sina Heydari",
-    "Department": "Mechanical Engineering"
+    "Name": "Drazen Fabris",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Neumann",
-    "Department": "Mechanical Engineering"
+    "Name": "Sina Heydari",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nikola Djordjevic",
-    "Department": "Mechanical Engineering"
+    "Name": "Michael Neumann",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jun Wang",
-    "Department": "Mechanical Engineering"
+    "Name": "Nikola Djordjevic",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hohyun Lee",
-    "Department": "Mechanical Engineering"
+    "Name": "Jun Wang",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Taylor",
-    "Department": "Mechanical Engineering"
+    "Name": "Hohyun Lee",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ewan Kingston",
-    "Department": "Management"
+    "Name": "Michael Taylor",
+    "Department Name": "Mechanical Engineering",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michael Santoro",
-    "Department": "Management"
+    "Name": "Ewan Kingston",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Alina Adams",
-    "Department": "Management"
+    "Name": "Michael Santoro",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Vahideh Abaeian | Vahideh Abaeian",
-    "Department": "Management"
+    "Name": "Alina Adams",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Long Le",
-    "Department": "Management"
+    "Name": "Vahideh Abaeian | Vahideh Abaeian",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ihsen Ketata Aref",
-    "Department": "Management"
+    "Name": "Long Le",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Francine Gordon | Francine Gordon",
-    "Department": "Management"
+    "Name": "Ihsen Ketata Aref",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christina Johnson",
-    "Department": "Management"
+    "Name": "Francine Gordon | Francine Gordon",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Priyanka Parikh",
-    "Department": "Management"
+    "Name": "Christina Johnson",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Esther Sackett",
-    "Department": "Management"
+    "Name": "Priyanka Parikh",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sohvi Heaton",
-    "Department": "Management"
+    "Name": "Esther Sackett",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Xiaoying Ji | Fiona Ji",
-    "Department": "Management"
+    "Name": "Sohvi Heaton",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shaohua Lu",
-    "Department": "Management"
+    "Name": "Xiaoying Ji | Fiona Ji",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Andy El-Zayaty",
-    "Department": "Management"
+    "Name": "Shaohua Lu",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "John Caffey",
-    "Department": "Management"
+    "Name": "Andy El-Zayaty",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lisa Shannon",
-    "Department": "Management"
+    "Name": "John Caffey",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kristin Piderit",
-    "Department": "Management"
+    "Name": "Lisa Shannon",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Byron Adams | Chip Adams",
-    "Department": "Management"
+    "Name": "Kristin Piderit",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Charles Berger",
-    "Department": "Management"
+    "Name": "Byron Adams | Chip Adams",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Steve Skotzke",
-    "Department": "Marketing"
+    "Name": "Charles Berger",
+    "Department Name": "Management",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kirthi Kalyanam",
-    "Department": "Marketing"
+    "Name": "Steve Skotzke",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Patrick Williams",
-    "Department": "Marketing"
+    "Name": "Kirthi Kalyanam",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jang Won Choi | Jangwon Choi",
-    "Department": "Marketing"
+    "Name": "Patrick Williams",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Aditi Bajaj",
-    "Department": "Marketing"
+    "Name": "Jang Won Choi | Jangwon Choi",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shunyao Yan",
-    "Department": "Marketing"
+    "Name": "Aditi Bajaj",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Rebecca Chae",
-    "Department": "Marketing"
+    "Name": "Shunyao Yan",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Peng Liu",
-    "Department": "Marketing"
+    "Name": "Rebecca Chae",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Rafay Siddiqui",
-    "Department": "Marketing"
+    "Name": "Peng Liu",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Bhavna Sharma",
-    "Department": "Marketing"
+    "Name": "Rafay Siddiqui",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sujata Ramnarayan",
-    "Department": "Marketing"
+    "Name": "Bhavna Sharma",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Teresa McCollough",
-    "Department": "Music"
+    "Name": "Sujata Ramnarayan",
+    "Department Name": "Marketing",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "William Stevens",
-    "Department": "Music"
+    "Name": "Teresa McCollough",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christina Zanfagna",
-    "Department": "Music"
+    "Name": "William Stevens",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kaori Suzuki",
-    "Department": "Music"
+    "Name": "Christina Zanfagna",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ray Furuta | Ray Furuta",
-    "Department": "Music"
+    "Name": "Kaori Suzuki",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nancy Wait-Kromm",
-    "Department": "Music"
+    "Name": "Ray Furuta | Ray Furuta",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Anthony Rivera | Tony Rivera",
-    "Department": "Music"
+    "Name": "Nancy Wait-Kromm",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jason Gallardo",
-    "Department": "Music"
+    "Name": "Anthony Rivera | Tony Rivera",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Scot Hanna-Weir",
-    "Department": "Music"
+    "Name": "Jason Gallardo",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Carl Schultz",
-    "Department": "Music"
+    "Name": "Scot Hanna-Weir",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jennifer Frihauf",
-    "Department": "Neuroscience"
+    "Name": "Carl Schultz",
+    "Department Name": "Music",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sriparna Majumdar",
-    "Department": "Neuroscience"
+    "Name": "Jennifer Frihauf",
+    "Department Name": "Neuroscience",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sumana Sur",
-    "Department": "Information Systems &Analytics"
+    "Name": "Sriparna Majumdar",
+    "Department Name": "Neuroscience",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "David Zimbra",
-    "Department": "Information Systems &Analytics"
+    "Name": "Sumana Sur",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jingbo Hou",
-    "Department": "Information Systems &Analytics"
+    "Name": "David Zimbra",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Xuan Tan",
-    "Department": "Information Systems &Analytics"
+    "Name": "Jingbo Hou",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yaqiong Wang",
-    "Department": "Information Systems &Analytics"
+    "Name": "Xuan Tan",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Simrita Singh",
-    "Department": "Information Systems &Analytics"
+    "Name": "Yaqiong Wang",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Richard Schaffzin",
-    "Department": "Information Systems &Analytics"
+    "Name": "Simrita Singh",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sterling Starbird | Drew Starbird",
-    "Department": "Information Systems &Analytics"
+    "Name": "Richard Schaffzin",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Homi Fatemi",
-    "Department": "Information Systems &Analytics"
+    "Name": "Sterling Starbird | Drew Starbird",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Xiang Wan",
-    "Department": "Information Systems &Analytics"
+    "Name": "Homi Fatemi",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Yu-Wei Lin",
-    "Department": "Information Systems &Analytics"
+    "Name": "Xiang Wan",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michele Samorani",
-    "Department": "Information Systems &Analytics"
+    "Name": "Yu-Wei Lin",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mehmet Goceri | Matt Goceri",
-    "Department": "Information Systems &Analytics"
+    "Name": "Michele Samorani",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thunyarat Amornpetchkul",
-    "Department": "Information Systems &Analytics"
+    "Name": "Mehmet Goceri | Matt Goceri",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Tao Li",
-    "Department": "Information Systems &Analytics"
+    "Name": "Thunyarat Amornpetchkul",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Wilson Lin",
-    "Department": "Information Systems &Analytics"
+    "Name": "Tao Li",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Haibing Lu",
-    "Department": "Information Systems &Analytics"
+    "Name": "Wilson Lin",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nicholas Sars",
-    "Department": "Philosophy"
+    "Name": "Haibing Lu",
+    "Department Name": "Information Systems &Analytics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Madeline Cronin",
-    "Department": "Philosophy"
+    "Name": "Nicholas Sars",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Robert Shanklin",
-    "Department": "Philosophy"
+    "Name": "Madeline Cronin",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Erin Bradfield",
-    "Department": "Philosophy"
+    "Name": "Robert Shanklin",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Meilin Chinn",
-    "Department": "Philosophy"
+    "Name": "Erin Bradfield",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Erick Ramirez",
-    "Department": "Philosophy"
+    "Name": "Meilin Chinn",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Eric Yang",
-    "Department": "Philosophy"
+    "Name": "Erick Ramirez",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Justin Clardy",
-    "Department": "Philosophy"
+    "Name": "Eric Yang",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kimberly Dill",
-    "Department": "Philosophy"
+    "Name": "Justin Clardy",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Matthew Izor",
-    "Department": "Philosophy"
+    "Name": "Kimberly Dill",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jeffrey Steele | Jeff Steele",
-    "Department": "Philosophy"
+    "Name": "Matthew Izor",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christopher Kulp",
-    "Department": "Philosophy"
+    "Name": "Jeffrey Steele | Jeff Steele",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lawrence Nelson",
-    "Department": "Philosophy"
+    "Name": "Christopher Kulp",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Marie Evanston",
-    "Department": "Philosophy"
+    "Name": "Lawrence Nelson",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Susan Kennedy",
-    "Department": "Philosophy"
+    "Name": "Marie Evanston",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Michele Parker",
-    "Department": "Public Health Science"
+    "Name": "Susan Kennedy",
+    "Department Name": "Philosophy",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sheila Yuter",
-    "Department": "Public Health Science"
+    "Name": "Michele Parker",
+    "Department Name": "Public Health Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Alice Villatoro",
-    "Department": "Public Health Science"
+    "Name": "Sheila Yuter",
+    "Department Name": "Public Health Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Micah Lattanner",
-    "Department": "Public Health Science"
+    "Name": "Alice Villatoro",
+    "Department Name": "Public Health Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sarah Hays",
-    "Department": "Public Health Science"
+    "Name": "Micah Lattanner",
+    "Department Name": "Public Health Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jennet Arcara",
-    "Department": "Public Health Science"
+    "Name": "Sarah Hays",
+    "Department Name": "Public Health Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Meredith Lierk",
-    "Department": "Public Health Science"
+    "Name": "Jennet Arcara",
+    "Department Name": "Public Health Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Nathan Williams",
-    "Department": "Physics"
+    "Name": "Meredith Lierk",
+    "Department Name": "Public Health Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Omid Ahmadi-Gorgi",
-    "Department": "Physics"
+    "Name": "Nathan Williams",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Roxana Flacau",
-    "Department": "Physics"
+    "Name": "Omid Ahmadi-Gorgi",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kristin Kulas",
-    "Department": "Physics"
+    "Name": "Roxana Flacau",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Shan Wu",
-    "Department": "Physics"
+    "Name": "Kristin Kulas",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "John Jameson",
-    "Department": "Physics"
+    "Name": "Shan Wu",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Hassan Alshal",
-    "Department": "Physics"
+    "Name": "John Jameson",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Bachana Lomsadze",
-    "Department": "Physics"
+    "Name": "Hassan Alshal",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Betty Young",
-    "Department": "Physics"
+    "Name": "Bachana Lomsadze",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Guy Ramon",
-    "Department": "Physics"
+    "Name": "Betty Young",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thomas Meredith",
-    "Department": "Political Science"
+    "Name": "Guy Ramon",
+    "Department Name": "Physics",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Vivien Leung",
-    "Department": "Political Science"
+    "Name": "Thomas Meredith",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jesilyn Faust",
-    "Department": "Political Science"
+    "Name": "Vivien Leung",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Diana Morlang",
-    "Department": "Political Science"
+    "Name": "Jesilyn Faust",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Farid Senzai",
-    "Department": "Political Science"
+    "Name": "Diana Morlang",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Eric Mosinger",
-    "Department": "Political Science"
+    "Name": "Farid Senzai",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jane Curry",
-    "Department": "Political Science"
+    "Name": "Eric Mosinger",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gregory Corning | Greg Corning",
-    "Department": "Political Science"
+    "Name": "Jane Curry",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Peter Minowitz",
-    "Department": "Political Science"
+    "Name": "Gregory Corning | Greg Corning",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Timothy Lukes",
-    "Department": "Political Science"
+    "Name": "Peter Minowitz",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kenneth Faulve-Montojo",
-    "Department": "Political Science"
+    "Name": "Timothy Lukes",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Fiorella Vera-Adrianzen",
-    "Department": "Political Science"
+    "Name": "Kenneth Faulve-Montojo",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Dennis Gordon",
-    "Department": "Political Science"
+    "Name": "Fiorella Vera-Adrianzen",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Matthew Harrigan",
-    "Department": "Political Science"
+    "Name": "Dennis Gordon",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sharmila Lodhia",
-    "Department": "Political Science"
+    "Name": "Matthew Harrigan",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Naomi Levy",
-    "Department": "Political Science"
+    "Name": "Sharmila Lodhia",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Elsa Chen",
-    "Department": "Political Science"
+    "Name": "Naomi Levy",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Barbara O'Brien",
-    "Department": "Psychology"
+    "Name": "Elsa Chen",
+    "Department Name": "Political Science",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Steven Del Chiaro",
-    "Department": "Psychology"
+    "Name": "Barbara O'Brien",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Romina Joy Miller",
-    "Department": "Psychology"
+    "Name": "Steven Del Chiaro",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jui Bhagwat",
-    "Department": "Psychology"
+    "Name": "Romina Joy Miller",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Dena Sadeghi Bahmani",
-    "Department": "Psychology"
+    "Name": "Jui Bhagwat",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Giselle Laiduc",
-    "Department": "Psychology"
+    "Name": "Dena Sadeghi Bahmani",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Birgit Koopmann-Holm",
-    "Department": "Psychology"
+    "Name": "Giselle Laiduc",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Timothy Urdan | Tim Urdan",
-    "Department": "Psychology"
+    "Name": "Birgit Koopmann-Holm",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kieran Sullivan",
-    "Department": "Psychology"
+    "Name": "Timothy Urdan | Tim Urdan",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thomas Plante",
-    "Department": "Psychology"
+    "Name": "Kieran Sullivan",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lang Chen",
-    "Department": "Psychology"
+    "Name": "Thomas Plante",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lisa Whitfield",
-    "Department": "Psychology"
+    "Name": "Lang Chen",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kathryn Bruchmann",
-    "Department": "Psychology"
+    "Name": "Lisa Whitfield",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thao Nguyen",
-    "Department": "Religious Studies"
+    "Name": "Kathryn Bruchmann",
+    "Department Name": "Psychology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Thien-Huong Ninh",
-    "Department": "Religion & Society"
+    "Name": "Thao Nguyen",
+    "Department Name": "Religious Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kevin Chaves",
-    "Department": "Religion & Society"
+    "Name": "Thien-Huong Ninh",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jaime Wright",
-    "Department": "Religion & Society"
+    "Name": "Kevin Chaves",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sarita Tamayo-Moraga",
-    "Department": "Religion & Society"
+    "Name": "Jaime Wright",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Karl Lampley",
-    "Department": "Religion & Society"
+    "Name": "Sarita Tamayo-Moraga",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Elizabeth Drescher",
-    "Department": "Religion & Society"
+    "Name": "Karl Lampley",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Daniel Morgan",
-    "Department": "Religion & Society"
+    "Name": "Elizabeth Drescher",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "David Gray",
-    "Department": "Religion & Society"
+    "Name": "Daniel Morgan",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "John Heller",
-    "Department": "Religion & Society"
+    "Name": "David Gray",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Eric Haynie",
-    "Department": "Religion & Society"
+    "Name": "John Heller",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christopher Tirres",
-    "Department": "Religion & Society"
+    "Name": "Eric Haynie",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Cathleen Chopra-McGowan",
-    "Department": "Scripture & Tradition"
+    "Name": "Christopher Tirres",
+    "Department Name": "Religion & Society",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Roberto Mata",
-    "Department": "Scripture & Tradition"
+    "Name": "Cathleen Chopra-McGowan",
+    "Department Name": "Scripture & Tradition",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Paul Schutz",
-    "Department": "Scripture & Tradition"
+    "Name": "Roberto Mata",
+    "Department Name": "Scripture & Tradition",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Diana Gibson",
-    "Department": "Scripture & Tradition"
+    "Name": "Paul Schutz",
+    "Department Name": "Scripture & Tradition",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Cara Chiaraluce",
-    "Department": "Sociology"
+    "Name": "Diana Gibson",
+    "Department Name": "Scripture & Tradition",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Zachary Frazier | Zachary Frazier",
-    "Department": "Sociology"
+    "Name": "Cara Chiaraluce",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jason Laker",
-    "Department": "Sociology"
+    "Name": "Zachary Frazier | Zachary Frazier",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Laura Nichols",
-    "Department": "Sociology"
+    "Name": "Jason Laker",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Laura Robinson",
-    "Department": "Sociology"
+    "Name": "Laura Nichols",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Molly King",
-    "Department": "Sociology"
+    "Name": "Laura Robinson",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Patrick Lopez-Aguado",
-    "Department": "Sociology"
+    "Name": "Molly King",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Margaret Hunter",
-    "Department": "Sociology"
+    "Name": "Patrick Lopez-Aguado",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maricela Portillo Loayza",
-    "Department": "Spanish Studies"
+    "Name": "Margaret Hunter",
+    "Department Name": "Sociology",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Kayce Davis",
-    "Department": "Spanish Studies"
+    "Name": "Maricela Portillo Loayza",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "EDITH LENI",
-    "Department": "Spanish Studies"
+    "Name": "Kayce Davis",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Victor Quiroz",
-    "Department": "Spanish Studies"
+    "Name": "EDITH LENI",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ariel Schindewolf",
-    "Department": "Spanish Studies"
+    "Name": "Victor Quiroz",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Maria Bauluz",
-    "Department": "Spanish Studies"
+    "Name": "Ariel Schindewolf",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jill Pellettieri",
-    "Department": "Spanish Studies"
+    "Name": "Maria Bauluz",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Laura Callahan",
-    "Department": "Spanish Studies"
+    "Name": "Jill Pellettieri",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Abel Cruz Flores",
-    "Department": "Spanish Studies"
+    "Name": "Laura Callahan",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Arthur Strawbridge | Tripp Strawbridge",
-    "Department": "Spanish Studies"
+    "Name": "Abel Cruz Flores",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jose Ortigas",
-    "Department": "Spanish Studies"
+    "Name": "Arthur Strawbridge | Tripp Strawbridge",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Sally Vance-Trembath",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Jose Ortigas",
+    "Department Name": "Spanish Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Lynn Hillberg",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Sally Vance-Trembath",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Justina Torrance",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Lynn Hillberg",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Christina Atienza",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Justina Torrance",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Elyse Raby",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Christina Atienza",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Eugene Schlesinger",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Elyse Raby",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Vincent Olea",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Eugene Schlesinger",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Karen Peterson-Iyer | Karen Iyer",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Vincent Olea",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Ana Pineda RSM | Ana Maria Pineda Rsm",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Karen Peterson-Iyer | Karen Iyer",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Robert Scholla",
-    "Department": "Theology Ethics & Spirituality"
+    "Name": "Ana Pineda RSM | Ana Maria Pineda Rsm",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Gaywyn Moore",
-    "Department": "Theatre"
+    "Name": "Robert Scholla",
+    "Department Name": "Theology Ethics & Spirituality",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Aldo Billingslea",
-    "Department": "Theatre"
+    "Name": "Gaywyn Moore",
+    "Department Name": "Theatre",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Jeffrey Bracco",
-    "Department": "Theatre"
+    "Name": "Aldo Billingslea",
+    "Department Name": "Theatre",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Karina Gutierrez",
-    "Department": "Theatre"
+    "Name": "Jeffrey Bracco",
+    "Department Name": "Theatre",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Heather Kenyon",
-    "Department": "Theatre"
+    "Name": "Karina Gutierrez",
+    "Department Name": "Theatre",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Derek Duarte",
-    "Department": "Theatre"
+    "Name": "Heather Kenyon",
+    "Department Name": "Theatre",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Erik Sunderman",
-    "Department": "Theatre"
+    "Name": "Derek Duarte",
+    "Department Name": "Theatre",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "CiAuna Heard",
-    "Department": "Women's and Gender Studies"
+    "Name": "Erik Sunderman",
+    "Department Name": "Theatre",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   },
   {
-    "Instructor Name": "Mukta Sharangpani",
-    "Department": "Women's and Gender Studies"
+    "Name": "CiAuna Heard",
+    "Department Name": "Women's and Gender Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
+  },
+  {
+    "Name": "Mukta Sharangpani",
+    "Department Name": "Women's and Gender Studies",
+    "Background": "",
+    "Tags": "",
+    "Rating": ""
   }
 ]
