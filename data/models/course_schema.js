@@ -7,10 +7,11 @@ const mongoose = require('mongoose');
 const courseSchema = new mongoose.Schema({
     courseName: {type: String, required: true},
     classCode: {type: String, required: true},
+    description: {type: String, required: true},
     professorID: {type: mongoose.Schema.Types.ObjectId, ref: 'Professor', default: null},
-    quarterAvailability: {type: [String], default: []},
+    quarterAvailability: {type: [String], enum: ['winter', 'spring', 'summer', 'fall'], default: []},
     tags: {type: [String], default: []},
-    rating: {type: Number, default: null}
+    rating: {type: Number, min: 0, max: 10, default: null}
 });
 
 module.exports = mongoose.model('Course', courseSchema);
