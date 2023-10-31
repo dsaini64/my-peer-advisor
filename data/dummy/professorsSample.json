@@ -1,0 +1,86 @@
+[
+    {
+        "name": "John Smith",
+        "departmentName": "Computer Science",
+        "background": "PhD in Computer Science. Expert in Machine Learning and Artificial Intelligence. Worked with Yann LeCun on Convolutional Neural Networks.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Jane Doe",
+        "departmentName": "Mathematics",
+        "background": "PhD in Mathematics. Area of research is topological manifolds. Recipient of the Clay Millennium Prize.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Emily Johnson",
+        "departmentName": "Physics",
+        "background": "PhD in Physics. Specializes in Quantum Mechanics. Published multiple papers on Quantum Entanglement.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Michael Brown",
+        "departmentName": "Biology",
+        "background": "PhD in Biology. Expert in Genetic Engineering. Worked on CRISPR technology.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Sara Williams",
+        "departmentName": "Political Science",
+        "background": "PhD in Political Science. Specializes in anti-poverty policies. Former consultant for the United Nations.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "William Davis",
+        "departmentName": "Philosophy",
+        "background": "PhD in Philosophy. Expert in Kantian ethics. Published multiple books on moral philosophy.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Elizabeth Garcia",
+        "departmentName": "History",
+        "background": "PhD in History. Specializes in Medieval Europe. Worked on deciphering ancient manuscripts.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "James Wilson",
+        "departmentName": "English",
+        "background": "PhD in English Literature. Expert on Shakespearean plays. Published critical analysis on 'Hamlet'.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Nancy Moore",
+        "departmentName": "Psychology",
+        "background": "PhD in Psychology. Specializes in Cognitive Behavioral Therapy. Published research on mental health.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Christopher Taylor",
+        "departmentName": "Economics",
+        "background": "PhD in Economics. Expert in Macroeconomics. Worked with the Federal Reserve on economic policies.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Jessica Anderson",
+        "departmentName": "Art",
+        "background": "Master of Fine Arts. Specializes in contemporary art. Exhibited in multiple international art galleries.",
+        "tags": [],
+        "rating": null
+    },
+    {
+        "name": "Daniel Thomas",
+        "departmentName": "Music",
+        "background": "Master of Music. Expert in classical compositions. Worked with Berlin Philharmonic Orchestra.",
+        "tags": [],
+        "rating": null
+    }
+]
