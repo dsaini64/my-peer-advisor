@@ -6,6 +6,7 @@ ratings and tags in order to help with class planning.
 
 myPeerAdvisor is built using the MERN stack.
 
+```plaintext
   +-----------+  Web Client
   |  React.js |
   +-----------+
@@ -19,6 +20,7 @@ myPeerAdvisor is built using the MERN stack.
   +-----------+  Database
   |  MongoDB  |
   +-----------+
+```
 
 For more information, see https://www.mongodb.com/languages/mern-stack-tutorial
 
