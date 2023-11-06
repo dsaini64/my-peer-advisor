@@ -54,6 +54,5 @@ mongorestore dump
 
 If you want to use a different name for your database, instead run
 ```sh
-mongorestore --db \<alternative_db_name\> dump/alpha/
+mongorestore --db alternative_db_name dump/alpha/
 ```
-     
