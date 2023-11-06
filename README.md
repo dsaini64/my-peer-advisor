@@ -35,8 +35,10 @@ npm install
 ```
 
 To create the database, first make sure that MongoDB is running after you installed it.
+See https://www.mongodb.com/docs/manual/administration/install-community/ for how to
+start MongoDB on different operating systems.
 
-If you are using Ubuntu, run
+If you are using Ubuntu, you can run
 ```sh
 sudo systemctl start mongod.service
 sudo systemctl status mongod
@@ -47,12 +49,12 @@ from the root folder, navigate to the folder with the test database dump
 cd data/dummy
 ```
 
-Then run the following command
+then run the following command
 ```sh
 mongorestore dump
 ```
 
-If you want to use a different name for your database, instead run
+if you want to use a different name for your database, instead run
 ```sh
 mongorestore --db alternative_db_name dump/alpha/
 ```
