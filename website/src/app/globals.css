@@ -30,10 +30,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px; /* Adjust the height to your preference */
+  height: 400px;
 }
 
 .search-bar input {
-  margin-right: 10px; /* Add some spacing between input and button */
+  margin-right: 10px;
 }
-

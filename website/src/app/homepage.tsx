@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import SearchBar from './SearchBar';
+//import SearchBar from './SearchBar';
 
 function MyButton() {
   return (
@@ -13,8 +13,17 @@ function MyButton() {
 export default function MyApp() {
   return (
     <div>
-      <h1>Welcome to my app</h1>
+      <h1>My Peer Advisor</h1>
       <SearchBar />
+    </div>
+  );
+}
+
+function SearchBar() {
+  return (
+    <div className="search-bar">
+      <input type="text" placeholder="Search..." />
+      <button>Search</button>
     </div>
   );
 }
