@@ -4,7 +4,7 @@
   "description": "Hello, world.",
   "main": "course_schema.js",
   "scripts": {
-    "start": "nodemon test.js"
+    "start": "nodemon server/app.js"
   },
   "keywords": [],
   "author": "",

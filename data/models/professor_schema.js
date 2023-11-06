@@ -1,6 +1,4 @@
 // Defines the schema for the Professors Collection
-// Tags and Rating fields are empty by default
-// Everything else is required
 
 const mongoose = require('mongoose');
 
@@ -8,7 +6,10 @@ const professorSchema = new mongoose.Schema({
     professorName: {type: String, required: true},
     department: {type: String, required: true},
     background: {type: String, required: true},
-    tags: {type: [String], default: []},
+    courses: [{type: mongoose.Schema.Types.ObjectId, ref: 'Course'}],
+    ratingCount: {type: Number, default: 0, required: true},
+    ratingTotal: {type: Number, default: 0, required: true},
+    tags: [{type: mongoose.Schema.Types.ObjectId, ref: 'Tag'}],
     rating: {type: Number, min: 0, max: 10, default: null}
 });
 

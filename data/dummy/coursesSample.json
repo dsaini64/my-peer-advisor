@@ -3,10 +3,10 @@
         "courseName": "Discrete Mathematics",
         "classCode": "MATH 51",
         "description": "Predicate logic, methods of proof, sets, functions, sequences, modular arithmetic, cardinality, induction, elementary combinatorial analysis, recursion, and relations. Also listed as COEN 19. (4 units)",
-        "quarterAvailability": [
-            "winter",
-            "spring"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter", "spring"],
         "tags": [],
         "rating": null
     },
@@ -14,9 +14,10 @@
         "courseName": "Linear Algebra",
         "classCode": "MATH 53",
         "description": "Vector spaces, linear transformations, algebra of matrices, eigenvalues and eigenvectors, and inner products. Prerequisite: MATH 13. (4 units)",
-        "quarterAvailability": [
-            "fall"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["fall"],
         "tags": [],
         "rating": null
     },
@@ -24,9 +25,10 @@
         "courseName": "Topology",
         "classCode": "MATH 77",
         "description": "An introduction to the fundamental concepts of topology including open sets, continuity, and compactness. (4 units)",
-        "quarterAvailability": [
-            "winter"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter"],
         "tags": [],
         "rating": null
     },
@@ -34,11 +36,10 @@
         "courseName": "European Union",
         "classCode": "POLI 101",
         "description": "An in-depth study of the history, politics, and economics of the European Union. (4 units)",
-        "quarterAvailability": [
-            "winter",
-            "spring",
-            "fall"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter", "spring", "fall"],
         "tags": [],
         "rating": null
     },
@@ -46,10 +47,10 @@
         "courseName": "Introduction to Comparative Politics",
         "classCode": "POLI 102",
         "description": "Introduction to Comparative Politics is a course aimed at students who like to think critically about the world. (4 units)",
-        "quarterAvailability": [
-            "spring",
-            "fall"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["spring", "fall"],
         "tags": [],
         "rating": null
     },
@@ -57,9 +58,10 @@
         "courseName": "Introduction to Anthropology",
         "classCode": "ANTH 10",
         "description": "A survey course that introduces the student to human societies. (4 units)",
-        "quarterAvailability": [
-            "winter"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter"],
         "tags": [],
         "rating": null
     },
@@ -67,10 +69,10 @@
         "courseName": "Playwriting",
         "classCode": "THTR 171",
         "description": "Introduction to the theory and practice of playwriting. (4 units)",
-        "quarterAvailability": [
-            "spring",
-            "fall"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["spring", "fall"],
         "tags": [],
         "rating": null
     },
@@ -78,10 +80,10 @@
         "courseName": "History of Medieval Japan",
         "classCode": "HIST 215",
         "description": "Study of Medieval Japan from its earliest beginnings to the modern era. (4 units)",
-        "quarterAvailability": [
-            "winter",
-            "fall"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter", "fall"],
         "tags": [],
         "rating": null
     },
@@ -89,9 +91,10 @@
         "courseName": "Physics for Scientists and Engineers II",
         "classCode": "PHYS 132",
         "description": "This course covers the fundamental principles of physics. (4 units)",
-        "quarterAvailability": [
-            "winter"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter"],
         "tags": [],
         "rating": null
     },
@@ -99,10 +102,10 @@
         "courseName": "Calculus III",
         "classCode": "MATH 13",
         "description": "Calculus III is the third course in a four-course calculus sequence. (4 units)",
-        "quarterAvailability": [
-            "spring",
-            "fall"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["spring", "fall"],
         "tags": [],
         "rating": null
     },
@@ -110,9 +113,10 @@
         "courseName": "Physics of Music",
         "classCode": "PHYS 19",
         "description": "The course explores the physical foundations underlying the production, propagation, and perception of music. (4 units)",
-        "quarterAvailability": [
-            "spring"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["spring"],
         "tags": [],
         "rating": null
     },
@@ -120,9 +124,10 @@
         "courseName": "Introduction to Space Sciences",
         "classCode": "ASTR 10",
         "description": "An introduction to space exploration and how observations from space have influenced our knowledge of Earth and of the other planets in our solar system. (4 units)",
-        "quarterAvailability": [
-            "winter"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter"],
         "tags": [],
         "rating": null
     },
@@ -130,9 +135,10 @@
         "courseName": "General Physics I",
         "classCode": "PHYS 31",
         "description": "One-dimensional motion. Vectors. Two-dimensional motion. Newtonian laws of motion. (5 units)",
-        "quarterAvailability": [
-            "fall"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["fall"],
         "tags": [],
         "rating": null
     },
@@ -140,9 +146,10 @@
         "courseName": "General Physics II",
         "classCode": "PHYS 32",
         "description": "Temperature. Thermal expansion of solids and liquids. Thermal energy. (5 units)",
-        "quarterAvailability": [
-            "winter"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["winter"],
         "tags": [],
         "rating": null
     },
@@ -150,9 +157,10 @@
         "courseName": "General Physics III",
         "classCode": "PHYS 33",
         "description": "RCL series circuit. Power in an AC circuit. Resonance. Transformers. (5 units)",
-        "quarterAvailability": [
-            "spring"
-        ],
+        "professors": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "quarterAvailability": ["spring"],
         "tags": [],
         "rating": null
     }
