@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 const tagSchema = new mongoose.Schema({
-    tagName: {type: String, required: True},
+    tagName: {type: String, required: true},
     tagType: {type: String, enum: ['professor', 'course'], required: true},
 });
 
