@@ -10,7 +10,7 @@ function MyButton() {
   );
 }
 
-export default function MyApp() {
+export default function Homepage() {
   return (
     <div>
       <h1>My Peer Advisor</h1>
