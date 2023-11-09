@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* Search Bar */
 .search-bar {
   display: flex;
   justify-content: center;
@@ -10,5 +55,32 @@
 }
 
 .search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
   margin-right: 10px;
+}
+
+.search-bar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Content Section */
+.content {
+  padding: 40px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
