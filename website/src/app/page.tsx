@@ -10,12 +10,10 @@ function MyButton() {
   );
 }
 
-export default function Homepage() {
+export default function MyApp() {
   return (
     <div>
-      <div className="home-logo">
-        <h1>My Peer Advisor</h1>
-      </div>
+      <h1>My Peer Advisor</h1>
       <SearchBar />
     </div>
   );
