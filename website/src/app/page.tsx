@@ -13,7 +13,9 @@ function MyButton() {
 export default function Homepage() {
   return (
     <div>
-      <h1>My Peer Advisor</h1>
+      <div className='MPAHeader'>
+        <h1 >My Peer Advisor</h1>
+      </div>
       <SearchBar />
     </div>
   );
