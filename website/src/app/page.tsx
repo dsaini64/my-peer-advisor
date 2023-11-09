@@ -15,7 +15,7 @@ export default function Homepage() {
 function SearchBar() {
   return (
     <div className="search-bar">
-      <input type="text" placeholder="Search..." />
+      <input type="text" placeholder="Search for class/professor.." />
       <button>Search</button>
     </div>
   );

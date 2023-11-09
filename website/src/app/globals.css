@@ -45,3 +45,9 @@
   font-weight: 400;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.searchBar{
+  & input {
+    width: 200px;
+  }
+}
