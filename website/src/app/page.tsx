@@ -1,16 +1,7 @@
 import Image from 'next/image'
 import React from 'react';
-//import SearchBar from './SearchBar';
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
-
-export default function MyApp() {
+export default function title() {
   return (
     <div>
       <h1>My Peer Advisor</h1>
