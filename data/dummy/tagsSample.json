@@ -1,12 +1,12 @@
 [
-    {"tagName": "Caring", "tagType": "professor"},
-    {"tagName": "Clear Grading Criteria", "tagType": "professor"},
-    {"tagName": "Tough Grader", "tagType": "professor"},
-    {"tagName": "Funny", "tagType": "professor"},
-    {"tagName": "Inspirational", "tagType": "professor"},
-    {"tagName": "Lots of Homework", "tagType": "course"},
-    {"tagName": "Hard Textbook", "tagType": "course"},
-    {"tagName": "Industry Oriented", "tagType": "course"},
-    {"tagName": "Ethics Learning", "tagType": "course"},
-    {"tagName": "Group Work", "tagType": "course"}
+    {"tagName": "caring", "tagType": "professor"},
+    {"tagName": "clear-grading-criteria", "tagType": "professor"},
+    {"tagName": "tough-grader", "tagType": "professor"},
+    {"tagName": "funny", "tagType": "professor"},
+    {"tagName": "inspirational", "tagType": "professor"},
+    {"tagName": "lots-of-homework", "tagType": "course"},
+    {"tagName": "hard-textbook", "tagType": "course"},
+    {"tagName": "industry-oriented", "tagType": "course"},
+    {"tagName": "ethics-learning", "tagType": "course"},
+    {"tagName": "group-work", "tagType": "course"}
 ]
