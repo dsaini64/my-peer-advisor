@@ -126,17 +126,41 @@ router.get("/codes", async (req, res) => {
 // User should be able to search courses (MVP feature)
 router.get("/", async (req, res) => {
     console.log(req.query);
-    const searchName = req.query.search;
+    const searchString = req.query.search || '';
+    const searchParts = searchString.split(/tag:/i);
+    const searchName = searchParts[0].trim();
+    const searchTags = searchParts.slice(1).map(tag => tag.trim().toLowerCase());
 
-    if(!searchName || searchName.trim() === '') {
+    if (!searchName && searchTags.length === 0) {
         return res.status(404).send('<h2>Please enter a valid search term</h2>');
     }
 
     try {
-        const result = await Course.find({ courseName: {$regex: searchName, $options:'i'} },
+        // Since the tags property of a Course document stores a list of tag IDs instead
+        // of a list of tag names, we need to convert the tag names to their respective tag IDs
+        let searchIDS = [];
+        if (searchTags.length > 0) {
+            const matchIDS = await Tag.find( {tagName: {$in: searchTags}}).select('_id').exec();
+            searchIDS = matchIDS.map(tag => tag.id);
+
+            if (searchIDS.length === 0 || searchIDS.length !== searchTags.length) {
+                return res.status(404).send('<h2>Please enter valid tag names</h2>');
+            }
+        }
+
+        // Construct the search query
+        let searchQuery = {};
+        if(searchName) {
+            searchQuery['courseName'] = {$regex: searchName, $options: 'i'};
+        }
+        if (searchIDS.length > 0) {
+            searchQuery['tags'] = {$all: searchIDS};
+        }
+
+        const result = await Course.find(searchQuery,
                                             'courseName classCode ratingCount rating').exec();
         if(Object.keys(result).length === 0) {
-            return res.status(200).send('<h2>No course matches your search</h2>');
+            return res.status(404).send('<h2>No course matches your search</h2>');
         } else {
             return res.json(result);
         }
