@@ -4,7 +4,7 @@ import React from 'react';
 export default function Homepage() {
   return (
     <div>
-      <div className='MPAHeader'>
+      <div className='MyPeerAdvisorHeader'>
         <h1 >My Peer Advisor</h1>
       </div>
       <SearchBar />

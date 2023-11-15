@@ -1,6 +1,4 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+
 
 .search-bar {
   display: flex;
@@ -15,6 +13,7 @@
   border-radius: 5px;
   font-size: 16px;
   margin-right: 10px;
+  width: 500px;
 }
 
 .search-bar button {
@@ -27,19 +26,17 @@
   cursor: pointer;
 }
 
-/* Content Section */
 .content {
   padding: 40px 0;
 }
 
-/* Footer */
 .footer {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
   text-align: center;
 }
-.MPAHeader {
+.MyPeerAdvisorHeader {
   display: flex;
   justify-content: center;
   font-weight: 400;
