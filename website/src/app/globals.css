@@ -44,5 +44,10 @@
   justify-content: center;
   font-weight: 400;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 400px;
+}
+
+.searchBar{
+  & input {
+    width: 200px;
+  }
 }
