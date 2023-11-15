@@ -23,12 +23,11 @@ app.use("/api/v1/professors", professorsRouter);
 app.use("/api/v1/courses", coursesRouter);
 app.use("/api/v1/tags", tagsRouter);
 app.use("/api/v1/reviews", reviewsRouter);
+app.use((req, res) => {
+    res.status(404).json({error: "not found", msg: "API route not found"});
+});
 
 main().catch(err => console.log(err));
-
-app.get('/index', (req, res) => {
-    res.send("Test, this is the homepage");
-});
 
 app.listen(8080, () => {
     console.log('Server is listening on port 8080...');

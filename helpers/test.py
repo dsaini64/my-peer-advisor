@@ -3,7 +3,7 @@ import scraping_methods as sm
 import sys
 import json
 
-with open('html/anthropology.html#f7bf97d9b9e0.html', 'r') as webpage:
+with open('html/test.html', 'r') as webpage:
     htmlContent = webpage.read()
 
 soup = BeautifulSoup(htmlContent, 'html.parser')
@@ -45,6 +45,6 @@ for document in jsonArray:
     sm.add_remaining_course_fields(document)
 
 # Write the json array to a file
-with open('json/anth.json', 'w') as out:
+with open('test.json', 'w') as out:
     json.dump(jsonArray, out)
 

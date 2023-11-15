@@ -17,7 +17,7 @@ router.get("/:id/reviews", async (req, res) => {
                                                 .populate('tags', 'tagName')
                                                 .exec();
         if (courseProfile === null) {
-            res.status(404).send('<h2>Course ID not found</h2>');
+            return res.status(404).json({error: "not found", msg: "Course ID not found"});
         } else {
             const courseReviews = await Review.find({
                 courseID: searchID,
@@ -29,7 +29,7 @@ router.get("/:id/reviews", async (req, res) => {
             res.json(result);
         }
     } catch (err) {
-        res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
@@ -46,21 +46,21 @@ router.post("/:id/reviews", async (req, res) => {
         const isTextValid = validateTextLen(courseReview);
 
         if (!isProfessorValid || !isCourseValid) {
-            return res.status(400).send('<h2>Database Validation Error</h2>');
+            return res.status(400).json({error: "validation error", msg: "Invalid Professor or Course ID"});
         }
 
         if (!isRatingValid || !isTextValid) {
-            return res.status(400).send('<h2>Rating or Text Box Validation Error</h2>');
+            return res.status(400).json({error: "validation error", msg: "Rating or text box out of bounds"});
         }
 
         if (courseTags.length > 3) {
-            return res.status(400).send('<h2>Number of tags exceeded</h2>');
+            return res.status(400).json({error: "validation error", msg: "Number of tags exceeded"});
         }
 
         for (const tagID of courseTags) {
             const isTagIdValid = await validateID(Tag, tagID);
             if (!isTagIdValid) {
-                return res.status(400).send('<h2>Database Validation Error</h2>');
+                return res.status(400).json({error: "validation error", msg: "Invalid tag ID"});
             }
         }
 
@@ -105,11 +105,11 @@ router.post("/:id/reviews", async (req, res) => {
 
         await professor.save();
 
-        return res.status(201).json("Success!! Review has been submited");
+        return res.status(201).json({status: "post success", msg: "Review successfully submitted"});
 
     } catch (err) {
         console.log(err)
-        return res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
@@ -119,7 +119,7 @@ router.get("/codes", async (req, res) => {
         const result = await Course.find({}, 'classCode').exec();
         res.json(result);
     } catch (err) {
-        res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
@@ -132,7 +132,7 @@ router.get("/", async (req, res) => {
     const searchTags = searchParts.slice(1).map(tag => tag.trim().toLowerCase());
 
     if (!searchName && searchTags.length === 0) {
-        return res.status(404).send('<h2>Please enter a valid search term</h2>');
+        return res.status(404).json({error: "not found", msg: "Please enter a valid search term"});
     }
 
     try {
@@ -144,7 +144,7 @@ router.get("/", async (req, res) => {
             searchIDS = matchIDS.map(tag => tag.id);
 
             if (searchIDS.length === 0 || searchIDS.length !== searchTags.length) {
-                return res.status(404).send('<h2>Please enter valid tag names</h2>');
+                return res.status(404).json({error: "not found", msg: "Please enter valid tag names"});
             }
         }
 
@@ -160,12 +160,12 @@ router.get("/", async (req, res) => {
         const result = await Course.find(searchQuery,
                                             'courseName classCode ratingCount rating').exec();
         if(Object.keys(result).length === 0) {
-            return res.status(404).send('<h2>No course matches your search</h2>');
+            return res.status(404).json({error: "not found", msg: "No course matches your search"});
         } else {
             return res.json(result);
         }
     } catch (err) {
-        return res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
