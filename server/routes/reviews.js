@@ -10,14 +10,14 @@ router.patch("/:id/like", async (req, res) => {
 
     // Check in case user has already liked this review
     if (req.cookies[`liked_${reviewIdentifier}`]) {
-        return res.status(403).json("You already liked this review!!!");
+        return res.status(403).json({error: "forbidden error", msg: "You already liked this review"});
     }
     
     try {
         // Validate that the review exists
         const isReviewValid = await validateID(Review, reviewIdentifier);
         if (!isReviewValid) {
-            return res.status(400).send('<h2>Review not found</h2>');
+            return res.status(400).send({error: "validation error", msg: "Invalid review ID"});
         }
 
         // Perform the like
@@ -27,10 +27,10 @@ router.patch("/:id/like", async (req, res) => {
 
         // Set a cookie
         res.cookie(`liked_${reviewIdentifier}`, true, {maxAge: 2592000, httpOnly: true});
-        return res.status(200).json("Like successful!!");
+        return res.status(200).json({status: "like success", msg: "Successfully liked the review"});
     } catch (err) {
         console.log(err)
-        return res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
@@ -40,14 +40,14 @@ router.patch("/:id/dislike", async (req, res) => {
 
     // Check in case user has already disliked this review
     if (req.cookies[`disliked_${reviewIdentifier}`]) {
-        return res.status(403).json("You already disliked this review!!!");
+        return res.status(403).json({error: "forbidden error", msg: "You already disliked this review"});
     }
     
     try {
         // Validate that the review exists
         const isReviewValid = await validateID(Review, reviewIdentifier);
         if (!isReviewValid) {
-            return res.status(400).send('<h2>Review not found</h2>');
+            return res.status(400).send({error: "validation error", msg: "Invalid review ID"});
         }
 
         // Perform the dislike
@@ -57,10 +57,10 @@ router.patch("/:id/dislike", async (req, res) => {
 
         // Set a cookie
         res.cookie(`disliked_${reviewIdentifier}`, true, {maxAge: 2592000, httpOnly: true});
-        return res.status(200).json("Dislike successful!!");
+        return res.status(200).json({status: "dislike success", msg: "Successfully disliked the review"});
     } catch (err) {
         console.log(err)
-        return res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 

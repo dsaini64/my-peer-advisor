@@ -9,7 +9,7 @@ router.get("/professors", async (req, res) => {
         const result = await Tag.find({tagType: 'professor'}, 'tagName').exec();
         res.json(result);
     } catch (err) {
-        res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
@@ -19,12 +19,9 @@ router.get("/courses", async (req, res) => {
         const result = await Tag.find({tagType: 'course'}, 'tagName').exec();
         res.json(result);
     } catch (err) {
-        res.status(500).send('<h2>Internal Server Error</h2>');
+        return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
-
-
-
 
 module.exports = router;
 
