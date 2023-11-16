@@ -28,7 +28,6 @@ const Page: React.FC = () => {
     setSearchTerm(event.target.value);
   };
 
-
   return (
     <div>
       <div className='MyPeerAdvisorHeader'>
