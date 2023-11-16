@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 //import SearchBar from './SearchBar';
 
 function MyButton() {
@@ -20,10 +21,16 @@ export default function MyApp() {
 }
 
 function SearchBar() {
+  const navigate = useNavigate();
+
+  const navigateToSecondPage = () => {
+    navigate("/second");
+  };
+
   return (
     <div className="search-bar">
       <input type="text" placeholder="Search..." />
-      <button>Search</button>
+      <button  onClick={navigateToSecondPage}>Search</button>
     </div>
   );
 }
