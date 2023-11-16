@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+//import { useNavigate } from 'react-router-dom';
+//import { useRouter } from 'next/router';
+//import { useRouter } from 'next/navigation';
 //import SearchBar from './SearchBar';
 
 function MyButton() {
@@ -15,16 +17,18 @@ export default function MyApp() {
   return (
     <div>
       <h1>My Peer Advisor</h1>
-      <SearchBar />
+      {typeof window !== 'undefined' && <SearchBar />}
     </div>
   );
 }
 
 function SearchBar() {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
+  const router = require('next/router').useRouter();
 
   const navigateToSecondPage = () => {
-    navigate("/second");
+    //navigate("/second");
+    router.push("/second");
   };
 
   return (
