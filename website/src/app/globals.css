@@ -46,5 +46,16 @@
 
 .profileCardLayout {
   display: flex;
-  gap: 50px;
+  /* gap: 50px; */
+}
+
+.ratingLayout {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.ratingHeader {
+  align-self: center;
+  padding-bottom: 4px;
 }
