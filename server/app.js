@@ -11,7 +11,7 @@ const tagsRouter = require("./routes/tags");
 const reviewsRouter = require("./routes/reviews");
 
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/epsilon');
+    await mongoose.connect('mongodb://127.0.0.1:27017/tau');
     console.log("Connection established!!");
 }
 
