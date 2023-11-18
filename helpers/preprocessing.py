@@ -24,12 +24,12 @@ def merge_paragraphs(soup):
             for p in p_tags:
                 p.decompose()
 
-with open('html/mathematics-and-computer-science.html', 'r') as webpage:
+with open('html/mechanical-engineering.html', 'r') as webpage:
     html_content = webpage.read()
 
 soup = BeautifulSoup(html_content, 'html.parser')
 merge_paragraphs(soup)
 
 # Write the modified HTML back to the file
-with open('html/mathematics-and-computer-science.html', 'w') as file:
+with open('html/mechanical-engineering.html', 'w') as file:
     file.write(str(soup))
