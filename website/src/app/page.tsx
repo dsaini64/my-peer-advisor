@@ -70,16 +70,18 @@ function Rating(profInfo: profInfoProp){
   return (
     <div className="rating">
       <div className="ratingHeader">
-      <div>
+      <div className="ratingText">
         Rating
       </div>
-      <div>
+      <div className="ratingNumberText">
         7.8  {/* computed average */}
       </div>
     </div>
+    <div className="ratingFooter">
       <p> {profInfo.reviewNum} ratings</p> 
       <div>Rate {profInfo.profName}</div>
-      {/* basically rating footer should maybe add more components to make it more clear what each thing does */}
+      {/* basically rating footer, should maybe add more components to make it more clear what each thing does */}
+      </div>
     </div>
   );
 }
