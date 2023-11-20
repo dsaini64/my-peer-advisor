@@ -53,8 +53,8 @@
 .ratingLayout {
   display: flex;
   flex-direction: column;
-  width: 200px;
-  padding: 45px 100px 45px 45px;
+  width: 180px;
+  padding: 30px 100px 45px 40px;
 }
 
 .ratingHeader {
@@ -64,19 +64,34 @@
 }
 
 .ratingText{
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 200;
-  margin-left: 13px;
+  margin-left: 26px;
 
 }
 
 .ratingNumberText {
   font-size: 40px;
-  font-weight: 400;
-  margin: 0px 20px 0px 15px;
+  font-weight: 800;
+  /* margin: 0px 20px 0px 15px; */
+  background-color: rgb(76, 224, 76);
+  padding: 30px;
 }
 
 .ratingFooter {
-  font-weight: 300;
-  font-size: 17px;
+  padding-top: 10px;
+  
+}
+
+.profileBody {
+  margin-top: 18px;
+  & h1 {
+    font-size: 45px;
+  }
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.reviewNumText {
+  margin-left: 20px;
 }

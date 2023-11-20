@@ -23,6 +23,7 @@
 // }
 
 import { useState, useEffect } from "react";
+import { Button } from "antd";
 
 export default function ProfilePage() {
   // call backend for data
@@ -51,7 +52,7 @@ type profileBodyProps = {
 
 function ProfileBody(content: profileBodyProps) {
   return (
-    <div>
+    <div className="profileBody">
       <div><h1>{content.profName}</h1></div>
       <div>{content.degree}</div>
       <div><p>{content.profDesc}</p></div>
@@ -68,18 +69,18 @@ type profInfoProp = {
 function Rating(profInfo: profInfoProp){
   // call backend function for rating
   return (
-    <div className="rating">
+    <div className="ratingLayout">
       <div className="ratingHeader">
       <div className="ratingText">
         Rating
       </div>
       <div className="ratingNumberText">
-        7.8  {/* computed average */}
+        7.8{/* computed average */}
       </div>
+      <div className="reviewNumText"> {profInfo.reviewNum} ratings</div> 
     </div>
     <div className="ratingFooter">
-      <p> {profInfo.reviewNum} ratings</p> 
-      <div>Rate {profInfo.profName}</div>
+      <Button type="link">Rate {profInfo.profName}</Button>
       {/* basically rating footer, should maybe add more components to make it more clear what each thing does */}
       </div>
     </div>
