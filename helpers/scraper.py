@@ -3,21 +3,21 @@ import scraping_methods as sm
 import sys
 import json
 
-with open('html/mathematics-and-computer-science.html', 'r') as webpage:
+with open('html/business.html', 'r') as webpage:
     htmlContent = webpage.read()
 
 soup = BeautifulSoup(htmlContent, 'html.parser')
 jsonArray = []
-classCode = 'MATH'
+classCode = 'BUSN'
 
 # Locate the first course code, name and description in the html document
 for tag in soup.find_all('h3'):
-    if tag.get_text() == "4. The Nature of Mathematics":
+    if tag.get_text() == "70. Contemporary Business Issues":
         firstCodeAndName = tag
         break
 
 for tag in soup.find_all('p'):
-    if "For students majoring in arts and humanities. Topics chosen from set theory, logic, counting techniques, number" in tag.get_text():
+    if "An introduction to the nature, forms, and objectives of the contemporary business firm and its relationship" in tag.get_text():
         firstDescription = tag
         break
 
@@ -46,6 +46,6 @@ for document in jsonArray:
     sm.add_remaining_course_fields(document)
 
 # Write the json array to a file
-with open('json/math_csci.json', 'w') as out:
+with open('json/test.json', 'w') as out:
     json.dump(jsonArray, out)
 

@@ -1,0 +1,68 @@
+[
+    {
+      "courseName": "Introduction to Neuroscience",
+      "classCode": "NEUR 1",
+      "description": "This course introduces fundamental concepts in neuroscience. Students will consider the importance of biological and environmental factors on brain function and behavior. Students will examine interdisciplinary approaches to problems in neuroscience and engage with important ethical and societal issues in neuroscience (e.g., Brain-Computer Interfaces, cognition, addiction).(4 units)",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [],
+      "rating": null
+    },
+    {
+      "courseName": "Explorations in Neuroscience",
+      "classCode": "NEUR 10",
+      "description": "A course with a focus on foundational knowledge essential to the field (e.g., neurons, neuroanatomy, neurophysiology) with an introduction to research methodologies to be able to understand and conduct neuroscience research. Lecture and lab. Prerequisite: NEUR 1 and Neuroscience major or permission of instructor. (5 units)",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [],
+      "rating": null
+    },
+    {
+      "courseName": "Neuroscience Research Seminar",
+      "classCode": "NEUR 150",
+      "description": "Junior-level course using journal readings and invited neuroscientists from on- and off-campus to discuss research from several disciplines (e.g., biology, chemistry, engineering, ethics, psychology). An opportunity for majors to explore potential career paths and strategies, discuss the scientific merit of original research and be introduced to neuroscientists in a variety of fields and professions. Course may be repeated multiple times. P/NP grading. Prerequisite: NEUR 10. Recommended but not required: BIOL 122. (2 units)",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [],
+      "rating": null
+    },
+    {
+      "courseName": "Developmental Neuroscience of Human Behavior",
+      "classCode": "NEUR 185",
+      "description": "This course will focus on the current research findings on brain changes over the lifespan development in humans in responses to learning and experience. Students will be introduced to foundational methods and skills to explore and understand the typical and atypical developments of cognitive, language, and social skills in humans. Students will also practice scientific inquiry skills via research-based activities. Prerequisite: PSYC 169. (5 units)",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [],
+      "rating": null
+    },
+    {
+      "courseName": "Neuroscience Capstone",
+      "classCode": "NEUR 190",
+      "description": "This senior-level capstone experience examines the breadth and depth of the neuroscience discipline, using in-class primary research presentations, career exploration and preparation projects, as well as a final capstone project to investigate both theory and practice to answer new questions in neuroscience today. Prerequisites: BIOL 122 and NEUR 150. Recommended but not required: ENVS 110/BIOL 160. (5 units)",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [],
+      "rating": null
+    },
+    {
+      "courseName": "Neuroscience Internship",
+      "classCode": "NEUR 198",
+      "description": "A course where students can learn how they can best apply classroom instruction to their career objectives through an academically supported work or volunteer experience outside of Santa Clara University. Internships should encourage career skills and professional growth and serve to introduce the student to the range of opportunities afforded a degree in the discipline. To be eligible for this course, students must present an outline of their projected work as part of the internship to the Neuroscience program director no later than the sixth week of the term preceding the start of the project. Number of units will be determined based on the expected time commitment. Prerequisite: departmental and University permission. P/NP grading. (1-5 units)",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [],
+      "rating": null
+    }
+  ]

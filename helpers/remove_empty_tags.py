@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 def is_tag_empty(tag):
     return not tag.get_text().strip()
 
-with open('html/mathematics-and-computer-science.html', 'r') as webpage:
+with open('html/business.html', 'r') as webpage:
     html_content = webpage.read()
 
 soup = BeautifulSoup(html_content, 'html.parser')
@@ -13,7 +13,7 @@ for tag in soup.find_all('span'):
     if is_tag_empty(tag):
         tag.decompose()
 
-# Second remove all empty <b> tags
+# Second remove all empty <p> tags
 for tag in soup.find_all('p'):
     if is_tag_empty(tag):
         tag.decompose()
@@ -24,6 +24,6 @@ for tag in soup.find_all('h3'):
         tag.decompose()
 
 # Save the changes to the file
-with open('html/mathematics-and-computer-science.html', 'w') as webpage:
+with open('html/business.html', 'w') as webpage:
     webpage.write(str(soup))
 
