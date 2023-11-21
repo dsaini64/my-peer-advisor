@@ -49,10 +49,30 @@ export default function ProfilePage() {
             <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
           </div>
         </div>
-        <div>User review card</div>
-        <div>User review card</div>
-        <div>User review card</div>
-        <div>User review card</div>
+        <div className="card">
+          <div className="card-body profileCardLayout">
+            <UserRating ratingNum={userRatingNum[0]}/>
+            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body profileCardLayout">
+            <UserRating ratingNum={userRatingNum[0]}/>
+            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body profileCardLayout">
+            <UserRating ratingNum={userRatingNum[0]}/>
+            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body profileCardLayout">
+            <UserRating ratingNum={userRatingNum[0]}/>
+            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+          </div>
+        </div>
       </div>
     </div>
   );  
@@ -120,28 +140,16 @@ type userRatingProps = {
 
 function UserRating({ratingNum}: userRatingProps) {
   return (
-    <div>
-        <UserRatingHeader ratingNum={ratingNum}/>
-    </div>
-  )
-}
-
-type userRatingHeaderProps = {
-  ratingNum: string
-}
-
-function UserRatingHeader({ratingNum}:userRatingHeaderProps) {
-  return (
-  <div className="userRatingLayout">
-   <div className="userRatingHeader">
-      <div className="userRatingText">
-        Rating
-      </div>
-      <div className="ratingNumberText">
-        {ratingNum}{/* computed average */}
-      </div>
-    </div>
-</div>)
+      <div className="userRatingLayout">
+       <div className="userRatingHeader">
+          <div className="userRatingText">
+            Rating
+          </div>
+          <div className="userRatingNumberText">
+            {ratingNum}
+          </div>
+        </div>
+    </div>)
 }
 
 type userBodyProps = {
@@ -152,7 +160,7 @@ type userBodyProps = {
 
 function UserBody({userDesc, userTags, userCourseName}:userBodyProps) {
   return (
-    <div className="profileBody">
+    <div className="userProfileBody">
       <div><h1>{userCourseName}</h1></div>
       <div><p>{userDesc}</p></div>
       <div>Top Tags: {userTags}</div>
