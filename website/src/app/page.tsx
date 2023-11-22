@@ -23,7 +23,9 @@
 // }
 
 import { useState, useEffect } from "react";
-import { Button, Typography } from "antd";
+import { Button, Typography, } from "antd";
+
+const { Paragraph } = Typography
 
 export default function ProfilePage() {
   // call backend for data
@@ -41,38 +43,12 @@ export default function ProfilePage() {
   return (
     <div className="profilePageLayout" >
       <ProfCard tags={tags} degree={degree} profDesc={profDesc} profName={profName} ratings={ratings} ratingNum={ratingNum} />
-      <div>{studentRatingNum} User Reviews</div>
+      <div className="numOfUserReviews">{studentRatingNum} User Reviews</div>
       <div>
-        <div className="card">
-          <div className="card-body profileCardLayout">
-            <UserRating ratingNum={userRatingNum[0]}/>
-            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body profileCardLayout">
-            <UserRating ratingNum={userRatingNum[0]}/>
-            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body profileCardLayout">
-            <UserRating ratingNum={userRatingNum[0]}/>
-            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body profileCardLayout">
-            <UserRating ratingNum={userRatingNum[0]}/>
-            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body profileCardLayout">
-            <UserRating ratingNum={userRatingNum[0]}/>
-            <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
-          </div>
-        </div>
+        <UserCard userCourseName={userCourseName} userDesc={userDesc} userTags={userTags} ratingNum={userRatingNum[0]} />
+        <UserCard userCourseName={userCourseName} userDesc={userDesc} userTags={userTags} ratingNum={userRatingNum[1]} />
+        <UserCard userCourseName={userCourseName} userDesc={userDesc} userTags={userTags} ratingNum={userRatingNum[2]} />
+        <UserCard userCourseName={userCourseName} userDesc={userDesc} userTags={userTags} ratingNum={userRatingNum[3]} />
       </div>
     </div>
   );  
@@ -187,3 +163,23 @@ function ProfCard({profName, ratings, ratingNum, degree, tags, profDesc}:ProfCar
 </div>
   )
 }
+
+type UserCardProps = {
+  userCourseName: string,
+  userDesc: string,
+  userTags: string,
+  ratingNum: string
+}
+
+function UserCard({userCourseName, userDesc, userTags, ratingNum}: UserCardProps){
+  return (
+    <div className="card">
+      <div className="card-body profileCardLayout">
+        <UserRating ratingNum={ratingNum}/>
+        <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+      </div>
+    </div>
+  )
+}
+
+// need to resolve routing issue
