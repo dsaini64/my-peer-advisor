@@ -182,4 +182,7 @@ function UserCard({userCourseName, userDesc, userTags, ratingNum}: UserCardProps
   )
 }
 
+//implement show more button first for cards, then for text, 
+// maybe use text first to build understanding
+
 // need to resolve routing issue
