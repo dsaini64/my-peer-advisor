@@ -3,20 +3,21 @@ import scraping_methods as sm
 import sys
 import json
 
-with open('html/anthropology.html#f7bf97d9b9e0.html', 'r') as webpage:
+with open('html/business.html', 'r') as webpage:
     htmlContent = webpage.read()
 
 soup = BeautifulSoup(htmlContent, 'html.parser')
 jsonArray = []
+classCode = 'BUSN'
 
 # Locate the first course code, name and description in the html document
 for tag in soup.find_all('h3'):
-    if tag.get_text() == "1. Introduction to Biological Anthropology":
+    if tag.get_text() == "70. Contemporary Business Issues":
         firstCodeAndName = tag
         break
 
 for tag in soup.find_all('p'):
-    if "Using an evolutionary framework, we examine how past and current" in tag.get_text():
+    if "An introduction to the nature, forms, and objectives of the contemporary business firm and its relationship" in tag.get_text():
         firstDescription = tag
         break
 
@@ -30,13 +31,13 @@ if sm.isLengthEqual(otherCodesAndNames, otherDescriptions) == False:
     sys.exit()
     
 # Add the first triple of course name, code and description to the json array
-temp = sm.add_course_code_and_name(firstCodeAndName.get_text(), 'ANTH')
+temp = sm.add_course_code_and_name(firstCodeAndName.get_text(), classCode)
 sm.add_description_field(temp, firstDescription.get_text())
 jsonArray.append(temp)
 
 # Add the remaining triples of course names, codes and descriptions to the json array
 for (tagCodeAndName, tagDescription) in zip(otherCodesAndNames, otherDescriptions):
-    temp = sm.add_course_code_and_name(tagCodeAndName.get_text(), 'ANTH')
+    temp = sm.add_course_code_and_name(tagCodeAndName.get_text(), classCode)
     sm.add_description_field(temp, tagDescription.get_text())
     jsonArray.append(temp)
 
@@ -45,6 +46,6 @@ for document in jsonArray:
     sm.add_remaining_course_fields(document)
 
 # Write the json array to a file
-with open('json/anth.json', 'w') as out:
+with open('json/test.json', 'w') as out:
     json.dump(jsonArray, out)
 

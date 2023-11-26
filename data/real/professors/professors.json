@@ -1,0 +1,5612 @@
+[
+    {
+        "professorName": "Haidan Li",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/li-haidan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Stacey Ritter",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/ritter/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christopher Paisley | Chris Paisley",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/paisley/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ke Li | Kevin Li",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/li/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Stephen Carter",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/carter/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Joseph Maglione | Joe Maglione",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/maglione/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Wendy Donohoe",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/donohoe/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Haoning Richter",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/richter/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Qiru Zhang",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/zhang-vincent-qiru/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Amanda Badger",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/badger/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Suzanne Luttman",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/luttman/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Calegari",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/accounting/faculty/calegari/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Xiaochen Zhu",
+        "department": "Accounting",
+        "background": "https://www.scu.edu/business/isa/faculty/zhu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Magda Metwally",
+        "department": "Applied Mathematics",
+        "background": "https://www.scu.edu/engineering/faculty/metwally-magda/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Francisco Villarroya Alvarez",
+        "department": "Applied Mathematics",
+        "background": "https://www.scu.edu/engineering/faculty/villarroya-alvarez-francisco-/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Robert Kleinhenz",
+        "department": "Applied Mathematics",
+        "background": "https://www.scu.edu/engineering/faculty/kleinhenz-robert/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Isaura Cruz",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/isa-cruz/cruz.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ana Casareto",
+        "department": "Anthropology",
+        "background": "https://guide.americananthro.org/70676/Ana-Casareto",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maia Dedrick",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/maia-dedrick/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ryan Anderson",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/ryan-anderson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "James McKenna",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/jim-mckenna/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Samantha Grace | Sam Grace",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/sam-grace/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nathan Anderson",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/nathan-anderson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mythri Jegathesan",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/mythri-jegathesan/jegathesan.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Veronica Miranda",
+        "department": "Anthropology",
+        "background": "https://www.scu.edu/cas/anthropology/faculty-and-staff/veronica-miranda/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mohammed Kadalah",
+        "department": "Arabic",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/mohammed-kadalah/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gaby Greenlee",
+        "department": "Art History",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/gaby-greenlee/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shriya Sridharan",
+        "department": "Art History",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/shriya-sridharan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Andrea Pappas",
+        "department": "Art History",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/andrea-pappas/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Heather Clydesdale",
+        "department": "Art History",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/heather-clydesdale/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Blake DeMaria",
+        "department": "Art History",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/blake-de-maria/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jessica Eastburn",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/jess-eastburn/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ryan Carrington",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/ryan-carrington/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Robert Detweiler | Kelly Detweiler",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/kelly-detweiler/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ryan Reynolds",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/ryan-reynolds/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Martin",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/michael-martin/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Renee Billingslea",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/renee-billingslea/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Francisco Jimenez | Pancho Jimenez",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/fjimenez/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Qiuwen Li",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/qiuwen-li/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Danielle Heitmuller",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/danielle-heitmuller/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Takeshi Moro",
+        "department": "Studio Art",
+        "background": "https://www.scu.edu/cas/art/faculty-and-staff/takeshi-moro/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Biao Lu | Bill Lu",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/engineering/faculty/lu-bill/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yuling Yan",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/phonebook/2022/Yan",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ismail Araci | Emre Araci",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/engineering/faculty/araci-emre/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hamed Akbari",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/engineering/faculty/akbari-hamed/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Paul Nauleau",
+        "department": "Bioengineering",
+        "background": "https://www.siliconvalleyinternational.org/list-detail?pk=168046",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Prashanth Asuri",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/engineering/faculty/asuri-prashanth/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Eun Ju Park | Emily Park",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/engineering/faculty/park-emily/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Zhiwen Zhang",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/engineering/faculty/zhang-jonathan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Murat Baday",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/phonebook/15663/Baday",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maryam Mobed-Miremadi",
+        "department": "Bioengineering",
+        "background": "https://www.scu.edu/engineering/faculty/mobed-miremadi-maryam/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Raphael Ritson-Williams",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/raphael-ritson-williams/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Brody Sandel",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/brody-sandel/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Erin Schwartz",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/erin-schwartz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Pascale Guiton",
+        "department": "Biology",
+        "background": "https://www.scu.edu/phonebook/11814/Guiton-Pascale",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Angel Islas",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/angel-islas/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Janice Edgerly Rooks",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/janice-edgerly-rooks/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christelle Sabatier",
+        "department": "Biology",
+        "background": "https://www.scu.edu/lead/resources-/first-gen-facultystaffadministration/scu-first-gen-stafffaculty-administration-profiles/sabatier.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Dawn Hart",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/dawn-hart/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michelle Badura",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/michelle-badura/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Giorgio Lagna",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/giorgio-lagna/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Craig Stephens",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/craig-stephens/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Brian Bayless",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/brian-bayless/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "James Grainger",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/james-grainger/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Vanessa Errisuriz",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/vanessa-errisuriz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Elizabeth Dahlhoff",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/elizabeth-dahlhoff/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Laura Cocas | Laura Cocas",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/laura-cocas/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Virginia Matzek",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/virginia-matzek/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michelle Marvier",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/michelle-marvier/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "John Dialesandro",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/john-dialesandro/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Leilani Miller",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/leilani-miller/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Justen Whittall",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/justen-whittall/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Katy Korsmeyer",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/biology/faculty-and-staff/katy-korsmeyer/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Katherine Saxton",
+        "department": "Biology",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/katherine-saxton/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Holubar | Mike Holubar",
+        "department": "Business",
+        "background": "https://www.linkedin.com/in/mikeholubar4scubzstdntexcel/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Majid Nik Tehrani",
+        "department": "Business",
+        "background": "https://www.niktehrani.com/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Dana | Michael Dana",
+        "department": "Business",
+        "background": "https://www.scu.edu/business/finance/faculty/dana/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Marshall Mort",
+        "department": "Business",
+        "background": "https://www.fenwick.com/people/marshall-mort",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Deirdre Frontczak",
+        "department": "Business",
+        "background": "https://www.scu.edu/phonebook/2064/Frontczak-Deirdre",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christopher Norris | Chris Norris",
+        "department": "Business",
+        "background": "https://www.scu.edu/cioccacenter/faculty-and-staff/norris/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Reginald Duhe",
+        "department": "Business",
+        "background": "https://www.scu.edu/phonebook/8694/Dr.-Reginald-----Duhe",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Aquilina",
+        "department": "Business",
+        "background": "https://www.linkedin.com/in/mike-aquilina-697113/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Brett Yokom",
+        "department": "Business",
+        "background": "https://www.linkedin.com/in/brettyokom/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Dam",
+        "department": "Business",
+        "background": "https://www.linkedin.com/in/michael-dam7/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jacqueline Posner",
+        "department": "Business",
+        "background": "https://www.scu.edu/business/undergraduates/beyond-the-classroom/community-campus-involvement/community-fellows/program-leaders/profiles/schmidt-posner-phd.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Denise Ho",
+        "department": "Business",
+        "background": "https://www.scu.edu/business/undergraduates/news/2018-19/meet-denise-ho-new-director-of-academic-advising.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Timothy Harris | Tim Harris",
+        "department": "Business",
+        "background": "https://www.scu.edu/business/management/faculty/harris/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "William Mains | Bill Mains",
+        "department": "Business",
+        "background": "https://www.scu.edu/phonebook/Bill-Mains",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Meghan Cress",
+        "department": "Business",
+        "background": "https://www.linkedin.com/in/meghancress/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sukhmander Singh",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/singh-sukhmander/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mohaddeseh Peyro",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.linkedin.com/in/mohaddeseh-peyro-65b06785/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Reynaud Serrette",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/serrette-reynaud/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Andy Schatzman",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://webpages.scu.edu/ftp/avonmassenhausen/schatzman.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Aria Amirbahman",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/amirbahman-aria/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Rong He | Rachel He",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/he-rachel/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Rocio Lilen Segura",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/segura-rocio-lilen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Edwin Maurer",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/maurer--edwin-p/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hisham Said",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/said-hisham/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Tonya Nilsson",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/nilsson-tonya/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Laura Doyle",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/doyle-laura/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Tracy Abbott",
+        "department": "Civil, Envr & Sust Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/abbott-tracy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Joshua Visser",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/joshua-visser/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Raymond Gipson",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/ray-gipson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hoda Mirafzal",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/hoda-mirafzal/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Amy Shachter",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/amy-shachter/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Linda Brunauer",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/linda-brunauer/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ian Carter-O'Connell",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/ian-carter-oconnell/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Megan Tichy",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/megan-tichy/tichy.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Meaghan Deegan",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/meaghan-deegan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Steven Suljak",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/steven-suljak/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Benjamin Stokes",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/ben-stokes/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Brian McNelis",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/brian-mcnelis/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Carrasco",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/michael-carrasco/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Beatrice Ruhland",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/beatrice-ruhland/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Paul Abbyad",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/paul-abbyad/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Korin Wheeler",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/korin-wheeler/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Grace Stokes",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/grace-stokes/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Amelia Fuller",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/amelia-fuller/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Eric Tillman",
+        "department": "Chemistry",
+        "background": "https://www.scu.edu/cas/chemistry/faculty/eric-tillman/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yujie Ge",
+        "department": "Chinese",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/yujie-ge/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hsin-hung Yeh | Hsin-hung Yeh",
+        "department": "Chinese",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/sean-yeh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Brita Bookser",
+        "department": "Child Studies",
+        "background": "https://www.scu.edu/cas/child-studies/faculty-and-staff/britabookser/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Elizabeth Day",
+        "department": "Child Studies",
+        "background": "https://www.scu.edu/cas/child-studies/faculty-and-staff/elizabeth-day/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gabriel Young | Gabe Young",
+        "department": "Child Studies",
+        "background": "https://www.linkedin.com/in/gabriel-young-phd-lmft-154b9838/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Omar Davila | Omar Davila",
+        "department": "Child Studies",
+        "background": "https://www.scu.edu/cas/child-studies/faculty-and-staff/gabe-young/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Elizabeth Crofton-Sleigh | Lissa Crofton-Sleigh",
+        "department": "Classics",
+        "background": "https://www.scu.edu/cas/classics/faculty-and-staff/lissa-crofton-sleigh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christopher Fuhrmann",
+        "department": "Classics",
+        "background": "https://www.scu.edu/cas/classics/faculty-and-staff/christopher-fuhrmann/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Serena Crosson",
+        "department": "Classics",
+        "background": "https://www.scu.edu/cas/classics/faculty-and-staff/serena-crosson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nicholas Lindberg",
+        "department": "Classics",
+        "background": "https://www.scu.edu/cas/classics/faculty-and-staff/nicholas-lindberg/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Daniel Turkeltaub",
+        "department": "Classics",
+        "background": "https://www.scu.edu/cas/classics/faculty-and-staff/daniel-turkeltaub/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sunwolf",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/sunwolf/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Charlotta Kratz",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/charlotta-kratz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Whalen",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/michael-whalen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Andrew Ishak",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/andrew-ishak/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Stephenson Whitestone | Stephenson Whitestone",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/stephenson-brooks-whitestone/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Emily Reese",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/emily-reese/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lisa Davis",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/lisa-davis/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Laura Ellingson",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/laura-ellingson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hsin-I Cheng",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/hsin-i-cheng/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michele Sieglitz",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/michele-sieglitz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Fernando Silva | Fern Silva",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/fern-silva/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Charles Raphael | Chad Raphael",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/chad-raphael/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Melissa Brown",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/melissa-brown/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Barbara Kelley",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/barbara-kelley/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sreela Sarkar",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/sreela-sarkar/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "David Jeong",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/david-jeong/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Paul Soukup",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/paul-soukup-sj/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Rohit Chopra",
+        "department": "Communication",
+        "background": "https://scu.edu/cas/communication/faculty-and-staff/paul-soukup-sj/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Emily Perez",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/wgst/faculty-and-staff/emily-perez/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Justin Boren | Justin Boren",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/justin-boren/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Amy Eriksson",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/amy-eriksson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nicole Opper | Nico Opper",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty/nicole-opper/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maria Judnick",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/maria-judnick/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Chan Thai",
+        "department": "Communication",
+        "background": "https://www.scu.edu/cas/communication/faculty-and-staff/chan-thai/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gordon Young",
+        "department": "Communication",
+        "background": "https://facilities.scu.edu/cas/communication/faculty-and-staff/gordon-young/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shiva Houshmand",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/shiva-houshmand/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Anh Thai Nhan",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/anh-thai-nhan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Natalie Linnell",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/natalie-linnell/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nicholas Tran",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/nicholas-tran/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Anant Dhayal",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/anant-dhayal/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Smita Ghosh",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/smita-ghosh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hien Vu",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/hien-vu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ray Li",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/ray-li-/li.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Daniel Ostrov",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/daniel-ostrov/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sara Krehbiel",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/sara-krehbiel/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Venkatesh Srinivasan",
+        "department": "Computer Science",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/venkatesh-srinivasan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ha Yang Kim",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/kim-hayang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Angela Musurlian",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/musurlian-angela/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Schimpf",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.linkedin.com/in/michaelgschimpf/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Navid Shaghaghi",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/shaghaghi-navid/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Xiang Li",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/li-xiang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Phillip Jedlovec | Pj Jedlovec",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/pj-jedlovec/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Younghyun Cho",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/cho-younghyun/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ahmed Amer",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/amer-ahmed/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Farokh Eskafi",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/eskafi-farokh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Behnam Dezfouli",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/dezfouli-behnam/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Weijia Shang",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/shang-weija/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Andrew Wolfe | Andy Wolfe",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/wolfe-andrew/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Salem Al Agtash",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/al-agtash-salem/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yuhong Liu",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/liu-yuhong/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ihan Hsiao | Sharon Hsiao",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/hsiao-sharon-ihan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yi Fang",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/fang-yi/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kai Lukoff",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/lukoff-kai/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Darren Atkinson",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/atkinson-darren/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sean Choi",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/choi-sean/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shiva Jahangiri",
+        "department": "Computer Science and Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/jahangiri-shiva/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Richard Barber",
+        "department": "Dance",
+        "background": "https://www.scu.edu/cas/physics/faculty/richard-barber/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "David Popalisky",
+        "department": "Dance",
+        "background": "https://www.scu.edu/theatre/faculty--staff/david-j-popalisky/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Pauline Kanter",
+        "department": "Dance",
+        "background": "https://www.scu.edu/theatre/faculty--staff/pauline-locsin-kanter/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ronnie Reddick",
+        "department": "Dance",
+        "background": "https://www.linkedin.com/in/ronnie-reddick-3141376/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Karyn Connell",
+        "department": "Dance",
+        "background": "https://www.scu.edu/theatre/faculty--staff/karyn-lee-connell/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Leandro Damasco",
+        "department": "Dance",
+        "background": "https://www.scu.edu/theatre/faculty--staff/leon-damasco/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kristin Kusanovich",
+        "department": "Dance",
+        "background": "https://www.scu.edu/theatre/faculty--staff/kristin-kusanovich/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Dat Tran | Dat Tran",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/fr-dat-tran-s-j/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Donald Chan | Don Chan",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/academic-programs/department-of-electrical-engineering/about-us/advisory-board-profiles/chan.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maria Kyrarini",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/kyrarini-maria/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hoeseok Yang",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/yang-hoeseok/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mahmudur Rahman | Mahmud Rahman",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/rahman-mahmud/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Stephen Hudgens",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/phonebook/3758/Hudgens-Stephen",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Cary Yang",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/yang-cary/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yu Zheng",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/phonebook/11216/Zheng-Yu-(David)",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Aleksandar Zecevic",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/zecevic-aleksandar/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kurt Schab",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/schab-kurt/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shoba Krishnan",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/krishnan-shoba/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Anoosheh Heidarzadeh",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/heidarzadeh-anoosheh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Leo Casey",
+        "department": "Electrical and Computer Engineering",
+        "background": "https://www.scu.edu/phonebook/4073/Casey-Leo",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Patricia Cameron-Loyd",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/cameron-lyod/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Orkhan Hasanaliyev",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/hasanaliyev-orkhan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hui Huang",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/huang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Damian Park",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/park/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Dongsoo Shin",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/shin/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Vito Cormun",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/cormun/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Zoey (Zhengzheng) Wang",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/zwang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kris Mitchener",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/mitchener/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kevin Chiu",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/chiu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jianlin Wang",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/jwang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Wenxin Xie",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/wenxin-xie/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shireen AlAzzawi",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/al-azzawi/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sofia Kotsiri",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/kotsiri/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Rita Madarassy",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/madarassy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gabriela Dobrescu",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/dobrescu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Helen Popper",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/popper/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nihal Sahan",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/isa/faculty/sahan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gregory Baker",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/management/faculty/baker/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Serguei Maliar",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/maliar/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Alexander Field",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/field/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christian Helmers",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/helmers/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Kevane",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/kevane/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "William Sundstrom",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/sundstrom/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Adina Ardelean",
+        "department": "Economics",
+        "background": "https://www.scu.edu/business/economics/faculty/ardelean/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Claudia McIsaac",
+        "department": "Exp Lrn Social Justice",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/claudia-mcisaac/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Victor Lemus",
+        "department": "Exp Lrn Social Justice",
+        "background": "https://www.scu.edu/cm/about-us/staff-contact/victor-lemus/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Olivier Bochettaz",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/olivier-bochettaz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Cindy Chavez Swenson",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/cindy-chavez-swenson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "David Coad",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/david-coad/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Simon Crafts",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/simon-crafts/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Lasley",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/michael-lasley/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lina Geriguis",
+        "department": "English",
+        "background": "https://www.scu.edu/phonebook/15606/Lina-Geriguis",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Leonard Crosby",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/leonard-crosby/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Matthew Driscoll | Matt Driscoll",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/matt-driscoll/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ryan Ikeda",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/ryan-ikeda/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mostafa Jalal",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/mostafa-jalal/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sean Negus",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/sean-negus/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christopher Pascua",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/christopher-pascua/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Amna Yusuf",
+        "department": "English",
+        "background": "https://www.scu.edu/phonebook/15430/Amna-Yusuf",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kirstyn Leuner",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/kirstyn-leuner/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Theresa Conefrey",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/theresa-conefrey/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Margarita Levantovskaya",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/margarita-levantovskaya/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Scott Wagar",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/scott-wagar/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Danielle Morgan",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/danielle-morgan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maura Tarnoff",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/maura-tarnoff/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nora Eltahawy",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/nora-eltahawy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jose Villagrana",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/jose-villagrana/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Aparajita Nanda",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/ethnic-studies/faculty--staff/aparajita-nanda/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jean-Pierre Lacrampe",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/jean-pierre-lacrampe/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mathew Gomes | Matt Gomes",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/mathew-gomes/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Cruz Medina",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/cruz-medina/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Daniel B. Summerhill",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/daniel-b-summerhill/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Simone Billings",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/simone-billings/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Melissa Donegan",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/melissa-donegan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Loring Pfeiffer",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/loring-pfeiffer/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jacquelyn Hendricks",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/jackie-hendricks/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michelle Burnham",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/michelle-burnham/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Robin Tremblay-McGaw",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/robin-tremblay-mcgaw/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Amy Lueck",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/amy-lueck/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lazlo Ilya Pearlman | Lazlo Ilya Pearlman",
+        "department": "English",
+        "background": "https://www.scu.edu/theatre/faculty--staff/lazlo-pearlman/pearlman.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Juan Velasco-Moreno",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/juan-velasco-moreno/velasco-moreno.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kirk Glaser",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/kirk-glaser/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Stephen Carroll",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/stephen-carroll/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Allia Griffin",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/ethnic-studies/faculty--staff/allia-griffin/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Brian Thorstenson",
+        "department": "English",
+        "background": "https://www.scu.edu/theatre/faculty--staff/brian-thorstenson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nicholas Leither",
+        "department": "English",
+        "background": "https://www.scu.edu/cas/english/faculty--staff/nicholas-leither/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Raghavendra Morusupalli | Rao Morusupalli",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/morusupalli-rao/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Junho Park",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/park-junho/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jessica Kuczenski | Jes Kuczenski",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/engineering/beyond-the-classroom/community-based-learning/about-us/kuczenski.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kathryn Moles | Katia Moles",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/moles-katia/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Matthew Gaudet | Matthew Gaudet",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/gaudet-matthew/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Fatemeh Davoudi Kakhki",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/davoudi-fatemeh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Bob Schaffer | Bob Schaffer",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/schaffer-bob/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Katherine Sun | Kathy Sun",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/ecp/faculty/educationfaculty/kathy-liu-sun-phd/sun.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "William Jacobs",
+        "department": "Engineering",
+        "background": "https://www.linkedin.com/in/wdjacobs/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kimberly Hill | Kimberly Hill",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/theatre/faculty--staff/kimberly-mohne-hill/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mark Weiner",
+        "department": "Engineering",
+        "background": "https://www.scu.edu/business/alumni/profiles/weiner/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Andy Kulikowski II",
+        "department": "Environ Studies & Sciences",
+        "background": "https://envs.ucsc.edu/about/grad-directory.php?uid=akulikow",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Theodore Grudin | Ted Grudin",
+        "department": "Environ Studies & Sciences",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/ted-grudin/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Carolyn Trist",
+        "department": "Environ Studies & Sciences",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/carolyn-trist/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Iris Stewart-Frey",
+        "department": "Environ Studies & Sciences",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/iris-stewart-frey/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Charles Gabbe | C.J. Gabbe",
+        "department": "Environ Studies & Sciences",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/cj-gabbe/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christopher Bacon",
+        "department": "Environ Studies & Sciences",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/christopher-bacon/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Leslie Gray",
+        "department": "Environ Studies & Sciences",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/leslie-gray/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Stephanie Hughes",
+        "department": "Environ Studies & Sciences",
+        "background": "https://www.scu.edu/cas/ess/faculty-and-staff/stephanie-hughes/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jesica Fernandez",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/ethnic-studies/faculty--staff/jesica-fernandez/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Pearl Barros",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/pearl-maria-barros/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Anthony Hazard",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/anthony-hazard/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "James Lai",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/ethnic-studies/faculty--staff/james-s-lai/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "CJ Jones",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/wgst/faculty-and-staff/cj-jones/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Harry Odamtten",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/harry-odamtten/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Bryson White",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/bryson-white/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Di Di",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/sociology/faculty-and-staff/di-di/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sonia Gomez",
+        "department": "Ethnic Studies",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/sonia-gomez/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Joseph Ori | Joe Ori",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/ori/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hoje Jo",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/jo/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ye Cai",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/cai/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Manish Tewari",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/tewari/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gregory Perelman",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/perelman-gregory/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Chinh Nguyen | Tony Nguyen",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/tnguyen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gustavo Schwenkler",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/schwenkler/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yunjeen Kim",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/kyunjeen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Elyas Fermand",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/fermand/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Scott Daugherty",
+        "department": "Finance",
+        "background": "https://www.linkedin.com/in/scott-daugherty-791a598/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jonathan Masse",
+        "department": "Finance",
+        "background": "https://www.linkedin.com/in/jonathan-masse-3140a59/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Wen-Yao Ku",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/ku/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Daniel Trepanier | Dan Trepanier",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/graduate-degrees/ms-programs/ms-business-analytics/faculty/trepanier-dan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Karl Motey",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/kmotey/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Meir Statman",
+        "department": "Finance",
+        "background": "https://www.scu.edu/business/finance/faculty/statman/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Keziah Poole",
+        "department": "French & Francophone Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/keziah-poole/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jeffrey Burkholder",
+        "department": "French & Francophone Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/jeffrey-burkholder/burkholder.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nina Tanti",
+        "department": "French & Francophone Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/nina-tanti/tanti.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jimia Boutouba",
+        "department": "French & Francophone Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/jimia-boutouba/boutouba.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ruth Conza-Roman",
+        "department": "German Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/ruth-conza-roman/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Josef Hellebrandt",
+        "department": "German Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/josef-hellebrandt/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Brillman",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/michael-brillman/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Megan Gudgeirsson | Meg Gudgeirsson",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/meg-gudgeirsson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mateo Carrillo",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/mateo-carrillo/carrillo.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Marwan Daoud Hanania",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/marwan-daoud-hanania/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Paul Mariani",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/paul-mariani-sj/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Barbara Molony",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/barbara-molony/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thomas Turley",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/thomas-turley/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gregory Wigmore | Greg Wigmore",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/gregory-wigmore/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Matthew Newsom Kerr",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/matthew-newsom-kerr/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nancy Unger | Nancy Unger",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/nancy-unger/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Naomi Andrews",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/naomi-j-andrews/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Amy Randall",
+        "department": "History",
+        "background": "https://www.scu.edu/cas/history/faculty-and-staff/amy-e-randall/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Irene Bubula-Phillips",
+        "department": "Italian Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/irene-bubula-phillips/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maria Bertola | Marie Bertola",
+        "department": "Italian Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages//faculty--staff/marie-bertola/bertola.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Evelyn Ferraro",
+        "department": "Italian Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages//faculty--staff/evelyn-ferraro/ferraro.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Tomoko Takeda",
+        "department": "Japanese Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/tomoko-takeda/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Seiko Fujii | Seiko Horibe",
+        "department": "Japanese Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/seiko-fujii/horibe-fujii.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Georgina Santiago De Robles | Georgina Santiago",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/hr/about-hr/profiles/santiago.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Neena Troxell",
+        "department": "Lead Scholars Program",
+        "background": "https://www.linkedin.com/in/neenabayarea22/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ricardo Cortez",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/phonebook/4622/Cortez-Ricardo",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lori Salazar",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/phonebook/4609/Salazar-Lori",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Raymond Plaza",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/provost/about-the-provost/provosts-office-directory/ray-plaza/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Clare Gordon Bettencourt",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/phonebook/3340/Gordon-Bettencourt-Clare",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thomas Fields",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/lead/resources-/first-gen-facultystaffadministration/scu-first-gen-stafffaculty-administration-profiles/fields.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thiadora Pina",
+        "department": "Lead Scholars Program",
+        "background": "https://law.scu.edu/faculty/profile/pina-thiadora/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Veronica Villa",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/lead/about-lead/about-the-staff/villa.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Natasha Zubair",
+        "department": "Lead Scholars Program",
+        "background": "https://www.scu.edu/lead/resources-/first-gen-facultystaffadministration/scu-first-gen-stafffaculty-administration-profiles/zubair.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mary Long",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/mary-long/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Reza Shariatmadari",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/reza-shariatmadari/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Priya Babu",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/priya-babu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Katelyn Byington | Katelyn White Byington",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/katelyn-byington/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "William Dana | Will Dana",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/will-dana/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Joshua Grice",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/josh-grice/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gayathri Chakravarthy",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/gayathri-chakravarthy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Fady El Chidiac",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/fady-el-chidiac/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shruthi Sridhar",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/shruthi-sridhar/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Luvreet Sangha",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/luvreet-sangha/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Linda Burks",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/linda-burks/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Robert Bekes",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/robert-bekes/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Laurie Poe",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/laurie-poe/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Chi-Yun Hsu",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/chi-yun-hsu/hsu.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Corey Irving",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/corey-irving/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Norman Paris",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/norman-paris/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shilpa Dasgupta",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/shilpa-dasgupta/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Dennis Smolarski",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/dennis-smolarski/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mehdi Ahmadi",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/mehdi-ahmadi/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shamil Asgarli",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/shamil-asgarli/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mona Musa",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/mona-musa/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "George Schaeffer",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/george-schaeffer/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Preeti Mohindru",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/preeti-mohindru/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Marco Atzori",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sarah Tamsen McGinley",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/tamsen-mcginley/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Byron Walden",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/byron-walden/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Glenn Appleby",
+        "department": "Mathematics",
+        "background": "https://www.scu.edu/cas/mathcs/faculty-and-staff/glenn-appleby/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Rodney Broome",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/academic-programs/department-of-mechanical-engineering/faculty-and-staff/broome.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Peter Woytowitz",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/academic-programs/department-of-mechanical-engineering/faculty-and-staff/woytowitz.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sthanu Mahadev",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/academic-programs/department-of-mechanical-engineering/faculty-and-staff/mahadev.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "On Shun Pak",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/pak-on-shun/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Robert Marks",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/marks-robert/x",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Drazen Fabris",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/fabris-drazen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sina Heydari",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/academic-programs/department-of-mechanical-engineering/faculty-and-staff/heydari.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Neumann",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/academic-programs/department-of-mechanical-engineering/faculty-and-staff/neumann.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nikola Djordjevic",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/phonebook/2822/Nikola-Djordjevic",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jun Wang",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/wang-jun/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hohyun Lee",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/lee-hohyun/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Taylor",
+        "department": "Mechanical Engineering",
+        "background": "https://www.scu.edu/engineering/faculty/michael-j-taylor/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ewan Kingston",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/kingston/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michael Santoro",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/santoro/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Alina Adams",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/alumni/profiles/adams/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Vahideh Abaeian",
+        "department": "Management",
+        "background": "https://www.linkedin.com/in/vahidehabaeian/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Long Le",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/le/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ihsen Ketata Aref",
+        "department": "Management",
+        "background": "https://www.linkedin.com/in/ihsen-ketata-49596916/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Francine Gordon | Francine Gordon",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/gordon/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christina Johnson",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/johnson-c/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Priyanka Parikh",
+        "department": "Management",
+        "background": "https://www.linkedin.com/in/priyanka-parikh-54997721/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Esther Sackett",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/esackett/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sohvi Heaton",
+        "department": "Management",
+        "background": "https://www.linkedin.com/in/sohvi-heaton-099697140/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Xiaoying Ji | Fiona Ji",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/ji/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shaohua Lu",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/lu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Andy El-Zayaty",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/el-zayaty-andy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "John Caffey",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/caffey/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kristin Piderit",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/management/faculty/piderit/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Byron Adams | Chip Adams",
+        "department": "Management",
+        "background": "https://www.linkedin.com/in/chip-adams-a688ba11/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Charles Berger",
+        "department": "Management",
+        "background": "https://www.scu.edu/business/alumni/profiles/berger/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Steve Skotzke",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/phonebook/10918/Skotzke-Steve",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kirthi Kalyanam",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/business/marketing/faculty/kalyanam/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Patrick Williams",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/phonebook/6797/Patrick-Williams",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jang Won Choi | Jangwon Choi",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/business/marketing/faculty/choi/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Aditi Bajaj",
+        "department": "Marketing",
+        "background": "https://www.linkedin.com/in/aditibajaj/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shunyao Yan",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/business/marketing/faculty/syan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Rebecca Chae",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/business/marketing/faculty/rchae/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Peng Liu",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/business/marketing/faculty/pliu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Rafay Siddiqui",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/business/marketing/faculty/siddiqui/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Bhavna Sharma",
+        "department": "Marketing",
+        "background": "https://www.linkedin.com/in/bhavna-sharmaprofile/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sujata Ramnarayan",
+        "department": "Marketing",
+        "background": "https://www.scu.edu/business/marketing/faculty/ramnarayan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Teresa McCollough",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/teresa-mccollough/mccollough.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "William Stevens",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/bill-stevens/stevens.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christina Zanfagna",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/christina-zanfagna/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kaori Suzuki",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/kaori-suzuki/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ray Furuta | Ray Furuta",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/rayo-furuta/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nancy Wait-Kromm",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/nancy-wait-kromm/wait-kromm.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Anthony Rivera | Tony Rivera",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/anthony-rivera/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jason Gallardo",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/jason-gallardo/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Scot Hanna-Weir",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/scot-hanna-weir/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Carl Schultz",
+        "department": "Music",
+        "background": "https://www.scu.edu/cas/music/faculty-and-staff/carl-schultz/schultz.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jennifer Frihauf",
+        "department": "Neuroscience",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/jennifer-frihauf/frihauf.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sriparna Majumdar",
+        "department": "Neuroscience",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/sriparna-majumdar/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sumana Sur",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/sur/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "David Zimbra",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/zimbra/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jingbo Hou",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/hou/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Xuan Tan",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/xtan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yaqiong Wang",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/ywang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Simrita Singh",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/ssingh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Richard Schaffzin",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/schaffzin/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sterling Starbird | Drew Starbird",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/starbird/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Homi Fatemi",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/fatemi/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Xiang Wan",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/wan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Yu-Wei Lin",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/lin/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michele Samorani",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/samorani/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mehmet Goceri | Matt Goceri",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/goceri/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thunyarat Amornpetchkul",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/apps/phonebook/11781/Amornpetchkul-Thunyarat-(Bam)",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Tao Li",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/li/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Wilson Lin",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/wlin/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Haibing Lu",
+        "department": "Information Systems & Analytics",
+        "background": "https://www.scu.edu/business/isa/faculty/lu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nicholas Sars",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/nicholas-sars/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Madeline Cronin",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/madeline-ahmed-cronin/ahmed-cronin.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Robert Shanklin",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/robert-shanklin/shanklin.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Erin Bradfield",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/erin-bradfield/bradfield.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Meilin Chinn",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/meilin-chinn/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Erick Ramirez",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/erick-j-ramirez/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Eric Yang",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/eric-yang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Justin Clardy",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/justin-clardy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kimberly Dill",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/kimberly-dill/dill.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Matthew Izor",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/matthew-izor/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jeffrey Steele | Jeff Steele",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/jeff-steele/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christopher Kulp",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/christopher-b-kulp/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lawrence Nelson",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/lawrence-nelson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Marie Evanston",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/marie-evanston/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Susan Kennedy",
+        "department": "Philosophy",
+        "background": "https://www.scu.edu/cas/philosophy/faculty-and-staff/susan-kennedy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Michele Parker",
+        "department": "Public Health Science",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/michele-parker/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sheila Yuter",
+        "department": "Public Health Science",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/sheila-yuter/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Alice Villatoro",
+        "department": "Public Health Science",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/alice-villatoro/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Micah Lattanner",
+        "department": "Public Health Science",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/micah-lattanner/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sarah Hays",
+        "department": "Public Health Science",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/sarah-hays/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jennet Arcara",
+        "department": "Public Health Science",
+        "background": "https://www.scu.edu/cas/public-health/faculty-staff/jennet-arcara/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Meredith Lierk",
+        "department": "Public Health Science",
+        "background": "https://www.scu.edu/phonebook/14853/Meredith-Lierk",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Nathan Williams",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/nathan-williams/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Omid Ahmadi-Gorgi",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/omid-ahmadi-gorgi/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Roxana Flacau",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/roxana-flacau/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kristin Kulas",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/kristin-kulas/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Shan Wu",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/shan-wu/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "John Jameson",
+        "department": "Physics",
+        "background": "https://www.scu.edu/engineering/academic-programs/department-of-electrical-engineering/laboratories/tent-laboratory/member-profiles/jameson.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Hassan Alshal",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/hassan-alshal/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Bachana Lomsadze",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/bachana-lomsadze/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Betty Young",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/betty-a-young/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Guy Ramon",
+        "department": "Physics",
+        "background": "https://www.scu.edu/cas/physics/faculty/guy-ramon/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thomas Meredith",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/thomas-meredith/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Vivien Leung",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/vivien-leung/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jesilyn Faust",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/apps/phonebook/15603/Jesilyn-Faust",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Diana Morlang",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/diana-morlang/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Farid Senzai",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/farid-senzai/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Eric Mosinger",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/eric-mosinger/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jane Curry",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/jane-curry/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gregory Corning | Greg Corning",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/greg-corning/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Peter Minowitz",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/peter-minowitz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Timothy Lukes",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/timothy-j-lukes/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kenneth Faulve-Montojo",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/kenneth-faulve-montojo/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Fiorella Vera-Adrianzen",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/fiorella-vera-adrianzen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Dennis Gordon",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/dennis-gordon/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Matthew Harrigan",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/matthew-harrigan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sharmila Lodhia",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/wgst/faculty-and-staff/sharmila-lodhia/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Naomi Levy",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/naomi-levy/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Elsa Chen",
+        "department": "Political Science",
+        "background": "https://www.scu.edu/cas/political-science/faculty--staff/elsa-chen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Barbara O'Brien",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/barbara-obrien/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Steven Del Chiaro",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/steven-del-chiaro/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Romina Joy Miller",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/romina-sevilla-miller/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jui Bhagwat",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/jui-bhagwat/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Dena Sadeghi Bahmani",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/dena-sadeghi-bahmani/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Giselle Laiduc",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/giselle-laiduc/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Birgit Koopmann-Holm",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/birgit-koopmann-holm/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Timothy Urdan | Tim Urdan",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/tim-urdan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kieran Sullivan",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/kieran-sullivan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thomas Plante",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/tplante/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lang Chen",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/lang-chen/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lisa Whitfield",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/lisa-whitfield/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kathryn Bruchmann",
+        "department": "Psychology",
+        "background": "https://www.scu.edu/cas/psychology/faculty-and-staff/kathryn-bruchmann/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thao Nguyen",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/thao-nguyen-sj/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Thien-Huong Ninh",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/thien-huong-ninh/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kevin Chaves",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/kevin-chaves/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jaime Wright",
+        "department": "Religion & Society",
+        "background": "https://scu.edu/cas/religious-studies/faculty--staff/jaime-wright/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sarita Tamayo-Moraga",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/sarita-tamayo-moraga/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Karl Lampley",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/karl-lampley/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Elizabeth Drescher",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/elizabeth-drescher/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Daniel Morgan",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/daniel-morgan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "David Gray",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/david-gray/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "John Heller",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/rick-heller/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Eric Haynie",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/eric-haynie/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christopher Tirres",
+        "department": "Religion & Society",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/chris-tirres/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Cathleen Chopra-McGowan",
+        "department": "Scripture & Tradition",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/cathleen-chopra-mcgowan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Roberto Mata",
+        "department": "Scripture & Tradition",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/roberto-mata/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Paul Schutz",
+        "department": "Scripture & Tradition",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/paul-schutz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Diana Gibson",
+        "department": "Scripture & Tradition",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/diana-gibson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Cara Chiaraluce",
+        "department": "Sociology",
+        "background": "https://www.scu.edu/cas/sociology/faculty-and-staff/cara-chiaraluce/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jason Laker",
+        "department": "Sociology",
+        "background": "http://www.jasonlaker.com/tags",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Laura Nichols",
+        "department": "Sociology",
+        "background": "https://www.scu.edu/cas/sociology/faculty-and-staff/laura-nichols/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Laura Robinson",
+        "department": "Sociology",
+        "background": "https://www.scu.edu/cas/sociology/faculty-and-staff/laura-robinson/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Molly King",
+        "department": "Sociology",
+        "background": "https://www.scu.edu/cas/sociology/faculty-and-staff/molly-king/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Patrick Lopez-Aguado",
+        "department": "Sociology",
+        "background": "https://www.scu.edu/cas/sociology/faculty-and-staff/patrick-lopez-aguado/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Margaret Hunter",
+        "department": "Sociology",
+        "background": "https://www.scu.edu/cas/sociology/faculty-and-staff/maggie-hunter/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maricela Portillo Loayza",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/phonebook/11805/Portillo-Loayza-Maricela",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Kayce Davis",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/kayce-davis/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Edith Leni",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/edith-leni/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Victor Quiroz",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/victor-quiroz/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ariel Schindewolf",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/ariel-schindewolf/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Maria Bauluz",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/maria-bauluz/bauluz.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jill Pellettieri",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/jill-pellettieri/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Laura Callahan",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/laura-callahan/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Abel Cruz Flores",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/abel-cruz-flores/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Arthur Strawbridge | Tripp Strawbridge",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/tripp-strawbridge/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jose Ortigas",
+        "department": "Spanish Studies",
+        "background": "https://www.scu.edu/cas/modernlanguages/faculty--staff/jose-ortigas/ortigas.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Sally Vance-Trembath",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/sally-vance-trembath/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Lynn Hillberg",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/lynn-hillberg-/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Justina Torrance",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/justina-torrance/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Christina Atienza",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://preview.scu.edu/cas/religious-studies/faculty--staff/christina-atienza/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Elyse Raby",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/elyse-raby/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Eugene Schlesinger",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/eugene-schlesinger/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Vincent Olea",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/vince-olea/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Karen Peterson-Iyer | Karen Iyer",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/karen-peterson-iyer/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Ana Pineda RSM | Ana Maria Pineda Rsm",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/ana-maria-pineda/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Robert Scholla",
+        "department": "Theology Ethics & Spirituality",
+        "background": "https://www.scu.edu/cas/religious-studies/faculty--staff/rob-scholla-sj/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Gaywyn Moore",
+        "department": "Theatre",
+        "background": "https://www.scu.edu/theatre/faculty--staff/gaywyn-moore/moore.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Aldo Billingslea",
+        "department": "Theatre",
+        "background": "https://www.scu.edu/theatre/faculty--staff/aldo-billingslea/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Jeffrey Bracco",
+        "department": "Theatre",
+        "background": "https://www.scu.edu/theatre/faculty--staff/jeffrey-bracco/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Karina Gutierrez",
+        "department": "Theatre",
+        "background": "https://www.scu.edu/theatre/faculty--staff/karina-gutierrez/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Heather Kenyon",
+        "department": "Theatre",
+        "background": "https://www.scu.edu/theatre/faculty--staff/heather-kenyon/kenyon.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Derek Duarte",
+        "department": "Theatre",
+        "background": "https://www.scu.edu/theatre/faculty--staff/derek-duarte/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Erik Sunderman",
+        "department": "Theatre",
+        "background": "https://www.scu.edu/theatre/faculty--staff/erik-sunderman/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "CiAuna Heard",
+        "department": "Women's and Gender Studies",
+        "background": "https://www.scu.edu/cas/wgst/faculty-and-staff/ciauna-heard/heard.html",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Mukta Sharangpani",
+        "department": "Women's and Gender Studies",
+        "background": "https://www.scu.edu/cas/wgst/faculty-and-staff/-mukta-sharangpani/",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    },
+    {
+        "professorName": "Unlisted Professor",
+        "department": "Empty",
+        "background": "Empty",
+        "courses": [],
+        "ratingCount": 0,
+        "ratingTotal": 0,
+        "tags": [],
+        "rating": null
+    }
+]
