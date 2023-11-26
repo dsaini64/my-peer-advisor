@@ -31,7 +31,13 @@ function SearchBar() {
         placeholder='Search for class/professor...'/>
       <button
         onClick={() => {
+          if (search == "") {
+            return;
+          }
+          else 
+          {
           router.push('/searchPage?q=' + search);
+          }
         }}
       >Search</button>
     </div>
