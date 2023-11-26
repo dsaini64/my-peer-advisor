@@ -44,9 +44,9 @@ sudo systemctl start mongod.service
 sudo systemctl status mongod
 ```
 
-from the root folder, navigate to the folder with the test database dump
+from the root folder, navigate to the folder with the data
 ```sh
-cd data/dummy
+cd data/real
 ```
 
 then run the following command
@@ -56,5 +56,5 @@ mongorestore dump
 
 if you want to use a different name for your database, instead run
 ```sh
-mongorestore --db alternative_db_name dump/epsilon/
+mongorestore --db alternative_db_name dump/tau/
 ```
