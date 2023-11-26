@@ -1,40 +1,39 @@
+"use client"
+
 import Image from 'next/image'
 import React from 'react';
-//import { useNavigate } from 'react-router-dom';
-//import { useRouter } from 'next/router';
-//import { useRouter } from 'next/navigation';
-//import SearchBar from './SearchBar';
+import Link from 'next/link';
+import { useState } from "react";
+import { useRouter } from 'next/navigation';
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
 
-export default function MyApp() {
+export default function Homepage() {
   return (
     <div>
-      <h1>My Peer Advisor</h1>
-      {typeof window !== 'undefined' && <SearchBar />}
+      <div className='MyPeerAdvisorHeader'>
+        <h1 >My Peer Advisor</h1>
+      </div>
+      <SearchBar />
     </div>
   );
 }
 
 function SearchBar() {
-  //const navigate = useNavigate();
-  const router = require('next/router').useRouter();
-
-  const navigateToSecondPage = () => {
-    //navigate("/second");
-    router.push("/second");
-  };
+  const router = useRouter();
+  const [search, setSearch] = useState("");
 
   return (
     <div className="search-bar">
-      <input type="text" placeholder="Search..." />
-      <button  onClick={navigateToSecondPage}>Search</button>
+      <input 
+        onChange={(e) => setSearch(e.target.value)}
+        type="text"  
+        value={search} 
+        placeholder='Search for class/professor...'/>
+      <button
+        onClick={() => {
+          router.push('/searchPage?q=' + search);
+        }}
+      >Search</button>
     </div>
   );
 }
