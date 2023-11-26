@@ -8,14 +8,13 @@ export default function ClassPage({ params }: { params: { id: string } }) {
   const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch(`http://localhost:3000/api/page/${params.id}`)
+        fetch(`http://localhost:3000/api/course/${params.id}`)
             .then(res => res.json())
             .then(data => {
                 setData(data)
                 setLoading(false)
             })
-    
-}, [])
+    }, [])
 
   console.log(data);
 
