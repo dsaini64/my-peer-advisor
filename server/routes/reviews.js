@@ -4,6 +4,31 @@ const mongoose = require('mongoose');
 const Review = require('../../data/models/review_schema');
 const {validateID} = require('./validators');
 
+/**
+ * @swagger
+ * /api/v1/reviews/{id}/like:
+ *   patch:
+ *     summary: Like a review
+ *     description: Allows a user to like a specific review. Users can only like a review once.
+ *     tags:
+ *       - Reviews
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: Unique identifier of the review to like.
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully liked the review.
+ *       400:
+ *         description: Invalid review ID.
+ *       403:
+ *         description: You already liked this review.
+ *       500:
+ *         description: Internal server error.
+ */
 // User should be able to like a review (High priority feature)
 router.patch("/:id/like", async (req, res) => {
     const reviewIdentifier = req.params.id;
@@ -34,6 +59,31 @@ router.patch("/:id/like", async (req, res) => {
     }
 });
 
+/**
+ * @swagger
+ * /api/v1/reviews/{id}/dislike:
+ *   patch:
+ *     summary: Dislike a review
+ *     description: Allows a user to dislike a specific review. Users can only dislike a review once.
+ *     tags:
+ *       - Reviews
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: Unique identifier of the review to dislike.
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully disliked the review.
+ *       400:
+ *         description: Invalid review ID.
+ *       403:
+ *         description: You already disliked this review.
+ *       500:
+ *         description: Internal server error.
+ */
 // User should be able to dislike a review (High priority feature)
 router.patch("/:id/dislike", async (req, res) => {
     const reviewIdentifier = req.params.id;

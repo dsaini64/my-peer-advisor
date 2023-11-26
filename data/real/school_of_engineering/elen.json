@@ -1,0 +1,1379 @@
+[
+    {
+      "courseName": "Emerging Areas in Electrical and Computer Engineering",
+      "classCode": "ELEN 20",
+      "description": "Introduction to new frontiers in electrical and computer engineering. Hands-on activities and visits to research and production facilities in Silicon Valley companies to learn how the fundamentals of electrical and computer engineering are enabling new emerging technologies. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Logic Design",
+      "classCode": "ELEN 21",
+      "description": "Boolean functions and their minimization. Combinational circuits: adders, multipliers, multiplexers, decoders. Sequential logic circuits: latches and flip-flops, registers, counters. Memory. Busing. Programmable logic. Use of industry quality CAD tools for schematic capture and HDL in conjunction with FPGAs. Also listed as COEN 21. Corequisite: ELEN 21L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Logic Design Laboratory",
+      "classCode": "ELEN 21L",
+      "description": "Laboratory for ELEN 21. Also listed as COEN 21L. Corequisite: ELEN 21. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Fundamentals of Electricity for Civil Engineers",
+      "classCode": "ELEN 49",
+      "description": "Transducers. Motors, generators and efficiency. DC and AC circuits. One and three-phase power systems. Sources of electricity. Hydroelectric power, generation, and pumps. Electrical diagrams and schematics. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electric Circuits I",
+      "classCode": "ELEN 50",
+      "description": "Physical basis and mathematical models of circuit components and energy sources. Circuit theorems and methods of analysis are applied to DC and AC circuits. Prerequisites: Math 13. Corequisite: ELEN 50L, Math 14. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electric Circuits I Laboratory",
+      "classCode": "ELEN 50L",
+      "description": "Laboratory for ELEN 50. Corequisite: ELEN 50. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electric Circuits II",
+      "classCode": "ELEN 100",
+      "description": "Continuation of ELEN 50. Sinusoidal steady state and phasors, transformers, resonance, Laplace analysis, transfer functions. Frequency response analysis. Bode diagrams. Switching circuits. Prerequisite: ELEN 50 with a grade of C- or better, or PHYS 70. Corequisite: ELEN 100L, AMTH 106. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electric Circuits II Laboratory",
+      "classCode": "ELEN 100L",
+      "description": "Laboratory for ELEN 100. Corequisite: ELEN 100. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electromagnetics I",
+      "classCode": "ELEN 104",
+      "description": "Vector analysis and vector calculus. The laws of Coulomb, Lorentz, Faraday, and Gauss. Dielectric and magnetic materials. Energy in electric and magnetic fields. Capacitance and inductance. Maxwell\u2019s equations. Wave equation. Poynting vector. Wave propagation and reflection in transmission lines. Radiation. Prerequisites: PHYS 33 and ELEN 50 with a grade of C- or better. Corequisite: ELEN 104L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electromagnetics I Laboratory",
+      "classCode": "ELEN 104L",
+      "description": "Laboratory for ELEN 104. Corequisite: ELEN 104. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electromagnetics II",
+      "classCode": "ELEN 105",
+      "description": "In-depth study of several areas of applied electromagnetics such as transmission lines circuits including microstrip and strip lines, Smith Chart and bounce diagram, magnetic circuits, antennas and antenna arrays. Prerequisite: ELEN 104. Corequisite: ELEN 105L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electromagnetics II Laboratory",
+      "classCode": "ELEN 105L",
+      "description": "Laboratory for ELEN 105. Corequisite: ELEN 105. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Linear Systems",
+      "classCode": "ELEN 110",
+      "description": "Signals and system modeling. Laplace transform. Transfer function. Convolution. Discrete systems. Frequency analysis. Fourier series and transform. Filtering. State-Space models. Prerequisite: ELEN 100. Corequisite: ELEN 110L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Linear Systems Laboratory",
+      "classCode": "ELEN 110L",
+      "description": "Laboratory for ELEN 110. MATLAB laboratory/problem sessions. Corequisite: ELEN 110. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Modern Network Synthesis and Design",
+      "classCode": "ELEN 112",
+      "description": "Approximation and synthesis of active networks. Filter design using positive and negative feedback biquads. Sensitivity analysis. Fundamentals of passive network synthesis. Design project. Prerequisite: ELEN 110. Corequisite: ELEN 112L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Modern Network Synthesis and Design Laboratory",
+      "classCode": "ELEN 112L",
+      "description": "Laboratory for ELEN 112. Corequisite: ELEN 112. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electronic Circuits I",
+      "classCode": "ELEN 115",
+      "description": "Study of basic principles of operation, terminal characteristics, and equivalent circuit models for diodes and transistors. Analysis and design of diode circuits, transistor amplifiers, and inverter circuits. Prerequisite: ELEN 50 with a grade of C- or better. Corequisite: ELEN 115L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Electronic Circuits I Laboratory",
+      "classCode": "ELEN 115L",
+      "description": "Laboratory for ELEN 115. Corequisite: ELEN 115. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Analog Integrated Circuit Design",
+      "classCode": "ELEN 116",
+      "description": "Design and analysis of multistage analog amplifiers. Study of differential amplifiers, current mirrors and gain stages. Frequency response of cascaded amplifiers and gain-bandwidth considerations. Concepts of feedback, stability, and frequency compensation. Prerequisite: ELEN 115. Corequisite: ELEN 116L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Analog Integrated Circuit Design Laboratory",
+      "classCode": "ELEN 116L",
+      "description": "Laboratory for ELEN 116. Corequisite: ELEN 116. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Analog Integrated Circuits",
+      "classCode": "ELEN 117",
+      "description": "Design and analysis of BJT and MOSFET analog ICs. Study of analog circuits such as comparators, sample/hold amplifiers, and switched capacitor circuits. Architecture and design of analog to digital and digital to analog converters. Reference and biasing circuits. Study of noise and distortion in analog ICs. Prerequisite: ELEN 116. Corequisite: ELEN 117L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Analog Integrated Circuits Laboratory",
+      "classCode": "ELEN 117L",
+      "description": "Laboratory for ELEN 117. Corequisite: ELEN 117. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Fundamentals of Computer-Aided Circuit Simulation",
+      "classCode": "ELEN 118",
+      "description": "Introduction to algorithms and principles used in circuit simulation packages (such as SPICE). Formulation of equations for linear and nonlinear circuits. Detailed study of the three different types of circuit analysis (AC, DC, and transient). Discussion of computational aspects, including sparse matrices, Newton\u2019s method, numerical integration, and parallel computing. Applications to electronic circuits, active filters, and CMOS digital circuits. Course includes a number of design projects in which simulation software is written in MATLAB and verified using SPICE. Prerequisites: ELEN 21, with a grade of C- or better; ELEN 100 and 115. Corequisite: ELEN 118L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Fundamentals of Computer-Aided Circuit Simulation Laboratory",
+      "classCode": "ELEN 118L",
+      "description": "Laboratory for ELEN 118. Corequisite: ELEN 118. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Current Topics in Electrical and Computer Engineering",
+      "classCode": "ELEN 119",
+      "description": "Subjects of current interest. May be taken more than once if topics differ. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Microprocessor System Design",
+      "classCode": "ELEN 120",
+      "description": "Design and analysis of microprocessor-based systems. ARM architecture and Assembly Language programming.  Integration of digital and analog input/output devices. Interrupts and Timers, Bus timing analysis, ADC and DAC, Waveform synthesis, Serial communication, Displays. Embedded computing platforms. Prerequisites:  A grade of C- or better in (COEN-21 or ELEN-21 and in COEN-11). Co-requisite: ELEN 120L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Microprocessor System Design Laboratory",
+      "classCode": "ELEN 120L",
+      "description": "Laboratory for ELEN 120. Lab projects based on an embedded computer module to practical applications that reinforce class concepts and provide some opportunities for creative design. Prerequisites : A grade of C- or better in ELEN 21 and COEN 11. Co-requisite: ELEN 120. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Real-Time Embedded Systems",
+      "classCode": "ELEN 121",
+      "description": "Computing systems that measure, control, and interact. Real-time principles (multitasking, scheduling, synchronization), interfacing sensors, actuators and peripherals, implementation trade-offs, development environments, embedded software (file systems, drivers, libraries, software re-use, concurrency), buffered communications,  Real-time multimedia. Prerequisites: A grade of C- or better in ELEN-120. Co-requisite: ELEN 121L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Real-Time Embedded Systems Laboratory",
+      "classCode": "ELEN 121L",
+      "description": "Laboratory for ELEN 121. Co-requisite: ELEN 121. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Computer Architecture",
+      "classCode": "ELEN 122",
+      "description": "Application of logic design concepts to computer architecture. Computation state machines. Computer instruction definition and formatting, the use of opcodes and operands. Memory, and how it is used to store instructions and data. Instruction execution (datapath design) and control transfer. Application of critical path concepts (performance evaluation) and Pipelining and Hazards. Caches and virtual memory. Hardware support for virtual memory. Prerequisites: A grade of C- or better in either COEN or ELEN 21. Co-requisite: ELEN 122L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Computer Architecture Laboratory",
+      "classCode": "ELEN 122L",
+      "description": "Laboratory for ELEN 122; implementation of simple datapath and its control logic in Verilog . Co-requisite: ELEN 122. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Mechatronics",
+      "classCode": "ELEN 123",
+      "description": "Introduction to behavior, design, and integration of electromechanical components and systems. Review of appropriate electronic components/circuitry, mechanism configurations, and programming constructs. Use and integration of sensors, microcontrollers, and actuators. Also listed as COEN 123 and MECH 143. Prerequisite: ELEN 50 with a grade of C- or better and COEN 11. Corequisite: ELEN 123L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Mechatronics Laboratory",
+      "classCode": "ELEN 123L",
+      "description": "Laboratory for ELEN 123. Also listed as COEN 123L and MECH 143L. Corequisite: ELEN 123. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Logic Design",
+      "classCode": "ELEN 127",
+      "description": "Contemporary design of finite-state machines as system controllers using FPGA devices. Minimization techniques, performance analysis, and modular system design. HDL simulation and synthesis. Also listed as COEN 127. Prerequisite: ELEN 21 with a grade of C- or better. Corequisites: ELEN 127L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Logic Design Laboratory",
+      "classCode": "ELEN 127L",
+      "description": "Laboratory for ELEN 127. Design, construction, and testing of controllers from verbal specs. Use of CAD design tools. Also listed as COEN 127L. Corequisite: ELEN 127. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Control Systems",
+      "classCode": "ELEN 130",
+      "description": "Applications of control systems in engineering. Principle of feedback. Performance specifications: transient and steady-state response. Stability. Design of control systems by frequency and root locus methods. Computer-controlled systems. State-variable feedback design. Also listed as ELEN 230. Prerequisite: ELEN 110. Corequisite: ELEN 130L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Control Systems Laboratory",
+      "classCode": "ELEN 130L",
+      "description": "Laboratory for ELEN 130. Corequisite: ELEN 130. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Robotics",
+      "classCode": "ELEN 131",
+      "description": "Overview of robotic systems and application areas. Kinematic Analysis of Robotic Manipulators. Joint-space trajectory planning. Linear PID control for manipulators. Prerequisite: AMTH 106. Corequisite: ELEN 131L (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Robotics Laboratory",
+      "classCode": "ELEN 131L",
+      "description": "Laboratory for ELEN 131. Laboratory for Robot Programming using Python and Robot Operating System (ROS): Prerequisite: Basic Programming. Corequisite: ELEN 131. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design of Assistive Technologies",
+      "classCode": "ELEN 132",
+      "description": "Accessible and Interactive Design. Design of Assistive Technologies. Prototype Development. Data Gathering. Data Analysis, Interpretation, and Representation. Project-based course. Prerequisites: AMTH 108 or equivalent. Also listed as 532. Corequisite: ELEN 132L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design of Assistive Technologies Laboratory",
+      "classCode": "ELEN 132L",
+      "description": "Laboratory for ELEN 132. Corequisite: ELEN 132. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Digital Signal Processing",
+      "classCode": "ELEN 133",
+      "description": "Discrete signals and systems. Difference equations. Convolution summation. Z-transform, transfer function, system response, stability. Model based digital filter design and implementation. Frequency domain analysis. Discrete Fourier transform and FFT. Introduction to adaptive filter design and CNN architectures. Audio, video, and communication applications. Prerequisites: ELEN 110 or both ELEN 50 with a grade of C- or better, and COEN 19. Corequisite: ELEN 133L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Digital Signal Processing Laboratory",
+      "classCode": "ELEN 133L",
+      "description": "Laboratory for ELEN 133. Laboratory for real-time processing. Corequisite: ELEN 133. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Applications of Signal Processing",
+      "classCode": "ELEN 134",
+      "description": "Current applications of signal processing. Topics may vary. Example topics include Speech Coding, Speech Recognition, and Biometrics. Prerequisite: ELEN 133, MATLAB. Corequisite: ELEN 134L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Applications of Signal Processing Laboratory",
+      "classCode": "ELEN 134L",
+      "description": "Laboratory for ELEN 134. Corequisite: ELEN 134. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Special Topics in Signals and Systems",
+      "classCode": "ELEN 139",
+      "description": "Subjects of current interest. May be taken more than once if topics differ. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Communication Systems",
+      "classCode": "ELEN 141",
+      "description": "Modulation and demodulation of analog and digital signals.  Baseband and passband communications. Random processes, Signal-to-noise ratios and Bandwidth considerations. Prerequisites: ELEN 110 and AMTH 108. Corequisite: ELEN 141L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Communication Systems Laboratory",
+      "classCode": "ELEN 141L",
+      "description": "Laboratory for ELEN 141. Corequisite: ELEN 141. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Communications and Networking",
+      "classCode": "ELEN 142",
+      "description": "Networking in different media. Effects of the media on data rate. Error/erasure detection and correction. Routing algorithms. Collision and retransmission in networks. Network coding algorithms. Prerequisite: AMTH 108 with a grade of C- or better; or its equivalent. Co-requisite: ELEN 142L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Communications and Networking Laboratory",
+      "classCode": "ELEN 142L",
+      "description": "Laboratory for ELEN 142. Corequisite: ELEN 142. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Microwave Circuit Analysis and Design",
+      "classCode": "ELEN 144",
+      "description": "The fundamental characteristics of passive and active electrical components. Parasitics, models, and measurements. Modeling of circuit interconnects . Study of crosstalk in high-speed digital circuits, matching circuits, power dividers and microwave filters. Prerequisite: ELEN 105. Corequisite: ELEN 144L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Microwave Circuit Analysis and Design Laboratory",
+      "classCode": "ELEN 144L",
+      "description": "Laboratory for ELEN 144. Corequisite: ELEN 144. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Device Electronics for IC Design",
+      "classCode": "ELEN 151",
+      "description": "Properties of materials, crystal structure, and band structure of solids. Carrier statistics and transport; p-n junction electrostatics, I-V characteristics, equivalent circuits. Metal-semiconductor contacts, Schottky diodes. MOS field-effect transistors, bipolar junction transistors.  This course covers the essential device concepts necessary for analog, digital, and/or mixed signal circuit design. Credit not allowed for both ELEN 151 and ELEN 267. Prerequisite or corequisite: ELEN 104. Corequisite: ELEN 151L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Device Electronics Laboratory",
+      "classCode": "ELEN 151L",
+      "description": "Laboratory for ELEN 151. Corequisite: ELEN 151. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Integrated Circuit Fabrication Process Technology",
+      "classCode": "ELEN 152",
+      "description": "Fundamental principles of processes essential for fabricating micro- and nano-electronic hardware ranging from Integrated circuits, MEMS and biosensors to power, control and optoelectronic devices. Physical and chemical models of semiconductor crystal growth, thermal oxidation and diffusion, ion implantation, Lithography, etching and cleaning, epitaxy, chemical and physical vapor deposition, metallization, etc. Process integration and simulation using TCAD. (4 units). Also listed as ELEN 276. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Integrated Circuit Fabrication Process Technology Laboratory",
+      "classCode": "ELEN 152L",
+      "description": "Laboratory for ELEN 152. Corequisite: ELEN 152. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Digital Integrated Circuit Design",
+      "classCode": "ELEN 153",
+      "description": "Introduction to VLSI design and methodology. Study of basic principles, material properties, fabrication, operation, terminal characteristics, and equivalent circuit models for CMOS digital integrated circuits. Study of CMOS combinational and sequential integrated circuits  and technology scaling. Physical design and layout principles. Interconnect modeling. Semiconductor memories. Use of state-of-the-art CAD tools. Prerequisites: ELEN/COEN 21 and ELEN 50 with a grade of C- or better. Corequisite: ELEN 153L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Digital Integrated Circuit Design Laboratory",
+      "classCode": "ELEN 153L",
+      "description": "Laboratory for ELEN 153. Corequisite: ELEN 153. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Nanotechnology",
+      "classCode": "ELEN 156",
+      "description": "Introduction to the field of nanoscience and nanotechnology. Properties of nanomaterials and devices. Nanoelectronics: from silicon and beyond. Measurements of nanosystems. Applications and implications. Laboratory experience is an integral part of the course. Also listed as MECH 156. Prerequisites: PHYS 33 and either PHYS 34 or MECH 15. Corequisite: ELEN 156L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Nanotechnology Laboratory",
+      "classCode": "ELEN 156L",
+      "description": "Laboratory for ELEN 156. Also listed as MECH 156L. Corequisite: ELEN 156. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Chaos Theory, Metamathematics, and the Limits of Science: An Engineering  Perspective on Religion",
+      "classCode": "ELEN 160",
+      "description": "Limitations of science are examined in the framework of nonlinear system theory and metamathematics. Strange attractors, bifurcations, and chaos are studied in some detail. Additional topics include an introduction to formal systems and an overview of Godel\u2019s theorems. The mathematical background developed in the course is used as a basis for exploring the relationship between science, aesthetics, and religion. Particular emphasis is placed on the rationality of faith. Also listed as ELEN 217. Prerequisites: AMTH 106 (or an equivalent course in differential equations), and a basic familiarity with MATLAB. Corequisite: ELEN 160L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Chaos Theory, Metamathematics, and the Limits of Science: An Engineering Perspective on Religion Laboratory",
+      "classCode": "ELEN 160L",
+      "description": "Laboratory for ELEN 160. Corequisite: ELEN 160. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "The Beauty of Nature and the Nature of Beauty",
+      "classCode": "ELEN 161",
+      "description": "Beauty is examined from an interdisciplinary perspective, taking into account insights from mathematics, physics, engineering, neuroscience, and psychology, as well as philosophy, art history, and theology. Technical topics include information theory, quantum computing, fractal geometry, complex systems, cellular automata, Boolean networks, and set theory. Prerequisite: AMTH 106 (or equivalent). Familiarity with basic concepts in probability theory is expected, as is some experience with MATLAB. Corequisite: ELEN 161L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "The Beauty of Nature and the Nature of Beauty Laboratory",
+      "classCode": "ELEN 161L",
+      "description": "Laboratory for ELEN 161. Corequisite: ELEN 161. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Quantum and Parallel Algorithms for Scientific Computing",
+      "classCode": "ELEN 162",
+      "description": "Quantum and parallel computing are explored as paradigms for high performance scientific computing. Particular emphasis is placed on quantum algorithms and graph-theoretic methods for parallelizing the solution of large sparse systems of equations. Since a proper understanding of these topics requires a background in matrix theory, functional analysis, cryptology and number theory, these areas are covered in some detail. Prerequisites: MATH 53 or equivalent, and familiarity with MATLAB. Corequisite: ELEN 162L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Quantum and Parallel Algorithms for Scientific Computing Lab",
+      "classCode": "ELEN 162L",
+      "description": "Laboratory for ELEN 162. Corequisite: ELEN 162. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Power Electronics",
+      "classCode": "ELEN 164",
+      "description": "Power and efficiency computations, rectifiers, power devices, DC-to-DC converters, AC-to-DC converters, and DC-to-AC inverters. Prerequisite: ELEN 115. Corequisite: ELEN 164L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Power Electronics Laboratory",
+      "classCode": "ELEN 164L",
+      "description": "Laboratory for ELEN 164. Corequisite: ELEN 164. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Medical Imaging Systems",
+      "classCode": "ELEN 167",
+      "description": "Overview of medical imaging systems including sensors and electrical interfaces for data acquisition; mathematical models of the relationship of structural and physiological information to sensor measurements, resolution, and accuracy limits; and the conversion process from electronic signals to image synthesis. Analysis of the specification and interaction of the functional units of imaging systems and the expected performance. Focus on MRI, CT, and ultrasound PET, and impedance imaging. Also listed as BIOE 167, BIOE 267. Prerequisite: BIOE 162 or ELEN 110 or MECH 142. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Information Storage",
+      "classCode": "ELEN 180",
+      "description": "Storage hierarchy. Design of memory and storage devices, with a particular emphasis on magnetic disks and storage-class memories. Error detection, correction, and avoidance fundamentals. Disk arrays. Storage interfaces and buses. Network attached and distributed storage, interaction of economy, and technological innovation. Also listed as COEN 180. Prerequisites: ELEN 21 or COEN 21, and COEN 20; COEN 122 is recommended. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Energy Systems Design",
+      "classCode": "ELEN 182",
+      "description": "Introduction to alternative energy systems with emphasis on those utilizing solar technologies; system analysis including resources, extraction, conversion, efficiency, and end-use; project will design power system for a house off or on grid making best use of renewable energy; system design will include power needs, generation options, storage, back-up power. Prerequisite: ELEN 50. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Power Systems Analysis",
+      "classCode": "ELEN 183",
+      "description": "Analysis, design, and optimization of power systems for traditional and renewable power generation. Balanced three phase circuits. Transformers and transmission lines. Also listed at ELEN 281E. Prerequisite: ELEN 100 or equivalent. Corequisite: ELEN 183L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Power Systems Analysis Laboratory",
+      "classCode": "ELEN 183L",
+      "description": "Laboratory for ELEN 183. Corequisite: ELEN 183. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Power System Stability and Control",
+      "classCode": "ELEN 184",
+      "description": "Examine power system stability and power system control, including load frequency control, economic dispatch, and optimal power flow. Also listed as ELEN 231. Prerequisites: ELEN 183 or equivalent. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Co-op Education",
+      "classCode": "ELEN 188",
+      "description": "Integration of classroom study and practical experience in a planned program designed to give students practical work experience related to their academic field of study and career objectives. The course alternates (or parallels) periods of classroom study with periods of training in industry or government. Satisfactory completion of the assignment includes preparation of a summary report on co-op activities. P/NP grading. May be taken twice. May not be taken for graduate credit. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Co-op Technical Report",
+      "classCode": "ELEN 189",
+      "description": "Credit is given for a technical report on a specific activity such as a design or research project, etc., after completing the co-op assignment. Letter grades based on content and presentation quality of report. May be taken twice. May not be taken for graduate credit. Prerequisite: ELEN 188. Approval of department co-op advisor required. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Senior Design Project",
+      "classCode": "ELEN 192",
+      "description": "Junior preparation for senior project. An introduction to project requirements and participation in the coordination of the senior conference. Tentative project selection. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design Project I",
+      "classCode": "ELEN 194",
+      "description": "Specification of an engineering project, selected with the mutual agreement of the student and the project advisor. Complete initial design with sufficient detail of target specification. Incorporation of relevant engineering standards and appropriate realistic constraints. Initial draft of the project report. Corequisite: ENGL 181. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design Project II",
+      "classCode": "ELEN 195",
+      "description": "Implementation, construction, and testing of the project, system, or device. Sustainability analysis. Demonstration of project and formal design review. Prerequisite: ELEN 194. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design Project III",
+      "classCode": "ELEN 196",
+      "description": "Continued design, implementation, and testing of the project, system, or device to improve function and add capability. Reliability analysis. Formal public presentation of results. Final report. Prerequisite: ELEN 195. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Directed Research/Reading",
+      "classCode": "ELEN 199",
+      "description": "Investigation of an approved engineering problem and preparation of a suitable project report. Open to electrical and computer engineering majors only. (1\u20136 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    }
+  ]

@@ -7,6 +7,42 @@ const Review = require('../../data/models/review_schema');
 const Tag = require('../../data/models/tag_schema');
 const {validateTextLen, validateRating, validateID, validateDocs} = require('./validators');
 
+/**
+ * @swagger
+ * /api/v1/courses/{id}/reviews:
+ *   get:
+ *     summary: Retrieve course profile and reviews for a specific course
+ *     description: Fetches all the course fields, as well as reviews associated with
+ *                  the given course by its ID.
+ *     tags:
+ *       - Courses
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: Unique ID of the course.
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: An object "course" with all the course fields and 
+ *                      an object "reviews" with the list of reviews for the specified course.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 course:
+ *                   $ref: '#/components/schemas/Course'
+ *                 reviews:
+ *                   type: array
+ *                   items:
+ *                     $ref: '#/components/schemas/Review'
+ *       404:
+ *         description: Course ID not found.
+ *       500:
+ *         description: Internal server error.
+ */
 // User should be able to see user reviews about courses (MVP feature)
 router.get("/:id/reviews", async (req, res) => {
     console.log(req.params);
@@ -26,13 +62,61 @@ router.get("/:id/reviews", async (req, res) => {
                 .populate('tags', 'tagName')
                 .exec();
             const result = { course: courseProfile, reviews: courseReviews };
-            res.json(result);
+            res.status(200).json(result);
         }
     } catch (err) {
         return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
+/**
+ * @swagger
+ * /api/v1/courses/{id}/reviews:
+ *   post:
+ *     summary: Submit a review for a specific course
+ *     description: Allows users to post a review for a course, including rating, associated professor, and any relevant tags.
+ *     tags:
+ *       - Courses
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: Unique ID of the course to be reviewed.
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               professorIdentifier:
+ *                 type: string
+ *                 description: ID of the professor teaching the course.
+ *               courseRating:
+ *                 type: number
+ *                 format: double
+ *                 description: Numeric rating for the course.
+ *               courseTags:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                 description: Array of tag IDs relevant to the review.
+ *               courseReview:
+ *                 type: string
+ *                 description: Detailed text of the review.
+ *     responses:
+ *       201:
+ *         description: Review successfully submitted.
+ *       400:
+ *         description: Invalid Professor or Course ID |
+ *                      Rating or text box out of bounds |
+ *                      Number of tags exceeded |
+ *                      Invalid tag ID   
+ *       500:
+ *         description: Internal server error.
+ */
 // User should be able to leave a review for a course (MVP feature)
 router.post("/:id/reviews", async (req, res) => {
     const courseIdentifier = req.params.id;
@@ -113,16 +197,85 @@ router.post("/:id/reviews", async (req, res) => {
     }
 });
 
+/**
+ * @swagger
+ * /api/v1/courses/codes:
+ *   get:
+ *     summary: Retrieve a list of all class codes
+ *     description: Provides a list of class codes for all courses in the database.
+ *     tags:
+ *       - Courses
+ *     responses:
+ *       200:
+ *         description: A list of class codes.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   _id:
+ *                     type: string
+ *                     description: ID of the course
+ *                   classCode:
+ *                     type: string
+ *                     description: Class code of the course.
+ *       500:
+ *         description: Internal server error.
+ */
 // Provides an endpoint that serves all class codes
 router.get("/codes", async (req, res) => {
     try {
         const result = await Course.find({}, 'classCode').exec();
-        res.json(result);
+        res.status(200).json(result);
     } catch (err) {
         return res.status(500).json({error: "server error", msg: "Internal server error"});
     }
 });
 
+/**
+ * @swagger
+ * /api/v1/courses:
+ *   get:
+ *     summary: Search for courses
+ *     description: Allows searching for courses by name and/or tags.
+ *     tags:
+ *       - Courses
+ *     parameters:
+ *       - in: query
+ *         name: search
+ *         required: false
+ *         description: The search string. Can include course names and tags prefixed with 'tag:'.
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: A list of courses matching the search criteria.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   _id:
+ *                     type: string
+ *                   courseName:
+ *                     type: string
+ *                   classCode:
+ *                     type: string
+ *                   ratingCount:
+ *                     type: number
+ *                   rating:
+ *                     type: number
+ *       404:
+ *         description: Please enter a valid search term |
+ *                      Please enter valid tag names |
+ *                      No course matches your search
+ *       500:
+ *         description: Internal server error.
+ */
 // User should be able to search courses (MVP feature)
 router.get("/", async (req, res) => {
     console.log(req.query);
@@ -162,7 +315,7 @@ router.get("/", async (req, res) => {
         if(Object.keys(result).length === 0) {
             return res.status(404).json({error: "not found", msg: "No course matches your search"});
         } else {
-            return res.json(result);
+            return res.status(200).json(result);
         }
     } catch (err) {
         return res.status(500).json({error: "server error", msg: "Internal server error"});

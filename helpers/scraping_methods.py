@@ -1,5 +1,6 @@
 import html
 from urllib.parse import urljoin
+import re
 
 # Get rid of weird characters in the scrapped text
 def clean_string(courseString):
@@ -15,10 +16,11 @@ def clean_string(courseString):
 # we want to transform this into "ANTH 4" and "Geology and Botany"
 # where the former is the class code and the later is the class name
 def add_course_code_and_name(courseString, codeString):
-    courseList = courseString.split('. ', 1)
+    # courseList = courseString.split('. ', 1)
+    courseList = re.split(r"\. |: ", courseString, maxsplit=1)
 
     if len(courseList) != 2:
-        print("Something went wrong with the course string!")
+        print(f"Something went wrong with the course string: {courseString}")
         return
 
     classCode = codeString + ' ' + courseList[0].strip()
@@ -60,3 +62,4 @@ def isLengthEqual(setOne, setTwo):
 def createAbsoluteURL(base, relative):
     absoluteURL = urljoin(base, relative)
     return absoluteURL
+
