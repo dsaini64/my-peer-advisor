@@ -45,8 +45,9 @@ async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/omega');
     console.log("Connection established!!");
 }
-
+const cors = require('cors');
 const app = express();
+app.use(cors());
 app.use(express.text());
 app.use(express.json());
 app.use(cookieParser());

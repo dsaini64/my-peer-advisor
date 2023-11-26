@@ -1,37 +1,34 @@
+"use client"
+
 import { useState, useEffect } from 'react'
-
-
 
 export default function ClassPage({ params }: { params: { id: string } }) {
 
-    const [data, setData] = useState(null)
-    const [isLoading, setLoading] = useState(true)
+  const [data, setData] = useState<null | any>(null)
+  const [isLoading, setLoading] = useState(true)
 
-    useEffect(() => {
-        fetch(`http://localhost:9080/api/v1/courses/${params.id}/reviews`) //http://localhost:9080/api/v1/courses/{id}/reviews
-            .then(res => res.json())
-            .then(data => {
-                setData(data)
-                setLoading(false)
-            })
-    }, [])
+  useEffect(() => {
+    fetch('http://localhost:9080/api/v1/courses/655e740644c47b2420f26ce5/reviews')
+      .then(res => res.json())
+      .then(data => {
+        setData(data)
+        setLoading(false)
+      })
+  }, [])
 
-    console.log(data);
+  console.log(data);
 
+  return (
+    (data === null) ? <div>Loading...</div> : ClassProfile(data)
+  );
 }
 
-type profileBodyProps = {
-    className: string,
-    classDescription: string,
-    degree: string,
-  }
-  
-  function ProfileBody(content: profileBodyProps) {
-    return (
-      <div className="profileBody">
-        <div><h1>{content.className}</h1></div>
-        <div>{content.degree}</div>
-        <div><p>{content.classDescription}</p></div>
+function ClassProfile(content: any) {
+  return (
+    <div className="flex-col h-screen w-screen">
+        <div>
+          <h1 className='font-bold'>{content.course.classCode}</h1> <h1 >{content.course.courseName}</h1>
+        </div>
       </div>
-    )
-  }
+  )
+}
