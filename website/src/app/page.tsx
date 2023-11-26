@@ -11,12 +11,9 @@ export default function Homepage() {
   return (
     <div>
       <div className='MyPeerAdvisorHeader'>
-        <h1>My Peer Advisor</h1>
+        <h1 >My Peer Advisor</h1>
       </div>
-      <SearchBar searchTerm={searchTerm} onInputChange={handleInputChange} />
-      <Link href={`/searchpage?query=${searchTerm}`}>
-        <a>Search</a>
-      </Link>
+      <SearchBar />
     </div>
   );
 }
@@ -40,5 +37,3 @@ function SearchBar() {
     </div>
   );
 }
-
-export default Page;
