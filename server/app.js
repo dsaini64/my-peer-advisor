@@ -48,9 +48,6 @@ async function main() {
 }
 const cors = require('cors');
 const app = express();
-<<<<<<< HEAD
-app.use(cors());
-=======
 
 // CORS configuration
 app.use(cors({
@@ -59,7 +56,6 @@ app.use(cors({
   credentials: true, // Allow cookies to be sent
 }));
 
->>>>>>> 67704e5 (Added CORS policy)
 app.use(express.text());
 app.use(express.json());
 app.use(cookieParser());
