@@ -2,7 +2,7 @@
 
 for file in *.json
 do
-mongoimport --db tau --collection courses --file "$file" --jsonArray
+mongoimport --db omega --collection courses --file "$file" --jsonArray
 done
 
 
