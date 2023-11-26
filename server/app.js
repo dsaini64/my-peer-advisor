@@ -42,7 +42,7 @@ const options = {
 const swaggerSpec = swaggerJSDoc(options);
 
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/tau');
+    await mongoose.connect('mongodb://127.0.0.1:27017/omega');
     console.log("Connection established!!");
 }
 
