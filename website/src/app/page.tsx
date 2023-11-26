@@ -1,33 +1,13 @@
 "use client"
-import React, { useState } from 'react';
+
+import Image from 'next/image'
+import React from 'react';
 import Link from 'next/link';
+import { useState } from "react";
+import { useRouter } from 'next/navigation';
 
-interface SearchBarProps {
-  searchTerm: string;
-  onInputChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-}
 
-const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, onInputChange }) => {
-  return (
-    <div className="search-bar">
-      <input
-        type="text"
-        placeholder="Search for class/professor.."
-        value={searchTerm}
-        onChange={onInputChange}
-      />
-    </div>
-  );
-};
-
-const Page: React.FC = () => {
-
-  const [searchTerm, setSearchTerm] = useState<string>('');
-
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchTerm(event.target.value);
-  };
-
+export default function Homepage() {
   return (
     <div>
       <div className='MyPeerAdvisorHeader'>
@@ -39,11 +19,26 @@ const Page: React.FC = () => {
       </Link>
     </div>
   );
-};
+}
 
-interface SearchBarProps {
-  searchTerm: string;
-  onInputChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+function SearchBar() {
+  const router = useRouter();
+  const [search, setSearch] = useState("");
+
+  return (
+    <div className="search-bar">
+      <input 
+        onChange={(e) => setSearch(e.target.value)}
+        type="text"  
+        value={search} 
+        placeholder='Search for class/professor...'/>
+      <button
+        onClick={() => {
+          router.push('/searchPage?q=' + search);
+        }}
+      >Search</button>
+    </div>
+  );
 }
 
 export default Page;

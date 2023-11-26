@@ -1,0 +1,12 @@
+[
+    {"tagName": "caring", "tagType": "professor"},
+    {"tagName": "clear-grading-criteria", "tagType": "professor"},
+    {"tagName": "tough-grader", "tagType": "professor"},
+    {"tagName": "funny", "tagType": "professor"},
+    {"tagName": "inspirational", "tagType": "professor"},
+    {"tagName": "lots-of-homework", "tagType": "course"},
+    {"tagName": "hard-textbook", "tagType": "course"},
+    {"tagName": "industry-oriented", "tagType": "course"},
+    {"tagName": "ethics-learning", "tagType": "course"},
+    {"tagName": "group-work", "tagType": "course"}
+]

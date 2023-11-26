@@ -1,0 +1,1220 @@
+[
+    {
+      "courseName": "Introduction to Programming",
+      "classCode": "CSEN 10",
+      "description": "Overview of computing. Introduction to program design and implementation: problem definition, functional decomposition, and design of algorithm programming in PHP and C: variables, data types, control constructs, arrays, strings, and functions. Program development in the Linux environment: editing, compiling, testing, and debugging. Credit is not allowed for more than one introductory class such as CSEN/COEN 10, CSCI 10, or OMIS 30. Corequisite: CSEN/COEN 10L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Programming Laboratory",
+      "classCode": "CSEN 10L",
+      "description": "Laboratory for CSEN/COEN 10. Corequisite: CSEN/COEN 10. (1 unit)",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Programming",
+      "classCode": "CSEN 11",
+      "description": "The C Language: structure and style. Types, operators, and expressions. Control flow. Functions. Pointers, arrays, and strings. Structures and dynamic memory allocation. I/O and file processing. Special operators. Recursion and threads. The Unix environment. Prerequisites: Previous programming experience and/or a grade of C- or better in an introductory computer programming course such as CSEN/COEN 10, CSCI 10, or OMIS 30. Corequisite: CSEN/COEN 11L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Programming Laboratory",
+      "classCode": "CSEN 11L",
+      "description": "Laboratory for CSEN/COEN 11. Corequisite: CSEN/COEN 11. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Abstract Data Types and Data Structures",
+      "classCode": "CSEN 12",
+      "description": "Data abstraction: abstract data types, information hiding, interface specification. Basic data structures: stacks, queues, lists, binary trees, hashing, tables, graphs; implementation of abstract data types in the C language. Internal sorting: review of selection, insertion, and exchange sorts; quicksort, heapsort; recursion. Analysis of run-time behavior of algorithms; Big-O notation. Introduction to classes in C++. Credit not allowed for more than one introductory data structures class, such as CSEN/COEN 12 or CSCI 61. Prerequisite: a grade of C- or better in CSEN/COEN 11. Corequisite: CSEN/COEN 12L. Recommended corequisite: CSEN/COEN 19 or MATH 51. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Abstract Data Types and Data Structures Laboratory",
+      "classCode": "CSEN 12L",
+      "description": "Laboratory for CSEN/COEN 12. Corequisite: CSEN/COEN 12. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Discrete Mathematics",
+      "classCode": "CSEN 19",
+      "description": "Predicate logic, methods of proof, sets, functions, sequences and summations, modular arithmetic, cardinality, induction, elementary combinatorial analysis, recursion, and relations. Also listed as MATH 51. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Embedded Systems",
+      "classCode": "CSEN 20",
+      "description": "Introduction to computer organization: CPU, registers, buses, memory, I/O interfaces. Number systems: arithmetic and information representation. Assembly language programming: addressing techniques, arithmetic and logic operations, branching and looping, stack operations, procedure calls, parameter passing, and interrupts. C language programming: pointers, memory management, stack frames, interrupt processing. Prerequisite: A grade of C- or better in CSEN/COEN 12 or CSCI 61. Corequisite: CSEN/COEN 20L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Embedded Systems Laboratory",
+      "classCode": "CSEN 20L",
+      "description": "Laboratory for CSEN/COEN 20. Corequisite: CSEN/COEN 20. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Logic Design",
+      "classCode": "CSEN 21",
+      "description": "Boolean functions and their minimization. Designing combinational circuits, adders, multipliers, multiplexers, decoders. Noise margin, propagation delay. Bussing. Memory elements: latches and flip-flops; timing; registers; counters. Programmable logic, PLD, and FPGA. Use of industry quality CAD tools for schematic capture and HDL in conjunction with FPGAs. Also listed as ECEN/ELEN 21. Corequisite: CSEN/COEN 21L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Logic Design Laboratory",
+      "classCode": "CSEN 21L",
+      "description": "Laboratory for CSEN/COEN 21. Also listed as ECEN/ELEN 21L. Corequisite: CSEN/COEN 21. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Current Topics in Computer Science and Engineering",
+      "classCode": "CSEN 29",
+      "description": "Subjects of current interest. May be taken more than once if topics differ. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Web Technologies",
+      "classCode": "CSEN 60",
+      "description": "Overview of the internet and World Wide Web technologies and practices. Introduction to basic markup language, style sheet language, server-side scripting language, and website design. Emerging Web applications. Corequisite: CSEN 60L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Web Technologies Laboratory",
+      "classCode": "CSEN 60L",
+      "description": "Laboratory for CSEN/COEN 60. Corequisite: CSEN/COEN 60. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Object-Oriented Programming and Advanced Data Structures",
+      "classCode": "CSEN 79",
+      "description": "Object-oriented programming concepts; specification, design, and implementation of data structures with emphasis on software reliability and reusability; design and implementation of static and dynamic data structures, such as sequence, vector, list, stack, queue, deque, priority queue, set, multiset, map, multimap, and graphs; software development using inheritance, templates and iterators; memory allocation and performance; Using data structures in real-world applications; time analysis of data structures; informal use of specifications to guide implementation and validation of programs. Prerequisites: a grade of C- or better in either CSEN/COEN 12 or CSCI 61 and in either CSEN/COEN 19, or MATH 51. Corequisite: CSEN/COEN 79L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Object-Oriented Programming and Advanced Data Structures Laboratory",
+      "classCode": "CSEN 79L",
+      "description": "Laboratory for CSEN/COEN 79. Corequisite: CSEN/COEN 79. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Research Seminar",
+      "classCode": "CSEN 100",
+      "description": "Introduction to research in computing, covering several research areas. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Real-Time Systems",
+      "classCode": "CSEN 120",
+      "description": "Overview of real-time systems: classification, design issues, and description. Finite state machines and statecharts. Robot programming: odometry and the use of sensors. Real-time programming languages, real-time kernels, and multi-threaded programming. Unified Modeling Language for the design of real-time applications. Performance analysis. Prerequisite: A grade of C- or better in either CSEN/COEN 12 or CSCI 61. Corequisite: CSEN/COEN 120L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Real-Time Systems Laboratory",
+      "classCode": "CSEN 120L",
+      "description": "Laboratory for CSEN/COEN 120. Corequisite: CSEN/COEN 120. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Computer Architecture",
+      "classCode": "CSEN 122",
+      "description": "Overview of computer systems. Instruction set architecture. Quantitative analysis. Computer arithmetic. CPU datapath design. CPU control design. Pipelining. Data/control hazards. Memory hierarchies and management. Introduction of multiprocessor systems. Hardware description languages. Laboratory project consists of a design of a pipeline. Prerequisites: a grade of C- or better in either CSEN/COEN 20 or ECEN/ELEN 33 and in either CSEN/COEN 21 or ECEN/ELEN 21. Corequisite: CSEN/COEN 122L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Computer Architecture Laboratory",
+      "classCode": "CSEN 122L",
+      "description": "Laboratory for CSEN/COEN 122. Corequisite: CSEN/COEN 122. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Mechatronics",
+      "classCode": "CSEN 123",
+      "description": "Introduction to behavior, design, and integration of electromechanical components and systems. Review of appropriate electronic components/circuitry, mechanism configurations, and programming constructs. Use and integration of transducers, microcontrollers, and actuators. Also listed as ECEN/ELEN 123 and MECH 143. Prerequisites: ECEN/ELEN 50 with a grade of C- or better and CSEN/COEN 11. Corequisite: CSEN/COEN 123L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Mechatronics Laboratory",
+      "classCode": "CSEN 123L",
+      "description": "Laboratory for CSEN/COEN 123. Corequisite: CSEN/COEN 123. Also listed as ECEN/ELEN 123L and MECH 143L. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Logic Design",
+      "classCode": "CSEN 127",
+      "description": "Contemporary design of finite-state machines as system controllers using FPGA devices. Minimization techniques, performance analysis, and modular system design. HDL simulation and synthesis. Also listed as ECEN/ELEN 127. Prerequisite: CSEN/COEN 21 with a grade of C- or better. Corequisites: CSEN/COEN 127L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Logic Design Laboratory",
+      "classCode": "CSEN 127L",
+      "description": "Laboratory for CSEN/COEN 127. Design, construction, and testing of controllers from verbal specs. Use of CAD design tools. Also listed as ECEN/ELEN 127L. Corequisite: CSEN/COEN 127. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Current Topics in Computer Science and Engineering",
+      "classCode": "CSEN 129",
+      "description": "Subjects of current interest. May be taken more than once if topics differ. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Machine Learning and Data Mining",
+      "classCode": "CSEN 140",
+      "description": "Machine learning as a field has become increasingly pervasive, with applications from the Web (search, advertisements, and recommendation) to national security, from analyzing biochemical interactions to traffic and emissions to astrophysics. This course presents an introduction to machine learning and data mining, the study of computing systems that improve their performance through learning from data. This course is designed to cover the main principles, algorithms, and applications of machine learning and data mining. Prerequisites: a grade of C- or better in AMTH 108, MATH 53, and CSEN/COEN 12. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Machine Learning and Data Mining Laboratory",
+      "classCode": "CSEN 140L",
+      "description": "Laboratory for CSEN/COEN 140. Corequisite: CSEN/COEN 140 (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Internet of Things",
+      "classCode": "CSEN 143",
+      "description": "Applications and architectures of IoT systems. Embedded and low-power processors. Interfacing digital sensors and actuators. Interrupts and exceptions in a concurrent world. Operating systems for resource-constrained devices. Multitasking and memory allocation. Wireless channel access, low-power wireless, real-time and reliable communication. IP networking, protocol translation and compression. Multi-hop communication. Application layer protocols. Security protocols and architectures. Cloud, edge, and fog computing. Prerequisites: a grade of C- or better in CSEN/COEN 146 and CSEN/COEN 177. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Internet of Things Laboratory",
+      "classCode": "CSEN 143L",
+      "description": "Laboratory for CSEN/COEN 143. Corequisite: CSEN/COEN 143 (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Parallel Computing",
+      "classCode": "CSEN 145",
+      "description": "How to effectively program parallel computers, from smartphones to large clusters. Types of parallel architectures, routing, data parallel, shared-memory, and message-passing parallel programming, load balancing, evaluation of parallel algorithms, advanced topics. Case studies in real-world data analytics, including parallel algorithms for sparse matrix and graph operations. Hands-on lab on multi-core CPUs and many-core GPUs. Prerequisites: a grade of C- or better in either CSEN/COEN 12 or CSCI 61. Corequisite: CSEN/COEN 145L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Parallel Computing Laboratory",
+      "classCode": "CSEN 145L",
+      "description": "Laboratory for CSEN/COEN 145. Corequisite: CSEN/COEN 145. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Computer Networks",
+      "classCode": "CSEN 146",
+      "description": "Data communication: circuit and packet switching, latency and bandwidth, throughput/delay analysis. Application layer: client/server model, socket programming, Web, email, FTP. Transport layer: TCP and UDP, flow control, congestion control, sliding window techniques. Network layer: IP and routing. Data link layer: shared channels, media access control protocols, error detection and correction. Network security. Laboratory consists of projects on software development of network protocols and applications. Prerequisite: a grade of C- or better in either CSEN/COEN 12 or CSCI 61. Corequisite: CSEN/COEN 146L. Recommended corequisite or prerequisite: AMTH 108 or MATH 122. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Computer Networks Laboratory",
+      "classCode": "CSEN 146L",
+      "description": "Laboratory for CSEN/COEN 146. Corequisite: CSEN/COEN 146. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Computer Graphics Systems",
+      "classCode": "CSEN 148",
+      "description": "Interactive graphic systems. Graphics primitives, line and shape generation. Simple transforming and modeling. Efficiency analysis and modular design. Interactive input techniques. Three-dimensional transformations and viewing, hidden surface removal. Color graphics, animation, real-time display considerations. Parametric surface definition and introduction to shaded-surface algorithms. Offered in alternate years. Prerequisites: MATH 53; a grade of C- or better in either CSEN/COEN 12 or CSCI 61. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Information Security",
+      "classCode": "CSEN 150",
+      "description": "Security principles; operating system security: process security, file system security, application program security; access control models: DAC, MAC, RBAC, ABAC; Malware: virus, Trojan, worms, rootkits, botnets, adware, spyware; network security attacks and defenses at different layers; web security: attacks on clients and servers; cryptographic basis: symmetric cryptography, public-key cryptography, cryptographic hash functions, digital signature; Application security: database security, email security, social networking security.   Prerequisites: A grade of C- or better in CSEN/COEN 146.  Corequisite: CSEN/COEN 150L (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Information Security Laboratory",
+      "classCode": "CSEN 150 L",
+      "description": "Laboratory for CSEN/COEN 150. Corequisite: CSEN/COEN 150. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Computer Forensics",
+      "classCode": "CSEN 152",
+      "description": "Procedures for identification, preservation, and extraction of electronic evidence. Auditing and investigation of network and host system intrusions, analysis and documentation of information gathered, and preparation of expert testimonial evidence. Forensic tools and resources for system administrators and information system security officers. Ethics, law, policy, and standards concerning digital evidence. Prerequisites: a grade of C- or better in either CSEN 12 or CSCI 61 and in CSEN/COEN 20. Corequisite: CSEN/COEN 152L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Computer Forensics Laboratory",
+      "classCode": "CSEN 152L",
+      "description": "Laboratory for CSEN/COEN 152. Corequisite: CSEN/COEN 152. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Object-Oriented Analysis, Design, and Programming",
+      "classCode": "CSEN 160",
+      "description": "Four important aspects of object-oriented application development are covered: fundamental concepts of the OO paradigm, building analysis and design models using UML, implementation using Java, and testing object-oriented systems. Prerequisite: a grade of C- or better in CSEN/COEN 79 or CSCI 61. Corequisite: CSEN/COEN 160L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Object-Oriented Analysis, Design, and Programming Laboratory",
+      "classCode": "CSEN 160L",
+      "description": "Laboratory for CSEN/COEN 160. Corequisite: CSEN/COEN 160. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Web Development",
+      "classCode": "CSEN 161",
+      "description": "Fundamentals of the World Wide Web (WWW) and the technologies that are required to develop Web-based applications. Topics cover HTML5, CSS, JavaScript, PHP, MYSQL and XML. Prerequisite: a grade of C- or better in either CSEN/COEN 12 or CSCI 61. Corequisite: CSEN/COEN 161L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Web Development Laboratory",
+      "classCode": "CSEN 161L",
+      "description": "Laboratory for CSEN/COEN 161. Corequisite: CSEN/COEN 161. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Web Infrastructure",
+      "classCode": "CSEN 162",
+      "description": "History and overview of World Wide Web technology. Web protocols. Web Navigation. Web caching and load balancing. P2P and Content Delivery Networks. Streaming technologies. Prerequisite: a grade of C- or better in CSEN/COEN 146. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Web Usability",
+      "classCode": "CSEN 163",
+      "description": "Principles of user-centered design. Principles of human computer interaction. Fundamental theories in cognition and human factors: information processing, perception and representation, constructivist and ecological theories, Gestalt laws of perceptual organization. Usability engineering: user research, user profiling, method for evaluating user interface, usability testing. Prototyping in user interface: process, methods of evaluating and testing. Inclusive design in user interface design: accessibility issues, compliance with section 508 of Rehabilitation Act. Prerequisite: A grade of C- or better in either CSEN/COEN 12 or CSCI 61. Corequisite: CSEN/COEN 163L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Web Usability Laboratory",
+      "classCode": "CSEN 163L",
+      "description": "Laboratory for CSEN/COEN 163. Corequisite: CSEN/COEN 163. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Web Development",
+      "classCode": "CSEN 164",
+      "description": "Advanced topics in Web Application Development; Development with Web Frameworks, implementing Web services and management of Web security. Prerequisite: a grade of C- or better in CSEN/COEN 161 or demonstrated knowledge of Web development technology covered in CSEN/COEN 161. Corequisite: CSEN/COEN 164L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Advanced Web Development Laboratory",
+      "classCode": "CSEN 164L",
+      "description": "Laboratory for CSEN/COEN 164. Corequisite: CSEN/COEN 164. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to 3D Animation & Modeling/Modeling & Control Rigid Body Dynamics",
+      "classCode": "CSEN 165",
+      "description": "Mathematical and physical principles of motion of rigid bodies, including movement, acceleration, inertia, and collision. Modeling of rigid body dynamics for three-dimensional graphic simulation; controlling the motion of rigid bodies in robotic applications. May be repeated twice for credit. Also listed as ARTS 173. (5 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Artificial Intelligence",
+      "classCode": "CSEN 166",
+      "description": "Philosophical foundations of artificial intelligence, problem solving, knowledge and reasoning, neural networks, and other learning methods. Prerequisites: a grade of C- or better in either CSEN/COEN 12 or CSCI 61 and in either CSEN/COEN 19 or MATH 51. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Artificial Intelligence Laboratory",
+      "classCode": "CSEN 166L",
+      "description": "Laboratory for CSEN/COEN 166. Corequisite: CSEN/COEN 166. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Mobile Application Development",
+      "classCode": "CSEN 168",
+      "description": "Design and implementation of applications running on a mobile platform such as smartphones and tablets. Programming languages and development tools for mobile SDKs. Writing code for Peripherals-GPS, accelerometer, touchscreen. Optimizing user interface for a small screen. Effective memory management on a constrained device. Embedded graphics. Persistent data storage. Prerequisite: a grade of C- or better in CSEN/COEN 20 or CSEN/COEN 79 or equivalent. Corequisite: CSEN/COEN 168L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Mobile Application Development Laboratory",
+      "classCode": "CSEN 168L",
+      "description": "Laboratory for CSEN/COEN 168. Corequisite: CSEN/COEN 168. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Web Information Management",
+      "classCode": "CSEN 169",
+      "description": "Theory, design, and implementation of information systems that process, organize, analyze large-scale information on the Web. Search engine technology, recommender systems, cloud computing, social network analysis. Prerequisite: AMTH 108 or MATH 122; CSEN/COEN 12 or CSCI 61; or permission of the instructor. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Principles of Design and Implementation of Programming Languages",
+      "classCode": "CSEN 171",
+      "description": "High-level programming language concepts and constructs. Costs of use and implementation of the constructs. Issues and trade-offs in the design and implementation of programming languages. Critical look at several modern high-level programming languages. Prerequisite: a grade of C- or better in CSEN/COEN 79. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Software Engineering",
+      "classCode": "CSEN 174",
+      "description": "Software development life cycle. Project teams, documentation, and group dynamics. Software cost estimation. Requirements engineering and design. Data modeling, object modeling, and object-oriented analysis. Object-oriented programming and design. Software testing and quality assurance. Software maintenance. Prerequisite: a grade of C- or better in CSEN/COEN 12 or CSCI 61. Corequisites: CSEN/COEN 174L and CSEN/COEN 194 (or consent of instructor). (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Software Engineering Laboratory",
+      "classCode": "CSEN 174L",
+      "description": "Laboratory for CSEN/COEN 174. Corequisite: CSEN/COEN 174. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Formal Language Theory and Compiler Construction",
+      "classCode": "CSEN 175",
+      "description": "Introduction to formal language concepts: regular expressions and context-free grammars. Compiler organization and construction. Lexical analysis and implementation of scanners. Top-down and bottom-up parsing and implementation of top-down parsers. An overview of symbol table arrangement, run-time memory allocation, intermediate forms, optimization, and code generation. Prerequisites: a grade of C- or better in CSEN/COEN 20 and CSEN/COEN 79. Corequisite: CSEN/COEN 175L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Formal Language Theory and Compiler Construction Laboratory",
+      "classCode": "CSEN 175L",
+      "description": "Laboratory for CSEN/COEN 175. Corequisite: CSEN/COEN 175. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Operating Systems",
+      "classCode": "CSEN 177",
+      "description": "Introduction to computer operating systems. Operating system concepts, computer organization model, storage hierarchy, operating system organization, processes management, interprocess communication and synchronization, memory management and virtual memory, I/O subsystems, and file systems. Design, implementation, and performance issues. Prerequisites: a grade of C- or better in either CSEN/COEN 12 or CSCI 61 and in CSEN/COEN 20 (or ECEN/ELEN 120). Corequisite: CSEN/COEN 177L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Operating Systems Laboratory",
+      "classCode": "CSEN 177L",
+      "description": "Laboratory for CSEN/COEN 177. Corequisite: CSEN/COEN 177. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Database Systems",
+      "classCode": "CSEN 178",
+      "description": "ER diagrams and the relational data model. Database design techniques based on integrity constraints and normalization. Database security and index structures. SQL and DDL. Transaction processing basics. Prerequisites: a grade of C- or better in CSEN/COEN 12 or CSCI 61. Corequisite: CSEN/COEN 178L. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Database Systems Laboratory",
+      "classCode": "CSEN 178L",
+      "description": "Laboratory for CSEN/COEN 178. Corequisite: CSEN/COEN 178. (1 unit)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Theory of Algorithms",
+      "classCode": "CSEN 179",
+      "description": "Introduction to techniques of design and analysis of algorithms: asymptotic notations and running times of recursive algorithms. Design strategies: brute-force, divide and conquer, decrease and conquer, transform and conquer, dynamic programming, greedy technique. Intractability: P and NP, approximation algorithms. Also listed as CSCI 163A. Prerequisites: a grade of C- or better in either CSEN/COEN 12 or CSCI 61 and in either CSEN/COEN 19 or MATH 51, or equivalents. (5 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Introduction to Information Storage",
+      "classCode": "CSEN 180",
+      "description": "Storage hierarchy. Caching. Design of memory and storage devices, with particular emphasis on magnetic disks and storage-class memories. Error detection, correction and avoidance fundamentals. Disk arrays. Storage interfaces and buses. Network attached and distributed storage, interaction of economy and technological innovation. Also listed as ECEN/ELEN 180. Prerequisites: a grade of C- or better in either CSEN/COEN 12 or CSCI 61. Recommended prerequisite: CSEN/COEN 20. (4 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Co-op Education",
+      "classCode": "CSEN 188",
+      "description": "Practical experience in a planned program designed to give students practical work experience related to their academic field of study and career objectives. Satisfactory completion of the work assignment includes preparation of a summary report on co-op activities. P/NP grading. May not be taken for graduate credit. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Co-op Technical Report",
+      "classCode": "CSEN 189",
+      "description": "Credit given for a technical report on a specific activity such as a design or research project, etc., after completing the co-op assignment. Approval of department advisor required. Letter grades based on content and quality of report. May be taken twice. May not be taken for graduate credit. Prerequisite: CSEN/COEN 188. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Undergraduate Research",
+      "classCode": "CSEN 193",
+      "description": "Involves working on a year-long research project with one of the faculty members. Students should register three times in a row for a total of 6 units. Does not substitute for the senior project, which may be a continuation of the research done. Registration requires the faculty member\u2019s approval. Students must have junior or senior standing and a minimum GPA of 3.0. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design Project I",
+      "classCode": "CSEN 194",
+      "description": "Specification of an engineering project, selected with the mutual agreement of the student and the project advisor. Complete initial design with sufficient detail to estimate the effectiveness of the project. Initial draft of the project report. Prerequisite: senior standing. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design Project II",
+      "classCode": "CSEN 195",
+      "description": "Continued design and construction of the project, system, or device. Initial draft of project report. Prerequisite: CSEN/COEN 194. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Design Project III",
+      "classCode": "CSEN 196",
+      "description": "Continued design and construction of the project, system, or device. Formal public presentation of results. Final report. Prerequisite: CSEN/COEN 195. (2 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    },
+    {
+      "courseName": "Directed Research/Reading",
+      "classCode": "CSEN 199",
+      "description": "Special problems. By arrangement. (1\u20135 units)",
+      "professors": [
+        
+      ],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [
+        
+      ],
+      "tags": [
+        
+      ],
+      "rating": null
+    }
+  ]

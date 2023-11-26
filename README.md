@@ -34,19 +34,27 @@ From the root folder, run this to install all the Node modules
 npm install
 ```
 
-To create the database, from the root folder, navigate to the folder with the test database dump
+To create the database, first make sure that MongoDB is running after you installed it.
+See https://www.mongodb.com/docs/manual/administration/install-community/ for how to
+start MongoDB on different operating systems.
 
+If you are using Ubuntu, you can run
 ```sh
-cd data/dummy
+sudo systemctl start mongod.service
+sudo systemctl status mongod
 ```
 
-Then run the following command
+from the root folder, navigate to the folder with the data
 ```sh
-mongorestore dbDump
+cd data/real
 ```
 
-If you want to use a different name for your database, instead run
+then run the following command
 ```sh
-mongorestore --db alternative_db_name dbDump/beta/
+mongorestore dump
 ```
 
+if you want to use a different name for your database, instead run
+```sh
+mongorestore --db alternative_db_name dump/tau/
+```
