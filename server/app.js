@@ -9,6 +9,37 @@ const professorsRouter = require("./routes/professors");
 const coursesRouter = require("./routes/courses");
 const tagsRouter = require("./routes/tags");
 const reviewsRouter = require("./routes/reviews");
+const swaggerSchemas = require("./routes/swagger_schemas");
+
+// Setup swagger
+const swaggerUI = require('swagger-ui-express');
+const swaggerJSDoc = require('swagger-jsdoc');
+
+// OpenAPI Object
+const swaggerDefinition = {
+    openapi: '3.0.0',
+    info: {
+        title: "myPeerAdvisor API",
+        version: '1.0.0',
+        description: "API for managing professors, courses, reviews and tags"
+    },
+    servers: [{url: 'http://localhost:9080', description: 'Local Test Server'}],
+    components: swaggerSchemas.components
+};
+
+const options = {
+    swaggerDefinition,
+    apis: [
+        'server/routes/professors.js',
+        'server/routes/courses.js',
+        'server/routes/tags.js',
+        'server/routes/reviews.js',
+        'server/routes/swagger_schemas.js'
+    ]
+};
+
+// Start swagger documentation
+const swaggerSpec = swaggerJSDoc(options);
 
 async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/tau');
@@ -19,6 +50,7 @@ const app = express();
 app.use(express.text());
 app.use(express.json());
 app.use(cookieParser());
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 app.use("/api/v1/professors", professorsRouter);
 app.use("/api/v1/courses", coursesRouter);
 app.use("/api/v1/tags", tagsRouter);
@@ -29,7 +61,7 @@ app.use((req, res) => {
 
 main().catch(err => console.log(err));
 
-app.listen(8080, () => {
-    console.log('Server is listening on port 8080...');
+app.listen(9080, () => {
+    console.log('Server is listening on port 9080...');
 })
 

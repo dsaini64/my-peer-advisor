@@ -614,5 +614,16 @@
       "quarterAvailability": [],
       "tags": [],
       "rating": null
+    },
+    {
+      "courseName": "Unlisted Course",
+      "classCode": "UNLS 999",
+      "description": "Empty",
+      "professors": [],
+      "ratingCount": 0,
+      "ratingTotal": 0,
+      "quarterAvailability": [],
+      "tags": [],
+      "rating": null
     }
   ]
