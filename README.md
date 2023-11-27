@@ -29,7 +29,6 @@ For more information, see https://www.mongodb.com/languages/mern-stack-tutorial
 First, install Node and MongoDB.
 
 From the root folder, run this to install all the Node modules
-
 ```sh
 npm install
 ```
@@ -44,17 +43,52 @@ sudo systemctl start mongod.service
 sudo systemctl status mongod
 ```
 
-from the root folder, navigate to the folder with the data
+Once MongoDB is running, we need to create the database. To do this, we need to
+run the app.js inside the server folder at least once. From the root folder run
+```sh
+node server/app.js
+```
+
+The first time app.js runs it creates an empty database called 'omega' with the appropriate
+professor, course, tag, and review schemas. To use a different name for the database
+you can replace 'omega' in the following line in app.js
+```js
+await mongoose.connect('mongodb://127.0.0.1:27017/omega');
+```
+
+Now that we have an empty database, from the root folder, navigate to the folder with the data
 ```sh
 cd data/real
 ```
 
-then run the following command
+Then run the following command if you are using the default database name
 ```sh
 mongorestore dump
 ```
 
-if you want to use a different name for your database, instead run
+If you want to use a different name for your database, instead run
 ```sh
-mongorestore --db alternative_db_name dump/tau/
+mongorestore --db your_alternative_db_name dump/omega/
+```
+
+### Deleting a database
+
+From your terminal, run the MongoDB shell
+```sh
+mongosh
+```
+
+List all databases
+```sh
+show dbs
+```
+
+Select the detabase you want to delete
+```sh
+use database_name
+```
+
+Delete database
+```sh
+db.dropDatabase();
 ```
