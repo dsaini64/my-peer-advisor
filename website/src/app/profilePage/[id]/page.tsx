@@ -3,7 +3,11 @@ import { Button, Typography, } from "antd";
 
 const { Paragraph } = Typography
 
-export default function ProfilePage() {
+type ProfilePageIdProps = {
+  id: string
+}
+
+export default function ProfilePage({id}:ProfilePageIdProps) {
   // call backend for data
   let profName = "Michael Stravinsky"
   let profDesc = "Background: Phd in Computer Science. Expert in Machine Learning and Artificial Intelligence. Worked for NASA."
