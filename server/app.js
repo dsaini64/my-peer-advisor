@@ -56,6 +56,14 @@ app.use(cors({
   credentials: true, // Allow cookies to be sent
 }));
 
+
+// CORS configuration
+app.use(cors({
+  origin: 'http://localhost:3000', // Allow only your frontend to access the server
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, // Allow cookies to be sent
+}));
+
 app.use(express.text());
 app.use(express.json());
 app.use(cookieParser());
