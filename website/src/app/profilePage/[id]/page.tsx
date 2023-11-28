@@ -1,10 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Button } from "antd";
-
-type ProfilePageIdProps = {
-  id: string
-}
+import { useParams } from "next/navigation";
 
 
 type ReviewType = {
@@ -28,9 +25,11 @@ type ReviewType = {
   date: "string"
   __v: number
 }
-export default function ProfilePage({id}:ProfilePageIdProps) {
+export default function ProfilePage() {
   // call backend for data
-  
+  const id = useParams()
+  console.log(id)
+
   const [data, setData] = useState<any | null>(null)
   
   let profTags = []
