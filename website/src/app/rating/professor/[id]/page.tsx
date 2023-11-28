@@ -5,6 +5,8 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react'
 import SearchableDropdown from '../../rateComponents';
+import { Select } from 'antd';
+import SelectClass from '../../rateComponents';
 
 
 export default function RatingPage({ params }: { params: { id: string } }) {
@@ -26,25 +28,23 @@ export default function RatingPage({ params }: { params: { id: string } }) {
   if (isLoading) return <p>Loading...</p>
   if (data === null) return <p>Failed to load</p>
 
-  const [classes, setClasses] = useState<string[]>([]);
-
-  useEffect(() => {
-    fetch(`http://localhost:9080/api/v1/courses/codes`)
-      .then(res => res.json())
-      .then(classes => {
-        setClasses(classes)
-      })
-  }, [])
-
-
   return (
     <div>
       <div>
         <h1>My Peer Advisor</h1>
         <SearchBar2 />
         <div>Rate: {data.professor.professorName}</div>
-        <div>Select Class Code*</div>
-        <SearchableDropdown options={classes} />
+        <div>Select class code
+          <span className='red-text'>*</span>
+          <SelectClass />
+        </div>
+
+        <div>Rate your professor
+          <span className='red-text'>*</span>
+        </div>
+        <div>Write a review
+          <span className='red-text'>*</span>
+        </div>
       </div>
     </div>
   );
@@ -69,3 +69,4 @@ function SearchBar2() {
     </div>
   );
 }
+
