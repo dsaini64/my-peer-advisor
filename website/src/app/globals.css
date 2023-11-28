@@ -126,13 +126,15 @@
 }
 
 .profileBody {
+  display: flex;
+  flex-direction: column;
   margin-top: 6px;
-
+  gap: 15px;
   & h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   padding-right: 20px;
 }
