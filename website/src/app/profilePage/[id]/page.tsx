@@ -30,7 +30,7 @@ type ReviewType = {
 }
 export default function ProfilePage({id}:ProfilePageIdProps) {
   // call backend for data
-  id = "6563b27ff48eb14number0c9f72d2"
+  id = "6563b27ff48eb1400c9f72d2"
   
   const [data, setData] = useState<any | null>(null)
   
@@ -76,8 +76,8 @@ export default function ProfilePage({id}:ProfilePageIdProps) {
       } </div>
       <div>
           {data.reviews.map((key:ReviewType, i:number)=> 
-            // <UserCard key={i} userCourseName={key.courseID.classCode} userDesc={key.comment} userTags={key.tags} ratingNum={key.rating} />
-            <></>
+            <UserCard key={i} userCourseName={key.courseID.classCode} userDesc={key.comment} userTags={key.tags} ratingNum={key.rating} />
+            //<></>
 
           )}
        
@@ -114,13 +114,11 @@ type profInfoProp = {
 }
 
 function Rating({profName, reviewNum, ratingNum}: profInfoProp){
-  // call backend function for rating
   return (
     <div className="ratingLayout">
       <RatingHeader reviewNum={reviewNum} ratingNum={ratingNum}/>
     <div className="ratingFooter">
       <Button type="link" className="align-self-end">Rate {profName}</Button>
-      {/* basically rating footer, should maybe add more components to make it more clear what each thing does */}
       </div>
     </div>
   );
