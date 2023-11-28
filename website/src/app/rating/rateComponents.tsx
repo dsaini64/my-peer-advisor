@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select } from 'antd';
+import { Select, Input } from 'antd';
 import { useState, useEffect } from 'react';
 
 const onChange = (value: string) => {
@@ -59,7 +59,6 @@ export const SelectRating: React.FC = () => (
 
 
     <Select
-        //showSearch
         placeholder="Rate your professor"
         optionFilterProp=""
         onChange={onChange}
@@ -81,6 +80,18 @@ export const SelectRating: React.FC = () => (
         }
     />
 );
+
+
+const { TextArea } = Input;
+
+export const ReviewBox: React.FC = () => (
+  <>
+    <br />
+    <br />
+    <TextArea rows={4} placeholder="What would you like to say?" maxLength={6} />
+  </>
+);
+
 
 
 
