@@ -2,3 +2,4 @@ node_modules/
 helpers/env/
 .DS_Store
 client/
+website/
