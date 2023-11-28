@@ -28,7 +28,9 @@ function ClassProfile(content: any) {
     <div className="flex-col h-screen w-screen">
         <div>
           <h1 className='font-bold'>{content.course.classCode}</h1> <h1 >{content.course.courseName}</h1>
-        </div>
+
+
       </div>
   )
 }
+
