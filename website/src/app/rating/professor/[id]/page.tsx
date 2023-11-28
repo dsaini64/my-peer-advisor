@@ -4,9 +4,8 @@ import Image from 'next/image'
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react'
-import SearchableDropdown from '../../rateComponents';
 import { Select } from 'antd';
-import SelectClass from '../../rateComponents';
+import { SelectClass, SelectRating } from '../../rateComponents';
 
 
 export default function RatingPage({ params }: { params: { id: string } }) {
@@ -40,6 +39,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
         <div>Rate your professor
           <span className='red-text'>*</span>
+          <SelectRating />
         </div>
         <div>Write a review
           <span className='red-text'>*</span>
