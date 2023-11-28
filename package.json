@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "madge": "^6.1.0",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^7.6.4",
     "swagger-jsdoc": "^6.2.8",
