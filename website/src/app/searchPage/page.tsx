@@ -142,7 +142,7 @@ function ResultListProf() {
     const searchparams = useSearchParams();
     const search = searchparams.get('q')
 
-    //const results = fetch('http://localhost:9080/api/v1/professors?search=' + search)
+    //fetch('http://localhost:9080/api/v1/professors?search=' + search)
     
 
     let profName = "Michael Stravinsky"
@@ -190,7 +190,7 @@ function ResultListCourse() {
   const searchparams = useSearchParams();
   const search = searchparams.get('q')
 
-  //const results = fetch('http://localhost:9080/api/v1/courses?search=' + search)
+  //fetch('http://localhost:9080/api/v1/courses?search=' + search)
   
 
   let profName = "Michael Stravinsky"
