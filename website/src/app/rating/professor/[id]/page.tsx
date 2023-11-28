@@ -24,7 +24,6 @@ export default function RatingPage({ params }: { params: { id: string } }) {
       })
   }, [])
 
-  console.log(data);
   if (isLoading) return <p>Loading...</p>
   if (data === null) return <p>Failed to load</p>
 
