@@ -97,16 +97,17 @@ type ProfCardProps = {
     tags: string,
     degree: string,
     ratings: string,
-    ratingNum: string
+    ratingNum: string,
+    id: string
 }
   
-function ProfCard({profName, ratings, ratingNum, degree, tags, profDesc}:ProfCardProps) {
+function ProfCard({profName, ratings, ratingNum, degree, tags, profDesc, id}:ProfCardProps) {
     const router = useRouter();
 
     return (
         <div   
             onClick={() => {
-                router.push('/profilePage?id=123'); // should be variable later on based on prof id from database
+                router.push('/profilePage?id=' + id); // should be variable later on based on prof id from database
             }}
             className="card">
             <div className="card-body profileCardLayout">
