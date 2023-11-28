@@ -30,7 +30,6 @@ type ReviewType = {
 }
 export default function ProfilePage({id}:ProfilePageIdProps) {
   // call backend for data
-  id = "6563b27ff48eb1400c9f72d2"
   
   const [data, setData] = useState<any | null>(null)
   
@@ -179,7 +178,7 @@ function UserBody({userDesc, userTags, userCourseName}:userBodyProps) {
               <p>{userDesc}</p>
             }
       </div>
-      <div>Top Tags: {userTags && userTags.map(data => (
+      <div>Tags: {userTags && userTags.map(data => (
             <span key={data.id}>
               {data.tagName}
             </span>
