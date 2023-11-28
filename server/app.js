@@ -55,7 +55,6 @@ app.use(cors({
   credentials: true, // Allow cookies to be sent
 }));
 
-
 app.use(express.text());
 app.use(express.json());
 app.use(cookieParser());

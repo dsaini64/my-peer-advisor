@@ -1,7 +1,5 @@
 "use client"
 
-"use client"
-
 import { useState, useEffect } from 'react'
 
 export default function ClassPage({ params }: { params: { id: string } }) {
@@ -19,7 +17,6 @@ export default function ClassPage({ params }: { params: { id: string } }) {
   }, [])
 
   console.log(data);
-  console.log(data);
 
   return (
     (data === null) ? <div>Loading...</div> : ClassProfile(data)
@@ -31,10 +28,9 @@ function ClassProfile(content: any) {
     <div className="flex-col h-screen w-screen">
         <div>
           <h1 className='font-bold'>{content.course.classCode}</h1> <h1 >{content.course.courseName}</h1>
-        </div>
-  {/* return (
-    (data === null) ? <div>Loading...</div> : ClassProfile(data)
-  ); */}
-  </div>
-  );
+
+
+      </div>
+  )
 }
+
