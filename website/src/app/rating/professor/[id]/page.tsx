@@ -2,14 +2,32 @@
 
 import Image from 'next/image'
 import React from 'react';
-import { useState } from "react";
 import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react'
 
-export default function RatingPage() {
+
+export default function RatingPage({ params }: { params: { id: string } }) {
+
+  const [data, setData] = useState<null | any>(null)
+  const [isLoading, setLoading] = useState(true)
+  let id = params.id
+
+  useEffect(() => {
+    fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
+      .then(res => res.json())
+      .then(data => {
+        setData(data)
+        setLoading(false)
+      })
+  }, [])
+
+  console.log(data);
+
     return (
       <div>
         <h1>My Peer Advisor</h1>
         <SearchBar2 />
+
       </div>
     );
 }
