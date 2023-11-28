@@ -10,7 +10,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
-  let id = "655e74a507d82f6cfb9a1a86"
+  let id = "6563b27ff48eb1400c9f7219"
 
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
@@ -22,33 +22,37 @@ export default function RatingPage({ params }: { params: { id: string } }) {
   }, [])
 
   console.log(data);
+  if (isLoading) return <p>Loading...</p>
+  if (data === null) return <p>Failed to load</p>
 
-    return (
+  return (
+    <div>
       <div>
         <h1>My Peer Advisor</h1>
         <SearchBar2 />
-        (data === null) ? <div>loading...</div> : <div>worked</div>
+        <div>Rate: {data.professor.professorName} </div>
       </div>
-    );
+    </div>
+  );
 }
 
 function SearchBar2() {
-    const router = useRouter();
-    const [search, setSearch] = useState("");
+  const router = useRouter();
+  const [search, setSearch] = useState("");
 
-    return (
-      <div className="search-bar-2">
-        <input 
-            onChange={(e) => setSearch(e.target.value)}
-            type="text" 
-            value={search} 
-            placeholder="Search..." />
-        <button
-            onClick={() => {
-                router.push('/searchPage?q=' + search);
-            }}
-        >Search</button>
-      </div>
-    );
+  return (
+    <div className="search-bar-2">
+      <input
+        onChange={(e) => setSearch(e.target.value)}
+        type="text"
+        value={search}
+        placeholder="Search..." />
+      <button
+        onClick={() => {
+          router.push('/searchPage?q=' + search);
+        }}
+      >Search</button>
+    </div>
+  );
 }
 
