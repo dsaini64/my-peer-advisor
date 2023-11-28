@@ -5,7 +5,7 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react'
 import { Select } from 'antd';
-import { SelectClass, SelectRating } from '../../rateComponents';
+import { ReviewBox, SelectClass, SelectRating } from '../../rateComponents';
 
 
 export default function RatingPage({ params }: { params: { id: string } }) {
@@ -43,6 +43,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
         </div>
         <div>Write a review
           <span className='red-text'>*</span>
+          <ReviewBox />
         </div>
       </div>
     </div>
