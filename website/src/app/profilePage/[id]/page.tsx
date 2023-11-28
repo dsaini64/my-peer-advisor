@@ -34,9 +34,6 @@ export default function ProfilePage({id}:ProfilePageIdProps) {
   
   const [data, setData] = useState<any | null>(null)
   
-  let userCourseName = "CSCI 187"
-  let userDesc = "Umm Kulthum’s rise to fame was a very interesting journey. She was born on December 31st 1898, and was raised in a very small village in Egypt. Her family was very poor so she never had much growing up. The one thing she did had, which is also the thing that would carry her to fame, was her incredible voice. During the years Kulthum was growing up as a young women, most of the contemporary Arabic singers at the time were male. In fact, most of the singers she looked up to were male as well. Women played mostly a secondary role in regards to music, but things were much different for Kulthum. Her incredible voice made her stand out substantially from not only female singers but males singers as well. Many people who have heard Kulthum’s voice live, have commented on its beauty and fullness. Although gender roles were very much prominent during the years she was alive, it didn’t really seem to apply to her. Many people loved Umm Kulthum and her music."
-  let userTags = "ready for class, lots of reading, caring, wants you to learn"
   let profTags = []
   let courses = []
   
@@ -75,7 +72,7 @@ export default function ProfilePage({id}:ProfilePageIdProps) {
         <>User Review</>
       } </div>
       <div>
-          {data.reviews.map((key:ReviewType, i:number)=> 
+          {data.reviews.map((key: ReviewType, i: number)=> 
             <UserCard key={i} userCourseName={key.courseID.classCode} userDesc={key.comment} userTags={key.tags} ratingNum={key.rating} />
             //<></>
 
@@ -155,7 +152,7 @@ function UserRating({ratingNum}: userRatingProps) {
             Rating
           </div>
           <div className="userRatingNumberText">
-            {ratingNum}
+            {ratingNum.toFixed(1)}
           </div>
         </div>
     </div>)
@@ -163,7 +160,11 @@ function UserRating({ratingNum}: userRatingProps) {
 
 type userBodyProps = {
   userDesc: string,
-  userTags: any[],
+  userTags: [
+    {
+      id: string
+      tagName: string
+    }],
   userCourseName: string
 }
 
@@ -178,7 +179,12 @@ function UserBody({userDesc, userTags, userCourseName}:userBodyProps) {
               <p>{userDesc}</p>
             }
       </div>
-      <div>Top Tags: {userTags}</div>
+      <div>Top Tags: {userTags && userTags.map(data => (
+            <span key={data.id}>
+              {data.tagName}
+            </span>
+      ))}
+      </div>
     </div>
   )
 }
@@ -206,7 +212,10 @@ function ProfCard({profName, ratings, ratingNum, department, tags, profDesc}:Pro
 type UserCardProps = {
   userCourseName: string,
   userDesc: string,
-  userTags: any[],
+  userTags: [{
+    id: string
+    tagName: string
+  }],
   ratingNum: number
 }
 
