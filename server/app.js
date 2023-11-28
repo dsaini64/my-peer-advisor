@@ -11,7 +11,6 @@ const tagsRouter = require("./routes/tags");
 const reviewsRouter = require("./routes/reviews");
 const swaggerSchemas = require("./routes/swagger_schemas");
 const cors = require('cors');
-const cors = require('cors');
 
 // Setup swagger
 const swaggerUI = require('swagger-ui-express');
@@ -47,7 +46,6 @@ async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/omega');
     console.log("Connection established!!");
 }
-const cors = require('cors');
 const app = express();
 
 // CORS configuration
@@ -56,6 +54,7 @@ app.use(cors({
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allow cookies to be sent
 }));
+
 
 app.use(express.text());
 app.use(express.json());
