@@ -8,9 +8,9 @@ type ProfilePageIdProps = {
 }
 
 export default function ProfilePage({id}:ProfilePageIdProps) {
-  id = "6563b27ff48eb1400c9f72d2"
   // call backend for data
-  const [profProfileData, setProfProfileData] = useState()
+  id = "6563b27ff48eb1400c9f72d2"
+  const [data, setData] = useState<any | null>(null)
   let profName = "Michael Stravinsky"
   let profDesc = "Background: Phd in Computer Science. Expert in Machine Learning and Artificial Intelligence. Worked for NASA."
   let tags = "Caring, Inspirational, Funny"
@@ -22,14 +22,17 @@ export default function ProfilePage({id}:ProfilePageIdProps) {
   let userCourseName = "CSCI 187"
   let userDesc = "Umm Kulthum’s rise to fame was a very interesting journey. She was born on December 31st 1898, and was raised in a very small village in Egypt. Her family was very poor so she never had much growing up. The one thing she did had, which is also the thing that would carry her to fame, was her incredible voice. During the years Kulthum was growing up as a young women, most of the contemporary Arabic singers at the time were male. In fact, most of the singers she looked up to were male as well. Women played mostly a secondary role in regards to music, but things were much different for Kulthum. Her incredible voice made her stand out substantially from not only female singers but males singers as well. Many people who have heard Kulthum’s voice live, have commented on its beauty and fullness. Although gender roles were very much prominent during the years she was alive, it didn’t really seem to apply to her. Many people loved Umm Kulthum and her music."
   let userTags = "ready for class, lots of reading, caring, wants you to learn"
+  useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
-      .then((response=> response.json().then(json => {
-        setProfProfileData(json)
-        console.log(profProfileData)
-      }
+    .then((response=> response.json()))
+    .then(data => {
+      setData(data)
       
-      )))
-      .catch(err=>console.log(err))
+    })
+    .catch(err=>console.log(err))
+  }, [])
+
+  console.log(data)
   return (
     <div className="profilePageLayout" >
       <ProfCard tags={tags} department={department} profDesc={profDesc} profName={profName} ratings={ratings} ratingNum={ratingNum} />
