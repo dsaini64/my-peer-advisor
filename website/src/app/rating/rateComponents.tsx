@@ -79,23 +79,23 @@ export function SelectClass(props: any) {
 const options: SelectProps['options'] = [
     {
         label: 'Caring',
-        value: 'caring',
+        value: '6563b2c5b8e5ccb84c534c55',
     },
     {
         label: 'Tough Grader',
-        value: "tough-grader"
+        value: "6563b2c5b8e5ccb84c534c56"
     },
     {
         label: "Funny",
-        value: "funny"
+        value: "6563b2c5b8e5ccb84c534c57"
     },
     {
         label: "Inspirational",
-        value: "inspirational"
+        value: "6563b2c5b8e5ccb84c534c58"
     },
     {
         label: "Clear Grading Criteria",
-        value: "clear-grading-criteria"
+        value: "6563b2c5b8e5ccb84c534c5e"
     }
 
 ];
