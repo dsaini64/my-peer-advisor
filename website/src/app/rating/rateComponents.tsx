@@ -4,26 +4,35 @@ import { useState, useEffect } from 'react';
 import type { SelectProps } from 'antd';
 
 
-// Filter `option.label` match the user type `input`
 const filterOption = (input: string, option: any) =>
     (option ?? '').toLowerCase().includes(input.toLowerCase());
 
 export function SelectClass(props: any) {
-
     const [selectedClass, setSelectedClass] = useState<string>('');
-    const handleChange = (value: string) => {
+    const [classCodes, setClassCodes] = useState<string[]>([]);
+    const [codesToId, setCodesToId] = useState<Map<string, string>>(new Map());
 
+    const handleChange = (value: string) => {
         setSelectedClass(value);
         props.callback(codesToId.get(value));
     };
 
-    const optionsReturn = populateOptions();
-
-    const classCodes = optionsReturn.classCodes;
-    const codesToId = optionsReturn.codesToId;
-
-    console.log(classCodes);
-    console.log(codesToId);
+    useEffect(() => {
+        fetch(`http://localhost:9080/api/v1/courses/codes`)
+            .then(res => res.json())
+            .then(data => {
+                const codes: string[] = data?.map((item: { _id: string; classCode: string }) => item.classCode) || [];
+                const codesMap: Map<string, string> = new Map();
+                data?.forEach((item: { _id: string; classCode: string }) => {
+                    codesMap.set(item.classCode, item._id);
+                });
+                setClassCodes(codes);
+                setCodesToId(codesMap);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }, []);
 
     return (
         <Select
@@ -32,55 +41,61 @@ export function SelectClass(props: any) {
             optionFilterProp=""
             onChange={handleChange}
             value={selectedClass}
-            //onSearch={onSearch}
             filterOption={filterOption}
-            options={classCodes}
+            options={classCodes.map(code => ({ label: code, value: code }))}
         />
     );
 }
 
+// function populateOptions(): { classCodes: string[]; codesToId: Map<string, string>; } {
 
+//     const [data, setData] = useState<null | any>(null)
+//     const [isLoading, setLoading] = useState(true)
 
-function populateOptions(): { classCodes: string[]; codesToId: Map<string, string>; } {
+//     useEffect(() => {
+//         fetch(`http://localhost:9080/api/v1/courses/codes`)
+//             .then(res => res.json())
+//             .then(data => {
+//                 setData(data)
+//                 setLoading(false)
+//             })
+//     }, [])
 
-    const [data, setData] = useState<null | any>(null)
-    const [isLoading, setLoading] = useState(true)
+//     //if (data === null) return []
 
-    useEffect(() => {
-        fetch(`http://localhost:9080/api/v1/courses/codes`)
-            .then(res => res.json())
-            .then(data => {
-                setData(data)
-                setLoading(false)
-            })
-    }, [])
+//     const classCodes: string[] = data?.map((item: { _id: string; classCode: string }) => (
+//         item.classCode
+//     ));
 
-    //if (data === null) return []
+//     const codesToId: Map<string, string> = new Map();
 
-    const classCodes: string[] = data?.map((item: { _id: string; classCode: string }) => (
-        item.classCode
-    ));
+//     data?.forEach((item: { _id: string; classCode: string }) => {
+//         codesToId.set(item.classCode, item._id);
+//     });
 
-    const codesToId: Map<string, string> = new Map();
+//     return (
+//          {classCodes, codesToId}
+//     )
+// }
 
-    data?.forEach((item: { _id: string; classCode: string }) => {
-        codesToId.set(item.classCode, item._id);
-    });
+export function RateProfessor(props: any) {
+
+    const [selectedRating, setSelectedRating] = useState<string>('');
+
+    const handleChange = (value: string) => {
+        setSelectedRating(value);
+        props.callback(value);
+    };
 
     return (
-         {classCodes, codesToId}
-    )
-}
-
-export const RateProfessor: React.FC = (props: any) => (
-
-    <Select
-        placeholder="Rate your professor"
-        optionFilterProp=""
-        //onChange={onChange}
-        filterOption={filterOption}
-        options={
-            [
+        <Select
+            placeholder="Rate your professor"
+            optionFilterProp=""
+            // onChange={onChange}
+            filterOption={filterOption}
+            onChange={handleChange}
+            value={selectedRating}
+            options={[
                 { label: '1', value: '1' },
                 { label: '2', value: '2' },
                 { label: '3', value: '3' },
@@ -91,10 +106,10 @@ export const RateProfessor: React.FC = (props: any) => (
                 { label: '8', value: '8' },
                 { label: '9', value: '9' },
                 { label: '10', value: '10' },
-            ]
-        }
-    />
-);
+            ]}
+        />
+    );
+};
 
 const options: SelectProps['options'] = [
     {
@@ -119,7 +134,6 @@ const options: SelectProps['options'] = [
     }
 
 ];
-
 
 export function SelectProfessorTags(props: any) {
 
@@ -154,15 +168,29 @@ export function SelectProfessorTags(props: any) {
 
 const { TextArea } = Input;
 
-export const ReviewBox: React.FC = () => (
-    <>
-        <br />
-        <br />
-        <TextArea rows={3} placeholder="What would you like to say?" maxLength={450} />
-    </>
-);
+export function ReviewBox(props: any) {
+    const [review, setReview] = useState<string>('');
 
+    const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+        const value = e.target.value;
+        setReview(value);
+        props.callback(value);
+    };
 
+    return (
+        <>
+            <br />
+            <br />
+            <TextArea
+                rows={3}
+                placeholder="What would you like to say?"
+                maxLength={450}
+                onChange={handleChange}
+                value={review}
+            />
+        </>
+    );
+}
 
 
 

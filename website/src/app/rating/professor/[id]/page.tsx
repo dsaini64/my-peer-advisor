@@ -46,7 +46,9 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
   const onSubmit = () => {
     console.log(courseIdentifier)
+    console.log(professorRating)
     console.log(tags)
+    console.log(professorReview)
   }
 
   return (
@@ -61,10 +63,9 @@ export default function RatingPage({ params }: { params: { id: string } }) {
         </div>
       </div>
 
-
       <div>Rate your professor
         <span className='red-text'>*</span>
-        <RateProfessor />
+        <RateProfessor callback={passProfessorRating}/>
       </div>
 
       <div>Select Tags
@@ -73,7 +74,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
       <div>Write a review
         <span className='red-text'>*</span>
-        <ReviewBox />
+        <ReviewBox callback={passProfessorReview}/>
       </div>
 
       <div className='search-bar-2'>
@@ -83,14 +84,6 @@ export default function RatingPage({ params }: { params: { id: string } }) {
     </div>
   );
 }
-
-function SubmitButton() {
-  const router = useRouter();
-  //const courseIdentifier[]
-
-
-}
-
 
 function SearchBar2() {
   const router = useRouter();
