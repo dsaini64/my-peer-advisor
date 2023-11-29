@@ -15,6 +15,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
   const [courseIdentifier, setCourseIdentifier] = useState<null | string>(null)
   const [professorRating, setProfessorRating] = useState<null | any>(null)
   const [professorReview, setProfessorReview] = useState<null | string>(null)
+  const router = useRouter();
 
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
@@ -70,7 +71,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
       }).then((res) => {
         if (res.status === 201) {
           alert("Review submitted successfully");
-          router.push('/professor/' + params.id);
+          router.push('/profilePage/' + params.id);
         } else {
           alert("Failed to submit review");
         }
