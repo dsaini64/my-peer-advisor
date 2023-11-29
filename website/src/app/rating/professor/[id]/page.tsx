@@ -9,7 +9,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
-  const [tags, setTags] = useState<null[] | any>(null)
+  const [tags, setTags] = useState<string[]>([])
   const [courseIdentifier, setCourseIdentifier] = useState<null | string>(null)
   const [professorRating, setProfessorRating] = useState<null | any>(null)
   const [professorReview, setProfessorReview] = useState<null | string>(null)
@@ -52,10 +52,12 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
       console.log(professorReview);
       const body = {
         courseIdentifier: courseIdentifier,
-        professorRating: professorRating,
+        professorRating: Number(professorRating),
         professorTags: tags,
-        professorReview: professorReview,
+        professorReview: professorReview
       };
+
+      console.log(body);
 
       fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`, {
         method: 'POST',
@@ -64,7 +66,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
         },
         body: JSON.stringify(body),
       }).then((res) => {
-        if (res.status === 200) {
+        if (res.status === 201) {
           alert("Review submitted successfully");
         } else {
           alert("Failed to submit review");
