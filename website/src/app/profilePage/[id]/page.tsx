@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Button } from "antd";
-import router from "next/router";
+import {useRouter} from "next/navigation";
 
 
 // type ReviewType = {
@@ -230,8 +230,9 @@ type profInfoProp = {
 }
 
 function Rating({profName, reviewNum, ratingNum, id}: profInfoProp){
+  const {push} = useRouter();
   const ratingPage = () => {
-    router.push("rating/professor/"+ id);
+    push("/rating/professor/" + id);
   }
   return (
     <div className="ratingLayout">
