@@ -16,19 +16,21 @@ export default function ClassPage({ params }: { params: { id: string } }) {
       })
   }, [])
 
-  console.log(data);
+  console.log(typeof(data));
 
   return (
-    (data === null) ? <div>Loading...</div> : ClassProfile(data)
+    (data === null) ? <div>Loading...</div> : <ClassProfile content={data}/>
   );
 }
 
-function ClassProfile(content: any) {
+type ClassProfileProps = {
+  content: object
+}
+
+function ClassProfile({content}: ClassProfileProps) {
   return (
     <div>
-        <div>
-          <h1>{content.course.classCode}</h1> <h1>{content.course.courseName}</h1>
-        </div>
+        <h1>{content.courses.classCode}</h1> <h1>{content.course.courseName}</h1>
     </div>
   )
 }
