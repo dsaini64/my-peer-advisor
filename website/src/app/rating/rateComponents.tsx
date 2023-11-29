@@ -62,7 +62,30 @@ export const SelectRating: React.FC = () => (
         placeholder="Rate your professor"
         optionFilterProp=""
         onChange={onChange}
-        onSearch={onSearch}
+        filterOption={filterOption}
+        options={
+            [
+                { label: '1', value: '1' },
+                { label: '2', value: '2' },
+                { label: '3', value: '3' },
+                { label: '4', value: '4' },
+                { label: '5', value: '5' },
+                { label: '6', value: '6' },
+                { label: '7', value: '7' },
+                { label: '8', value: '8' },
+                { label: '9', value: '9' },
+                { label: '10', value: '10' },
+            ]
+        }
+    />
+);
+
+export const SelectTags: React.FC = () => (
+
+    <Select
+        placeholder="Rate your professor"
+        optionFilterProp=""
+        onChange={onChange}
         filterOption={filterOption}
         options={
             [
@@ -82,13 +105,15 @@ export const SelectRating: React.FC = () => (
 );
 
 
+
+
 const { TextArea } = Input;
 
 export const ReviewBox: React.FC = () => (
   <>
     <br />
     <br />
-    <TextArea rows={4} placeholder="What would you like to say?" maxLength={6} />
+    <TextArea rows={3} placeholder="What would you like to say?" maxLength={450} />
   </>
 );
 
