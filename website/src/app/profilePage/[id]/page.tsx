@@ -177,7 +177,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
         profDesc={data.professor?.background}
         profName={data.professor?.professorName}
         ratings={data.professor?.ratingCount}
-        ratingNum={data.professor && data.professor.ratingCount? data.professor.ratingTotal: 0}
+        ratingNum={data.professor && data.professor.ratingCount? data.professor.ratingTotal/data.professor?.ratingCount: 0}
         id={params.id}
       />
       <div className="numOfUserReviews">{ratingCount} {ratingCount > 1 ?
