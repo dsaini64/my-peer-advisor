@@ -237,7 +237,7 @@ ratingFooter {
   padding: 10px;
   border-radius: 5px;
   background-color: aliceblue;
-  max-width: 300px;
+  display: inline;
+  max-width: 500px;
   font-size: 30px;
 }
-

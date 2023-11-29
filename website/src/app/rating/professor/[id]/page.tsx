@@ -81,8 +81,6 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
 
   return (
 
-
-
     <div className="MPAFormLayout">
       <h1
         onClick={() => {
@@ -90,24 +88,25 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
         }}>
         My Peer Advisor</h1>
       <SearchBar2 />
+
       <div className="formLayout">
         Rate: <span className="profReviewText">{data.professor.professorName}</span>
-        <div>Select class code
+        <div>  
+          Select class code
           <span className='red-text'>*</span>
           <SelectClass callback={passCourseIdentifier} />
         </div>
 
-
         <div>
           Rate your professor
-          <span className='red-text'>*
-            <RateProfessor callback={passProfessorRating} /></span>
+          <span className='red-text'>*</span>
+          <RateProfessor callback={passProfessorRating} />
         </div>
 
         <div className="selectTags">
           Select Tags
+          <SelectProfessorTags callback={passTags} />
         </div>
-        <SelectProfessorTags callback={passTags} />
 
         <div>Write a review
           <span className='red-text'>*</span>
