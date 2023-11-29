@@ -3,14 +3,14 @@
 import React from 'react';
 import { useRouter, usePathname, useParams } from 'next/navigation';
 import { useState, useEffect } from 'react'
-import { ReviewBox, SelectClass, SelectRating } from '../../rateComponents';
+import { ReviewBox, SelectClass, SelectRating, SelectTags } from '../../rateComponents';
 
 
 export default function RatingPage({ params }: { params: { id: string } }) {
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
-  let id = "6563b27ff48eb1400c9f7219"
+  const id = "6563b27ff48eb1400c9f7219"
 
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
@@ -24,8 +24,8 @@ export default function RatingPage({ params }: { params: { id: string } }) {
   if (isLoading) return <p>Loading...</p>
   if (data === null) return <p>Failed to load</p>
 
-  const pathname = useParams()
-  console.log(pathname)
+  //const pathname = useParams()
+  //console.log(pathname)
 
 
   return (
@@ -46,22 +46,27 @@ export default function RatingPage({ params }: { params: { id: string } }) {
         <SelectRating />
       </div>
 
+      <div>Select Tags
+        <span className='red-text'>*</span>
+        <SelectTags />
+      </div>
+
       <div>Write a review
         <span className='red-text'>*</span>
         <ReviewBox />
       </div>
 
       <div>
-        <button className='search-bar-2'>Submit</button>
+        <div className='search-bar-2'>Submit</div>
       </div>
 
     </div>
   );
 }
 
-function SubmitReview() {
+function SubmitButton() {
   const router = useRouter();
-  //const [class, 
+  //const []
 
 
 }
