@@ -1,36 +1,46 @@
 "use client"
 
-
 import Image from 'next/image'
 import React from 'react';
 //import { Button, Typography, } from "antd";
-import { useState } from "react";
-import { useRouter } from 'next/navigation';
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from 'next/navigation';
 
 export default function SearchPage() {
+  //console.log(query)
+  const searchparams = useSearchParams();
+  const query = searchparams.get('q');
+  const router = useRouter();
     return (
       <div>
-        <h1>My Peer Advisor</h1>
+        <h1
+          onClick={() => {
+            router.push('/'); // should be variable later on based on prof id from database
+          }}
+        >My Peer Advisor</h1>
         <SearchBar2 />
-        <ResultList />
+        <div className="result-columns">
+          <div className="professor-list">
+            <ResultListProf querystring={query}/>
+          </div>
+          <div className="course-list">
+            <ResultListCourse querystring={query} />
+          </div>
+        </div>
       </div>
     );
 }
 
 type profileBodyProps = {
     profName: string,
-    profDesc: string,
-    degree: string,
-    tags: string
+    department: string,
 }
   
 function ProfileBody(content: profileBodyProps) {
     return (
       <div className="profileBody">
         <div><h1>{content.profName}</h1></div>
-        <div>{content.degree}</div>
-        <div><p>{content.profDesc}</p></div>
-        <div>Top Tags: {content.tags}</div>
+        <div><p>{content.department}</p></div>
       </div>
     )
 }
@@ -42,14 +52,9 @@ type profInfoProp = {
   }
   
 function Rating({profName, reviewNum, ratingNum}: profInfoProp){
-    // call backend function for rating
     return (
       <div className="ratingLayout">
         <RatingHeader reviewNum={reviewNum} ratingNum={ratingNum}/>
-        <div className="ratingFooter">
-            
-            {/* basically rating footer, should maybe add more components to make it more clear what each thing does */}
-        </div>
       </div>
     );
 }
@@ -66,7 +71,11 @@ function RatingHeader({reviewNum, ratingNum}:ratingHeaderProps){
           Rating
         </div>
         <div className="ratingNumberText">
-          {ratingNum}
+          {ratingNum=== null? 
+            <div>N/A</div>
+            :
+            <div>{(parseFloat(ratingNum)).toFixed(1)}</div>
+          }
         </div>
         <div className="reviewNumText"> {reviewNum} ratings</div> 
       </div>
@@ -75,63 +84,182 @@ function RatingHeader({reviewNum, ratingNum}:ratingHeaderProps){
 
 type ProfCardProps = {
     profName: string,
-    profDesc: string,
-    tags: string,
-    degree: string,
+    department: string,
     ratings: string,
-    ratingNum: string
+    ratingNum: string,
+    id: string
 }
   
-function ProfCard({profName, ratings, ratingNum, degree, tags, profDesc}:ProfCardProps) {
+function ProfCard({profName, ratings, ratingNum, department, id}:ProfCardProps) {
     const router = useRouter();
 
     return (
         <div   
             onClick={() => {
-                router.push('/profilePage?id=123'); // should be variable later on based on prof id from database
+                router.push('/profilePage/' + id); // should be variable later on based on prof id from database
             }}
             className="card">
             <div className="card-body profileCardLayout">
                 <Rating profName={profName} reviewNum={ratings} ratingNum={ratingNum}/>
-                <ProfileBody profName={profName} profDesc={profDesc} tags={tags} degree={degree}/>
+                <ProfileBody profName={profName} department={department}/>
             </div>
         </div>
     )
 }
 
-function SearchBar2() {
-    const router = useRouter();
-    const [search, setSearch] = useState("");
+function ResultListProf({querystring}: Query) {
+    //fetch('http://localhost:9080/api/v1/professors?search=' + search)
+    const [data, setData] = useState<null | any>(null)
+    const [isLoading, setLoading] = useState(true)
+  
+    useEffect(() => {
+      setLoading(true);
+      fetch(`http://localhost:9080/api/v1/professors?search=` + querystring)
+        .then(res => res.json())
+        .then(data => {
+          setData(data)
+          setLoading(false)
+        });
+    }, [querystring])
+  
+    //console.log(data)
+    if (isLoading) return <p>Loading...</p>
+    if (data === null) return <p>Failed to load</p>
+  
+    /*
+    for (const element of data) {
+      console.log(element);
+    }
+    */
 
-    return (
-      <div className="search-bar-2">
-        <input 
-            onChange={(e) => setSearch(e.target.value)}
-            type="text" 
-            value={search} 
-            placeholder="Search..." />
-        <button
-            onClick={() => {
-                router.push('/searchPage?q=' + search);
-            }}
-        >Search</button>
+    if (!(data.constructor === Array)) {
+      return <div>
+        <h1>Professors</h1>
+        <p>No results</p>
       </div>
-    );
-}
-
-function ResultList() {
-    // need to get from database
-    let profName = "Michael Stravinsky"
-    let profDesc = "Background: Phd in Computer Science. Expert in Machine Learning and Artificial Intelligence. Worked for NASA."
-    let tags = "Caring, Inspirational, Funny"
-    let degree  = "Computer Science"
-    let ratings = "32"
-    let ratingNum = "7.8"
-
+    }
+  
     return (
         <div>
-            <ProfCard tags={tags} degree={degree} profDesc={profDesc} profName={profName} ratings={ratings} ratingNum={ratingNum} />
-            <ProfCard tags={"Unfunny"} degree={"Computer Engineering"} profDesc={"Background: None"} profName={"Freddy Fazbear"} ratings={"9"} ratingNum={"9.9"} />
+          <h1>Professors</h1>
+          {data.map((object: { professorName: string; department: string; ratingCount: string; rating: string; _id: string; }, index: React.Key | null | undefined) => (
+            <ProfCard profName={object.professorName} department={object.department} ratings={object.ratingCount} ratingNum={object.rating} id={object._id} />
+          ))}
         </div>
     )
+}
+
+type courseBodyProps = {
+  courseName: string,
+  classCode: string
+}
+
+function CourseBody(content: courseBodyProps) {
+  return (
+    <div className="profileBody">
+      <div><h1>{content.courseName}</h1></div>
+      <div><p>{content.classCode}</p></div>
+    </div>
+  )
+}
+
+type CourseCardProps = {
+  courseName: string,
+  classCode: string,
+  id: string,
+  ratings: string,
+  ratingNum: string
+}
+
+function CourseCard({courseName, ratings, ratingNum, id, classCode}:CourseCardProps) {
+  const router = useRouter();
+
+  return (
+      <div   
+          onClick={() => {
+              router.push('/profilePage/' + id); // should be variable later on based on prof id from database
+          }}
+          className="card">
+          <div className="card-body profileCardLayout">
+              <Rating profName={courseName} reviewNum={ratings} ratingNum={ratingNum}/>
+              <CourseBody courseName={courseName} classCode={classCode}/>
+          </div>
+      </div>
+  )
+}
+
+type Query = {
+  querystring: string | null
+}
+
+function ResultListCourse({querystring}: Query) {
+  const [data, setData] = useState<null | any>(null)
+  const [isLoading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setLoading(true);
+    fetch(`http://localhost:9080/api/v1/courses/?search=` + querystring)
+      .then(res => res.json())
+      .then(data => {
+        setData(data)
+        setLoading(false)
+      });
+  }, [querystring])
+
+  //console.log(data)
+  if (isLoading) return <p>Loading...</p>
+  if (data === null) return <p>Failed to load</p>
+
+  /*
+  for (const element of data) {
+    console.log(element);
+  }
+  */
+  console.log(typeof data)
+
+  if (!(data.constructor === Array)) {
+    return <div>
+      <h1>Courses</h1>
+      <p>No results</p>
+    </div>
+  }
+
+  //used for testing
+  //const obj1 = data[0]
+  //obj1.rating = "4"
+
+  return (
+      <div>
+        <h1>Courses</h1>
+        {data.map((object: { classCode: string; courseName: string; ratingCount: string; rating: string; _id: string; }) => (
+            <CourseCard classCode={object.classCode} courseName={object.courseName} ratings={object.ratingCount} ratingNum={object.rating} id={object._id} />
+        ))}
+      </div>
+  )
+}
+
+function SearchBar2() {
+  const router = useRouter();
+  const [search, setSearch] = useState("");
+
+  return (
+    <div className="search-bar-2">
+      <input 
+        onChange={(e) => setSearch(e.target.value)}
+        type="text"  
+        value={search} 
+        placeholder='Search for class/professor...'/>
+      <button
+        onClick={() => {
+          if (search == "") {
+            return;
+          }
+          else 
+          {
+          router.push('/searchPage?q=' + search);
+          }
+        }}
+      >Search</button>
+    </div>
+  );
 }
