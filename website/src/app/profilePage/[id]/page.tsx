@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Button } from "antd";
-import {useRouter} from "next/navigation";
+import { useRouter } from "next/navigation";
 
 
 // type ReviewType = {
@@ -366,7 +366,7 @@ function ShowMore({userDesc}: ShowMoreProps) {
     <>
       {!showMore? 
         <>
-          {userDesc.substring(0,300) + "..."}
+          {userDesc.substring(0, 300) + "..."}
           <Button type="link" onClick={() => {setShowMore(true)}}>Show More</Button>
         </>
         :
