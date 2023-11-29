@@ -2,14 +2,19 @@
 
 import React from 'react';
 import { useRouter, usePathname, useParams } from 'next/navigation';
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext, createContext } from 'react'
 import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../../rateComponents';
+import { on } from 'events';
 
 
 export default function RatingPage({ params }: { params: { id: string } }) {
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
+  const [tags, setTags] = useState<null | any>(null)
+  const [courseIdentifier, setCourseIdentifier] = useState<null | any>(null)
+  const [professorRating, setProfessorRating] = useState<null | any>(null)
+  const [professorReview, setProfessorReview] = useState<null | any>(null)
 
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
@@ -23,6 +28,27 @@ export default function RatingPage({ params }: { params: { id: string } }) {
   if (isLoading) return <p>Loading...</p>
   if (data === null) return <p>Failed to load</p>
 
+  function passTags (tags: any) {
+    setTags(tags)
+  }
+
+  function passCourseIdentifier (courseIdentifier: any) {
+    setCourseIdentifier(courseIdentifier)
+  }
+
+  function passProfessorRating (professorRating: any) {
+    setProfessorRating(professorRating)
+  }
+
+  function passProfessorReview (professorReview: any) {
+    setProfessorReview(professorReview)
+  }
+
+  const onSubmit = () => {
+    console.log(courseIdentifier)
+    console.log(tags)
+  }
+
   return (
     <div>
       <div>
@@ -31,7 +57,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
         <div>Rate: {data.professor.professorName}</div>
         <div>Select class code
           <span className='red-text'>*</span>
-          <SelectClass />
+          <SelectClass callback={passCourseIdentifier}/>
         </div>
       </div>
 
@@ -42,7 +68,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
       </div>
 
       <div>Select Tags
-        <SelectProfessorTags />
+        <SelectProfessorTags callback={passTags}/>
       </div>
 
       <div>Write a review
@@ -51,7 +77,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
       </div>
 
       <div className='search-bar-2'>
-        <button>Submit</button>
+        <button onClick={onSubmit}>Submit</button>
       </div>
 
     </div>

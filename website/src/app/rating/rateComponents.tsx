@@ -4,35 +4,44 @@ import { useState, useEffect } from 'react';
 import type { SelectProps } from 'antd';
 
 
-const onChange = (value: string) => {
-    console.log(`selected ${value}`);
-};
-
-const onSearch = (value: string) => {
-    console.log('search:', value);
-};
-
 // Filter `option.label` match the user type `input`
-const filterOption = (input: string, option?: { label: string; value: string }) =>
-    (option?.label ?? '').toLowerCase().includes(input.toLowerCase());
+const filterOption = (input: string, option: any) =>
+    (option ?? '').toLowerCase().includes(input.toLowerCase());
 
-export const SelectClass: React.FC = () => (
+export function SelectClass(props: any) {
+
+    const [selectedClass, setSelectedClass] = useState<string>('');
+    const handleChange = (value: string) => {
+
+        setSelectedClass(value);
+        props.callback(codesToId.get(value));
+    };
+
+    const optionsReturn = populateOptions();
+
+    const classCodes = optionsReturn.classCodes;
+    const codesToId = optionsReturn.codesToId;
+
+    console.log(classCodes);
+    console.log(codesToId);
+
+    return (
+        <Select
+            showSearch
+            placeholder="Select a class"
+            optionFilterProp=""
+            onChange={handleChange}
+            value={selectedClass}
+            //onSearch={onSearch}
+            filterOption={filterOption}
+            options={classCodes}
+        />
+    );
+}
 
 
-    <Select
-        showSearch
-        placeholder="Select a class"
-        optionFilterProp=""
-        onChange={onChange}
-        onSearch={onSearch}
-        filterOption={filterOption}
-        options={populateOptions()}
-    />
-);
 
-
-
-function populateOptions() {
+function populateOptions(): { classCodes: string[]; codesToId: Map<string, string>; } {
 
     const [data, setData] = useState<null | any>(null)
     const [isLoading, setLoading] = useState(true)
@@ -45,25 +54,30 @@ function populateOptions() {
                 setLoading(false)
             })
     }, [])
-    if (data === null) return []
 
-    const classCodes: { label: string; value: string }[] = data?.map((item: { _id: string; classCode: string }) => ({
-        label: item.classCode,
-        value: item.classCode,
-    }));
+    //if (data === null) return []
+
+    const classCodes: string[] = data?.map((item: { _id: string; classCode: string }) => (
+        item.classCode
+    ));
+
+    const codesToId: Map<string, string> = new Map();
+
+    data?.forEach((item: { _id: string; classCode: string }) => {
+        codesToId.set(item.classCode, item._id);
+    });
 
     return (
-        classCodes
+         {classCodes, codesToId}
     )
 }
 
-export const RateProfessor: React.FC = () => (
-
+export const RateProfessor: React.FC = (props: any) => (
 
     <Select
         placeholder="Rate your professor"
         optionFilterProp=""
-        onChange={onChange}
+        //onChange={onChange}
         filterOption={filterOption}
         options={
             [
@@ -107,7 +121,7 @@ const options: SelectProps['options'] = [
 ];
 
 
-export function SelectProfessorTags() {
+export function SelectProfessorTags(props: any) {
 
     const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
@@ -119,6 +133,8 @@ export function SelectProfessorTags() {
 
             console.log('You can only select up to 3 items');
         }
+
+        props.callback(value);
     };
 
     return (
@@ -128,7 +144,7 @@ export function SelectProfessorTags() {
                 allowClear
                 style={{ width: '100%' }}
                 placeholder="Please select"
-                value = {selectedItems}
+                value={selectedItems}
                 onChange={handleChange}
                 options={options}
             />
