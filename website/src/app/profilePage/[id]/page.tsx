@@ -2,6 +2,8 @@
 import { useState, useEffect } from "react";
 import { Button } from "antd";
 import { useRouter } from "next/navigation";
+import router from "next/router";
+import { SearchBar2 } from "@/app/searchPage/page";
 
 
 // type ReviewType = {
@@ -166,10 +168,19 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
     }
   }
 
-
   console.log("profTags: ", tags)
+
   const ratingCount = data.professor?.ratingCount || 0;
+  const router = useRouter();
+
   return (
+    <>
+     <h1
+      onClick={() => {
+        router.push('/');
+      }}
+    >My Peer Advisor</h1>
+      <SearchBar2 />
     <div className="profilePageLayout">
       <ProfCard
         tags={tags}
@@ -201,6 +212,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
 
       </div>
     </div>
+    </>
   );
 }
 

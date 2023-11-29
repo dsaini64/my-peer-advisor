@@ -28,7 +28,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
   if (isLoading) return <p>Loading...</p>
   if (data === null) return <p>Failed to load</p>
 
-  function passTags (tags: any) {
+  function passTags(tags: any) {
     setTags(tags)
   }
 
@@ -79,31 +79,38 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
   };
 
   return (
+
+
+
     <div className="MPAFormLayout">
-        <h1>My Peer Advisor</h1>
-        <SearchBar2 />
+      <h1
+        onClick={() => {
+          router.push('/');
+        }}>
+        My Peer Advisor</h1>
+      <SearchBar2 />
       <div className="formLayout">
-       Rate: <span className="profReviewText">{data.professor.professorName}</span>
-          <div>Select class code
-            <span className='red-text'>*</span>
-            <SelectClass callback={passCourseIdentifier}/>
-          </div>
-        
+        Rate: <span className="profReviewText">{data.professor.professorName}</span>
+        <div>Select class code
+          <span className='red-text'>*</span>
+          <SelectClass callback={passCourseIdentifier} />
+        </div>
+
 
         <div>
           Rate your professor
           <span className='red-text'>*
-          <RateProfessor callback={passProfessorRating}/></span>
+            <RateProfessor callback={passProfessorRating} /></span>
         </div>
 
         <div className="selectTags">
           Select Tags
         </div>
-          <SelectProfessorTags callback={passTags}/>
+        <SelectProfessorTags callback={passTags} />
 
         <div>Write a review
           <span className='red-text'>*</span>
-          <ReviewBox callback={passProfessorReview}/>
+          <ReviewBox callback={passProfessorReview} />
         </div>
 
         <div className='search-bar-2'>

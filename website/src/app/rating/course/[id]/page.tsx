@@ -132,24 +132,29 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
 
     return (
         <div>
+            <h1
+                onClick={() => {
+                    router.push('/');
+                }}>
+
+                My Peer Advisor</h1>
+            <div className="search-bar-2">
+                <input
+                    onChange={(e) => setSearch(e.target.value)}
+                    type="text"
+                    value={search}
+                    placeholder="Search..." />
+                <button
+                    onClick={() => {
+                        router.push('/searchPage?q=' + search);
+                    }}
+                >Search</button>
+            </div>
             {isLoading && <p>Loading...</p>}
             {data === null && <p>Failed to load</p>}
             {!isLoading && data !== null && (
                 <div>
                     <div>
-                        <h1>My Peer Advisor</h1>
-                        <div className="search-bar-2">
-                            <input
-                                onChange={(e) => setSearch(e.target.value)}
-                                type="text"
-                                value={search}
-                                placeholder="Search..." />
-                            <button
-                                onClick={() => {
-                                    router.push('/searchPage?q=' + search);
-                                }}
-                            >Search</button>
-                        </div>
                         <div>Rate: {data.course.classCode} | {data.course.courseName}</div>
                         <div>Select professor
                             <span className='red-text'>*</span>
