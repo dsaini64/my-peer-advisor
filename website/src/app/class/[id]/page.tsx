@@ -65,7 +65,7 @@ import { useRouter } from "next/navigation";
 //     <div className="profilePageLayout">
 //       <ProfCard 
 //         tags={tags} 
-//         department={data?.professor.department} 
+//         classCode={data?.professor.classCode} 
 //         profDesc={data?.professor.background} 
 //         profName={data?.professor.professorName} 
 //         ratings={data?.professor.ratingCount} 
@@ -94,7 +94,7 @@ import { useRouter } from "next/navigation";
 // }
 
 export interface RootData {
-  professor?: Professor;
+  course?: Course;
   reviews?: ReviewType[];
 }
 
@@ -102,29 +102,23 @@ export interface ReviewType {
   rating: number;
   tags: Tag[];
   comment: string;
-  courseID: {
-    classCode: string;
+  professorID: {
+    professorName: string;
 
   };
 
 }
 
 export interface Professor {
-  professorName: string;
-  department: string;
-  background: string;
-  courses: Course[];
-  ratingCount: number;
-  ratingTotal: number;
-  tags: Tag[];
-  rating: number;
+  id:string,
+  professorName:string 
 }
 
 export interface Course {
   courseName: string;
   classCode: string;
   description: string;
-  professors: string[];
+  professors: Professor[];
   ratingCount: number;
   ratingTotal: number;
   quarterAvailability: string[];
@@ -159,25 +153,25 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
   if ((Array.isArray(data))) return <div>No Results found</div>
 
   let tags: string[] = []
-  const professor = data["professor"];
-  if (professor) {
-    if (professor.tags) {
-      tags = professor.tags.map(t => t.tagName);
+  const course = data["course"];
+  if (course) {
+    if (course.tags) {
+      tags = course.tags.map(t => t.tagName);
     }
   }
 
 
   console.log("profTags: ", tags)
-  const ratingCount = data.professor?.ratingCount || 0;
+  const ratingCount = data.course?.ratingCount || 0;
   return (
     <div className="profilePageLayout">
-      <ProfCard
+      <CourseCard
         tags={tags}
-        department={data.professor?.department}
-        profDesc={data.professor?.background}
-        profName={data.professor?.professorName}
-        ratings={data.professor?.ratingCount}
-        ratingNum={data.professor && data.professor.ratingCount? data.professor.ratingTotal: 0}
+        classCode={data.course?.classCode}
+        courseDesc={data.course?.description}
+        courseName={data.course?.courseName}
+        ratings={data.course?.ratingCount}
+        ratingNum={data.course && data.course.ratingCount? data.course.ratingTotal: 0}
         id={params.id}
       />
       <div className="numOfUserReviews">{ratingCount} {ratingCount > 1 ?
@@ -189,7 +183,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
         {data.reviews?data.reviews.map((key: ReviewType, i: number) =>
             <UserCard
               key={i}
-              userCourseName={key.courseID.classCode}
+              userProfName={key.professorID.professorName}
               userDesc={key.comment}
               userTags={key.tags}
               ratingNum={key.rating}
@@ -205,31 +199,31 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
 }
 
 type profileBodyProps = {
-  profName?: string,
-  profDesc?: string,
-  department?: string,
+  courseName?: string,
+  courseDesc?: string,
+  classCode?: string,
   tags: Tag[]
 }
 
-function ProfileBody(content: profileBodyProps) {
+function ProfileBody({courseName, courseDesc, classCode,tags}: profileBodyProps) {
   return (
     <div className="profileBody">
-      <h1>{content.profName}</h1>
-      {content.department}
-      <p>Profile: <a href={content.profDesc}> {content.profDesc}</a></p> {/* display other courses taught as well */}
-      Top Tags: {content.tags.join(",")}
+      <h1>{courseName}</h1>
+      {classCode}
+      <p>{courseDesc}</p> {/* display other courses taught as well */}
+      Top Tags: {tags.join(", ")}
     </div>
   )
 }
 
-type profInfoProp = {
-  profName?: string,
+type courseInfoProp = {
+  courseName?: string,
   reviewNum?: number,
   ratingNum?: number
   id?: string
 }
 
-function Rating({profName, reviewNum, ratingNum, id}: profInfoProp){
+function Rating({courseName, reviewNum, ratingNum, id}: courseInfoProp){
   const {push} = useRouter();
   const ratingPage = () => {
     push("/rating/professor/" + id);
@@ -238,7 +232,7 @@ function Rating({profName, reviewNum, ratingNum, id}: profInfoProp){
     <div className="ratingLayout">
       <RatingHeader reviewNum={reviewNum} ratingNum={ratingNum}/>
     <div className="ratingFooter">
-      <Button type="link" className="align-self-end" onClick={ratingPage}>Rate {profName}</Button>
+      <Button type="link" className="align-self-end" onClick={ratingPage}>Rate {courseName}</Button>
       </div>
     </div>
   );
@@ -286,20 +280,21 @@ function UserRating({ratingNum}: userRatingProps) {
             }
           </div>
         </div>
-    </div>)
+    </div>
+    )
 }
 
 type userBodyProps = {
   userDesc: string,
   userTags: Tag[]
-  userCourseName: string
+  userProfName: string
 }
 
-function UserBody({userDesc, userTags, userCourseName}: userBodyProps) {
+function UserBody({userDesc, userTags, userProfName}: userBodyProps) {
   
   return (
     <div className="userProfileBody">
-      <div><h1>{userCourseName}</h1></div>
+      <div><h1>{userProfName}</h1></div>
       <div>
             {userDesc.length > 300? 
               <p><ShowMore userDesc={userDesc} /></p>:
@@ -312,45 +307,49 @@ function UserBody({userDesc, userTags, userCourseName}: userBodyProps) {
   )
 }
 
-type ProfCardProps = {
-  profName?: string,
-  profDesc?: string,
+type CourseCardProps = {
+  courseName?: string,
+  courseDesc?: string,
   tags: any[]
-  department?: string,
+  classCode?: string,
   ratings?: number,
   ratingNum?: number
   id?: string
 }
 
-function ProfCard({profName, ratings, ratingNum, department, id, tags, profDesc}:ProfCardProps) {
+function CourseCard({courseName, ratings, ratingNum, classCode, id, tags, courseDesc}: CourseCardProps) {
   return (
     <div className="card">
     <div className="card-body profileCardLayout">
         <Rating 
-          profName={profName} 
+          courseName={courseName} 
           reviewNum={ratings} 
           ratingNum={ratingNum} 
           id={id}
         />
-        <ProfileBody profName={profName} profDesc={profDesc} tags={tags} department={department}/>
+        <ProfileBody 
+          courseName={courseName} 
+          courseDesc={courseDesc} tags={tags} 
+          classCode={classCode}
+        />
     </div>
 </div>
   )
 }
 
 type UserCardProps = {
-  userCourseName: string,
+  userProfName: string,
   userDesc: string,
   userTags: Tag[]
   ratingNum: number
 }
 
-function UserCard({userCourseName, userDesc, userTags, ratingNum}: UserCardProps){
+function UserCard({userProfName, userDesc, userTags, ratingNum}: UserCardProps){
   return (
     <div className="card">
       <div className="card-body profileCardLayout">
         <UserRating ratingNum={ratingNum}/>
-        <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+        <UserBody userProfName={userProfName} userDesc={userDesc} userTags={userTags}/>
       </div>
     </div>
   )
