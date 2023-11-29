@@ -1,11 +1,9 @@
 "use client"
 
 import React from 'react';
-import { useRouter, usePathname, useParams } from 'next/navigation';
-import { useState, useEffect, useContext, createContext } from 'react'
+import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react'
 import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../../rateComponents';
-import { on } from 'events';
-
 
 export default function ProfessorRatingPage({ params }: { params: { id: string } }) {
 

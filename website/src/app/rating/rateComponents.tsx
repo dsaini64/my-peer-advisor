@@ -3,7 +3,6 @@ import { Select, Input, Space } from 'antd';
 import { useState, useEffect } from 'react';
 import type { SelectProps } from 'antd';
 
-
 const filterOption = (input: string, option: any) =>
     (option ?? '').toLowerCase().includes(input.toLowerCase());
 
@@ -47,37 +46,6 @@ export function SelectClass(props: any) {
     );
 }
 
-// function populateOptions(): { classCodes: string[]; codesToId: Map<string, string>; } {
-
-//     const [data, setData] = useState<null | any>(null)
-//     const [isLoading, setLoading] = useState(true)
-
-//     useEffect(() => {
-//         fetch(`http://localhost:9080/api/v1/courses/codes`)
-//             .then(res => res.json())
-//             .then(data => {
-//                 setData(data)
-//                 setLoading(false)
-//             })
-//     }, [])
-
-//     //if (data === null) return []
-
-//     const classCodes: string[] = data?.map((item: { _id: string; classCode: string }) => (
-//         item.classCode
-//     ));
-
-//     const codesToId: Map<string, string> = new Map();
-
-//     data?.forEach((item: { _id: string; classCode: string }) => {
-//         codesToId.set(item.classCode, item._id);
-//     });
-
-//     return (
-//          {classCodes, codesToId}
-//     )
-// }
-
 export function RateProfessor(props: any) {
 
     const [selectedRating, setSelectedRating] = useState<string>('');
@@ -91,7 +59,6 @@ export function RateProfessor(props: any) {
         <Select
             placeholder="Rate your professor"
             optionFilterProp=""
-            // onChange={onChange}
             filterOption={filterOption}
             onChange={handleChange}
             value={selectedRating}
