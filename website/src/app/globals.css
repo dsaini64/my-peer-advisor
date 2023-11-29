@@ -210,16 +210,16 @@
 
 
 .professor-list, .course-list {
-  flex: 1; /* Each takes up equal space */
-  padding: 10px; /* Optional padding */
+  flex: 1;
+  padding: 10px;
 }
 
 
 .professor-list {
-  background-color: #f0f0f0; /* Example background color */
+  background-color: #f0f0f0;
 }
 
 
 .course-list {
-  background-color: #e0e0e0; /* Example background color */
+  background-color: #e0e0e0;
 }
