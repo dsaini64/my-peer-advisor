@@ -9,14 +9,23 @@ import { useRouter, useSearchParams } from 'next/navigation';
 export default function SearchPage() {
   //console.log(query)
   const searchparams = useSearchParams();
-  const query = searchparams.get('q')
+  const query = searchparams.get('q');
+  const router = useRouter();
     return (
       <div>
-        <h1>My Peer Advisor</h1>
+        <h1
+          onClick={() => {
+            router.push('/'); // should be variable later on based on prof id from database
+          }}
+        >My Peer Advisor</h1>
         <SearchBar2 />
         <div className="result-columns">
-          <ResultListProf querystring={query}/>
-          <ResultListCourse querystring={query} />
+          <div className="professor-list">
+            <ResultListProf querystring={query}/>
+          </div>
+          <div className="course-list">
+            <ResultListCourse querystring={query} />
+          </div>
         </div>
       </div>
     );
@@ -43,14 +52,9 @@ type profInfoProp = {
   }
   
 function Rating({profName, reviewNum, ratingNum}: profInfoProp){
-    // call backend function for rating
     return (
       <div className="ratingLayout">
         <RatingHeader reviewNum={reviewNum} ratingNum={ratingNum}/>
-        <div className="ratingFooter">
-            
-            {/* basically rating footer, should maybe add more components to make it more clear what each thing does */}
-        </div>
       </div>
     );
 }
@@ -70,7 +74,7 @@ function RatingHeader({reviewNum, ratingNum}:ratingHeaderProps){
           {ratingNum=== null? 
             <div>N/A</div>
             :
-            <div>{ratingNum}</div>
+            <div>{(parseFloat(ratingNum)).toFixed(1)}</div>
           }
         </div>
         <div className="reviewNumText"> {reviewNum} ratings</div> 
@@ -92,7 +96,7 @@ function ProfCard({profName, ratings, ratingNum, department, id}:ProfCardProps) 
     return (
         <div   
             onClick={() => {
-                router.push('/profilePage?id=' + id); // should be variable later on based on prof id from database
+                router.push('/profilePage/' + id); // should be variable later on based on prof id from database
             }}
             className="card">
             <div className="card-body profileCardLayout">
@@ -129,17 +133,17 @@ function ResultListProf({querystring}: Query) {
     */
 
     if (!(data.constructor === Array)) {
-      return <p>No results</p>
+      return <div>
+        <h1>Professors</h1>
+        <p>No results</p>
+      </div>
     }
   
     return (
         <div>
+          <h1>Professors</h1>
           {data.map((object: { professorName: string; department: string; ratingCount: string; rating: string; _id: string; }, index: React.Key | null | undefined) => (
-            <li key={index}>
-              {/* Display object properties */}
-              <ProfCard profName={object.professorName} department={object.department} ratings={object.ratingCount} ratingNum={object.rating} id={object._id} />
-              {/* ...other properties */}
-            </li>
+            <ProfCard profName={object.professorName} department={object.department} ratings={object.ratingCount} ratingNum={object.rating} id={object._id} />
           ))}
         </div>
     )
@@ -214,17 +218,21 @@ function ResultListCourse({querystring}: Query) {
   console.log(typeof data)
 
   if (!(data.constructor === Array)) {
-    return <p>No results</p>
+    return <div>
+      <h1>Courses</h1>
+      <p>No results</p>
+    </div>
   }
+
+  //used for testing
+  //const obj1 = data[0]
+  //obj1.rating = "4"
 
   return (
       <div>
-        {data.map((object: { classCode: string; courseName: string; ratingCount: string; rating: string; _id: string; }, index: React.Key | null | undefined) => (
-          <li key={index}>
-            {/* Display object properties */}
+        <h1>Courses</h1>
+        {data.map((object: { classCode: string; courseName: string; ratingCount: string; rating: string; _id: string; }) => (
             <CourseCard classCode={object.classCode} courseName={object.courseName} ratings={object.ratingCount} ratingNum={object.rating} id={object._id} />
-            {/* ...other properties */}
-          </li>
         ))}
       </div>
   )
@@ -237,14 +245,20 @@ function SearchBar2() {
   return (
     <div className="search-bar-2">
       <input 
-          onChange={(e) => setSearch(e.target.value)}
-          type="text" 
-          value={search} 
-          placeholder="Search..." />
+        onChange={(e) => setSearch(e.target.value)}
+        type="text"  
+        value={search} 
+        placeholder='Search for class/professor...'/>
       <button
-          onClick={() => {
-              router.push('/searchPage?q=' + search);
-          }}
+        onClick={() => {
+          if (search == "") {
+            return;
+          }
+          else 
+          {
+          router.push('/searchPage?q=' + search);
+          }
+        }}
       >Search</button>
     </div>
   );
