@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Button } from "antd";
-import { useParams } from "next/navigation";
 import router from "next/router";
 
 
@@ -32,15 +31,24 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
   const [data, setData] = useState<any | null>(null)
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
-    .then((response=> response.json()))
+    .then((response=> {
+      if(response.ok) {
+        console.log("response successful")
+        return response.json()
+      }
+      else {
+        console.error("Response Failed")
+      }
+    }
+    
+    ))
     .then(data => {
       setData(data)
-      
     })
     .catch(err=>console.log(err))
   }, [])
 
-  console.log("data: ", data)
+  console.log("data: ", data["professor"])
 
   
   
