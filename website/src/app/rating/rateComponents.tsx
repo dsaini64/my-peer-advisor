@@ -105,7 +105,7 @@ export function RateProfessor(props: any) {
                 { label: '7', value: '7' },
                 { label: '8', value: '8' },
                 { label: '9', value: '9' },
-                { label: '10', value: '10' },
+
             ]}
         />
     );
@@ -157,7 +157,7 @@ export function SelectProfessorTags(props: any) {
                 mode="multiple"
                 allowClear
                 style={{ width: '100%' }}
-                placeholder="Please select"
+
                 value={selectedItems}
                 onChange={handleChange}
                 options={options}

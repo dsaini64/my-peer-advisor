@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useRouter, usePathname, useParams } from 'next/navigation';
+
 import { useState, useEffect, useContext, createContext } from 'react'
 import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../../rateComponents';
 import { on } from 'events';
@@ -97,7 +98,6 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
       </div>
 
       <div>Rate your professor
-        <span className='red-text'>*</span>
         <RateProfessor callback={passProfessorRating}/>
       </div>
 
@@ -106,7 +106,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
       </div>
 
       <div>Write a review
-        <span className='red-text'>*</span>
+       
         <ReviewBox callback={passProfessorReview}/>
       </div>
 

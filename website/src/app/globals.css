@@ -204,26 +204,6 @@
   border-radius: 5px;
 }
 
-.result-columns {
-  display: flex;
-}
-
-
-.professor-list, .course-list {
-  flex: 1;
-  padding: 10px;
-}
-
-
-.professor-list {
-  background-color: #f0f0f0;
-}
-
-
-.course-list {
-  background-color: #e0e0e0;
-}
-
 .red-text {
   color: red;
 }
