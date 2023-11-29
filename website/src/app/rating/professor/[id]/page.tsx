@@ -10,10 +10,9 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
-  const id = "6563b27ff48eb1400c9f7219"
 
   useEffect(() => {
-    fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
+    fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
       .then(res => res.json())
       .then(data => {
         setData(data)
@@ -23,10 +22,6 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
   if (isLoading) return <p>Loading...</p>
   if (data === null) return <p>Failed to load</p>
-
-  //const pathname = useParams()
-  //console.log(pathname)
-
 
   return (
     <div>
@@ -55,8 +50,8 @@ export default function RatingPage({ params }: { params: { id: string } }) {
         <ReviewBox />
       </div>
 
-      <div>
-        <div className='search-bar-2'>Submit</div>
+      <div className='search-bar-2'>
+        <button>Submit</button>
       </div>
 
     </div>
@@ -65,7 +60,7 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
 function SubmitButton() {
   const router = useRouter();
-  //const []
+  //const courseIdentifier[]
 
 
 }
