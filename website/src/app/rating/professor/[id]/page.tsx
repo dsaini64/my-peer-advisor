@@ -1,43 +1,26 @@
 "use client"
 
 import React from 'react';
-import { useRouter, usePathname, useParams } from 'next/navigation';
-
-import { useState, useEffect, useContext, createContext } from 'react'
+import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react'
 import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../../rateComponents';
-import { on } from 'events';
-
 
 export default function ProfessorRatingPage({ params }: { params: { id: string } }) {
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
-  const [tags, setTags] = useState<null | any>(null)
-  const [courseIdentifier, setCourseIdentifier] = useState<null | any>(null)
+  const [tags, setTags] = useState<string[]>([])
+  const [courseIdentifier, setCourseIdentifier] = useState<null | string>(null)
   const [professorRating, setProfessorRating] = useState<null | any>(null)
-  const [professorReview, setProfessorReview] = useState<null | any>(null)
+  const [professorReview, setProfessorReview] = useState<null | string>(null)
 
   useEffect(() => {
-
     fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
       .then(res => res.json())
       .then(data => {
         setData(data)
         setLoading(false)
       })
-    fetch(`http://localhost:9080/api/v1/courses/codes`)
-      .then(res => res.json())
-      .then(courseData => {
-        setCourseData(courseData)
-        setCourseIsLoading(false)
-      })
-    setClassCodes(courseData?.map((item: { _id: string; classCode: string }) => ({
-      label: item.classCode,
-      value: item.classCode,
-    })))
-    console.log(data)
-    console.log(courseData)
-    console.log(classCodes)
   }, [])
 
   if (isLoading) return <p>Loading...</p>
@@ -47,43 +30,50 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
     setTags(tags)
   }
 
-  function passCourseIdentifier (courseIdentifier: any) {
-    setCourseIdentifier(courseIdentifier)
+  function passCourseIdentifier(courseIdentifier: any) {
+    setCourseIdentifier(courseIdentifier);
   }
 
-  function passProfessorRating (professorRating: any) {
-    setProfessorRating(professorRating)
+  function passProfessorRating(professorRating: any) {
+    setProfessorRating(professorRating);
   }
 
-  function passProfessorReview (professorReview: any) {
-    setProfessorReview(professorReview)
+  function passProfessorReview(professorReview: any) {
+    setProfessorReview(professorReview);
   }
 
   const onSubmit = () => {
     if (courseIdentifier === null || professorRating === null || professorReview === null) {
-      alert("Please fill out all required fields")
+      alert("Please fill out all required fields");
     } else {
+      console.log(courseIdentifier);
+      console.log(professorRating);
+      console.log(tags);
+      console.log(professorReview);
       const body = {
-        "courseIdentifier": courseIdentifier,
-        "professorRating": professorRating,
-        "professorReview": professorReview,
-        "tags": tags
-      }
+        courseIdentifier: courseIdentifier,
+        professorRating: Number(professorRating),
+        professorTags: tags,
+        professorReview: professorReview
+      };
+
+      console.log(body);
+
       fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify(body)
-      }).then(res => {
-        if (res.status === 200) {
-          alert("Review submitted successfully")
+        body: JSON.stringify(body),
+      }).then((res) => {
+        if (res.status === 201) {
+          alert("Review submitted successfully");
         } else {
-          alert("Failed to submit review")
+          alert("Failed to submit review");
         }
-      })
+      });
     }
-  }
+  };
 
   return (
     <div>
@@ -98,6 +88,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
       </div>
 
       <div>Rate your professor
+        <span className='red-text'>*</span>
         <RateProfessor callback={passProfessorRating}/>
       </div>
 
@@ -106,7 +97,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
       </div>
 
       <div>Write a review
-       
+        <span className='red-text'>*</span>
         <ReviewBox callback={passProfessorReview}/>
       </div>
 
@@ -137,3 +128,4 @@ function SearchBar2() {
     </div>
   );
 }
+
