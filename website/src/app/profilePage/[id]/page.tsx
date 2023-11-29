@@ -48,13 +48,12 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
     .catch(err=>console.log(err))
   }, [])
 
-  console.log("data: ", data["professor"])
+  console.log("data: ", data)
 
-  
   
   if(data === null) return <p>failed to load data</p>
   
-  if(!(data.constructor === Array)) return <div>No Results found</div>
+  //if(!(data.constructor === Array)) return <div>No Results found</div>
   
   const tags: string[] = data?.professor.tags.map((item: { _id: string; tagName: string }) => (
     item.tagName
@@ -78,7 +77,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
           <>User Review</>
       } </div>
       <div>
-          {data.map((key: ReviewType, i: number)=> 
+          {data.reviews.map((key: ReviewType, i: number)=> 
             <UserCard 
                 key={i} 
                 userCourseName={key.courseID.classCode} 
