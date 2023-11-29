@@ -258,7 +258,11 @@ function RatingHeader({reviewNum, ratingNum}:ratingHeaderProps){
       <div className="ratingNumberText">
         {!ratingNum ? 
           <span>N/A</span>:
+          (ratingNum === 10)? (
+            ratingNum
+          ): (
           ratingNum.toFixed(1)
+          )
       }
       </div>
       <div className="reviewNumText"> {reviewNum} ratings</div> 
@@ -278,12 +282,14 @@ function UserRating({ratingNum}: userRatingProps) {
             Rating
           </div>
           <div className="userRatingNumberText">
-
-            {ratingNum===0?
-              <>N/A</>
-            :
-              ratingNum.toFixed(1)
-            }
+          {!ratingNum ? 
+            <span>N/A</span>:
+            (ratingNum === 10)? (
+              ratingNum
+            ): (
+            ratingNum.toFixed(1)
+            )
+          }
           </div>
         </div>
     </div>)
