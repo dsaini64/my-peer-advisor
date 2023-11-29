@@ -144,8 +144,6 @@ export function ReviewBox(props: any) {
 
     return (
         <>
-            <br />
-            <br />
             <TextArea
                 rows={3}
                 placeholder="What would you like to say?"

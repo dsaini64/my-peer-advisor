@@ -211,6 +211,7 @@ ratingFooter {
 .red-text {
   color: red;
   gap: 5px;
+
 }
 
 .MPAFormLayout {
@@ -218,6 +219,7 @@ ratingFooter {
 }
 
 .formLayout {
+  
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -241,3 +243,9 @@ ratingFooter {
   font-size: 30px;
 }
 
+.submitFormContent{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}

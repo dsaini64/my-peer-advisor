@@ -192,7 +192,7 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                         />
                     </div>
 
-                    <div>Select Tags
+                    <div className="submitFormContent">Select Tags
                         <Space style={{ width: '100%' }} direction="vertical">
                             <Select
                                 mode="multiple"

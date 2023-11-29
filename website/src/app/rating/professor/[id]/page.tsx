@@ -91,27 +91,26 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
         My Peer Advisor</h1>
       <SearchBar2 />
       <div className="formLayout">
-        Rate: <span className="profReviewText">{data.professor.professorName}</span>
-        <div>Select class code
-          <span className='red-text'>*</span>
-          <SelectClass callback={passCourseIdentifier} />
+       Rate: <span className="profReviewText">{data.professor.professorName}</span>
+          <div className='submitFormContent'>Select class code (required)
+            <SelectClass callback={passCourseIdentifier}/>
+          </div>
+        
+
+        <div className="submitFormContent">
+          Rate your professor (required)
+          <RateProfessor callback={passProfessorRating}/>
         </div>
 
-
-        <div>
-          Rate your professor
-          <span className='red-text'>*
-            <RateProfessor callback={passProfessorRating} /></span>
+        <div className="submitFormContent">
+          Select Tags   
+        
+          <SelectProfessorTags callback={passTags}/>
         </div>
 
-        <div className="selectTags">
-          Select Tags
-        </div>
-        <SelectProfessorTags callback={passTags} />
-
-        <div>Write a review
-          <span className='red-text'>*</span>
-          <ReviewBox callback={passProfessorReview} />
+        <div className="submitFormContent">
+          Write a review (required)
+          <ReviewBox callback={passProfessorReview}/>
         </div>
 
         <div className='search-bar-2'>
