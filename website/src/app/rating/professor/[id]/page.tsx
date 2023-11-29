@@ -81,8 +81,6 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
 
   return (
 
-
-
     <div className="MPAFormLayout">
       <h1
         onClick={() => {
@@ -90,6 +88,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
         }}>
         My Peer Advisor</h1>
       <SearchBar2 />
+
       <div className="formLayout">
        Rate: <span className="profReviewText">{data.professor.professorName}</span>
           <div className='submitFormContent'>Select class code (required)

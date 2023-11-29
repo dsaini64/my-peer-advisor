@@ -131,7 +131,7 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
     };
 
     return (
-        <div>
+        <div className="MPAFormLayout">
             <h1
                 onClick={() => {
                     router.push('/');
@@ -143,7 +143,7 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                     onChange={(e) => setSearch(e.target.value)}
                     type="text"
                     value={search}
-                    placeholder="Search..." />
+                    placeholder="Search for class/professor" />
                 <button
                     onClick={() => {
                         router.push('/searchPage?q=' + search);
@@ -153,27 +153,30 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
             {isLoading && <p>Loading...</p>}
             {data === null && <p>Failed to load</p>}
             {!isLoading && data !== null && (
-                <div>
-                    <div>
-                        <div>Rate: {data.course.classCode} | {data.course.courseName}</div>
-                        <div>Select professor
-                            <span className='red-text'>*</span>
-                            <Select
-                                showSearch
-                                placeholder="Select a professor"
-                                optionFilterProp=""
-                                onChange={handleChangeProfessorChange}
-                                value={selectedProfessor}
-                                filterOption={filterOption}
-                                options={professors}
-                            />
-                        </div>
+                <div className="formLayout">
+
+                    Rate: <span className="profReviewText">{data.course.classCode} | {data.course.courseName}</span>
+
+                    <div className='submitFormContent'>
+                        Select professor (required)
+                        
+                        <Select 
+                            showSearch
+                            placeholder="Select a professor"
+                            //optionFilterProp=""
+                            onChange={handleChangeProfessorChange}
+                            value={selectedProfessor}
+                            filterOption={filterOption}
+                            options={professors}
+                        />
                     </div>
 
-                    <div>Rate the course
-                        <span className='red-text'>*</span>
+
+                    <div className='submitFormContent'>
+                        Rate the course (required)
+                        
                         <Select
-                            placeholder="Rate your professor"
+                            
                             onChange={handleRatingChange}
                             value={courseRating}
                             options={[
@@ -192,7 +195,8 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                         />
                     </div>
 
-                    <div className="submitFormContent">Select Tags
+                    <div className='submitFormContent'>
+                        Select Tags
                         <Space style={{ width: '100%' }} direction="vertical">
                             <Select
                                 mode="multiple"
@@ -206,8 +210,9 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                         </Space>
                     </div>
 
-                    <div>Write a review
-                        <span className='red-text'>*</span>
+                    <div className='submitFormContent'>
+                        Write a review (required)
+                    
                         <>
                             <br />
                             <br />
@@ -220,15 +225,11 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                             />
                         </>
                     </div>
-
                     <div className='search-bar-2'>
                         <button onClick={onSubmit}>Submit</button>
                     </div>
-
                 </div>
             )}
         </div>
-
-
     );
 }
