@@ -1,10 +1,8 @@
 "use client"
 
-import Image from 'next/image'
 import React from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname, useParams } from 'next/navigation';
 import { useState, useEffect } from 'react'
-import { Select } from 'antd';
 import { ReviewBox, SelectClass, SelectRating } from '../../rateComponents';
 
 
@@ -26,6 +24,10 @@ export default function RatingPage({ params }: { params: { id: string } }) {
   if (isLoading) return <p>Loading...</p>
   if (data === null) return <p>Failed to load</p>
 
+  const pathname = useParams()
+  console.log(pathname)
+
+
   return (
     <div>
       <div>
@@ -36,19 +38,34 @@ export default function RatingPage({ params }: { params: { id: string } }) {
           <span className='red-text'>*</span>
           <SelectClass />
         </div>
-
-        <div>Rate your professor
-          <span className='red-text'>*</span>
-          <SelectRating />
-        </div>
-        <div>Write a review
-          <span className='red-text'>*</span>
-          <ReviewBox />
-        </div>
       </div>
+
+
+      <div>Rate your professor
+        <span className='red-text'>*</span>
+        <SelectRating />
+      </div>
+
+      <div>Write a review
+        <span className='red-text'>*</span>
+        <ReviewBox />
+      </div>
+
+      <div>
+        <button className='search-bar-2'>Submit</button>
+      </div>
+
     </div>
   );
 }
+
+function SubmitReview() {
+  const router = useRouter();
+  //const [class, 
+
+
+}
+
 
 function SearchBar2() {
   const router = useRouter();
