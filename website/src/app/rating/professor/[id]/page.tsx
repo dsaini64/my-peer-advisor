@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react'
 import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../../rateComponents';
 import { SearchBar2 } from '../../../searchPage/page'
+import router from 'next/router';
 
 export default function ProfessorRatingPage({ params }: { params: { id: string } }) {
 
@@ -69,6 +70,7 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
       }).then((res) => {
         if (res.status === 201) {
           alert("Review submitted successfully");
+          router.push('/professor/' + params.id);
         } else {
           alert("Failed to submit review");
         }

@@ -122,6 +122,7 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
             }).then((res) => {
                 if (res.status === 201) {
                     alert("Review submitted successfully");
+                    router.push('/class/' + params.id);
                 } else {
                     alert("Failed to submit review");
                 }
