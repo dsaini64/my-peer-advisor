@@ -238,7 +238,7 @@ function ResultListCourse({querystring}: Query) {
   )
 }
 
-function SearchBar2() {
+export function SearchBar2() {
   const router = useRouter();
   const [search, setSearch] = useState("");
 

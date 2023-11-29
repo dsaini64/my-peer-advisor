@@ -4,6 +4,7 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react'
 import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../../rateComponents';
+import { SearchBar2 } from '../../../searchPage/page'
 
 export default function ProfessorRatingPage({ params }: { params: { id: string } }) {
 
@@ -76,56 +77,39 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
   };
 
   return (
-    <div>
-      <div>
+    <div className="MPAFormLayout">
         <h1>My Peer Advisor</h1>
         <SearchBar2 />
-        <div>Rate: {data.professor.professorName}</div>
-        <div>Select class code
+      <div className="formLayout">
+       Rate: <span className="profReviewText">{data.professor.professorName}</span>
+          <div>Select class code
+            <span className='red-text'>*</span>
+            <SelectClass callback={passCourseIdentifier}/>
+          </div>
+        
+
+        <div>
+          Rate your professor
+          <span className='red-text'>*
+          <RateProfessor callback={passProfessorRating}/></span>
+        </div>
+
+        <div className="selectTags">
+          Select Tags
+        </div>
+          <SelectProfessorTags callback={passTags}/>
+
+        <div>Write a review
           <span className='red-text'>*</span>
-          <SelectClass callback={passCourseIdentifier}/>
+          <ReviewBox callback={passProfessorReview}/>
+        </div>
+
+        <div className='search-bar-2'>
+          <button onClick={onSubmit}>Submit</button>
         </div>
       </div>
-
-      <div>Rate your professor
-        <span className='red-text'>*</span>
-        <RateProfessor callback={passProfessorRating}/>
-      </div>
-
-      <div>Select Tags
-        <SelectProfessorTags callback={passTags}/>
-      </div>
-
-      <div>Write a review
-        <span className='red-text'>*</span>
-        <ReviewBox callback={passProfessorReview}/>
-      </div>
-
-      <div className='search-bar-2'>
-        <button onClick={onSubmit}>Submit</button>
-      </div>
-
     </div>
-  );
-}
 
-function SearchBar2() {
-  const router = useRouter();
-  const [search, setSearch] = useState("");
-
-  return (
-    <div className="search-bar-2">
-      <input
-        onChange={(e) => setSearch(e.target.value)}
-        type="text"
-        value={search}
-        placeholder="Search..." />
-      <button
-        onClick={() => {
-          router.push('/searchPage?q=' + search);
-        }}
-      >Search</button>
-    </div>
   );
 }
 
