@@ -51,7 +51,7 @@ function populateOptions() {
         label: item.classCode,
         value: item.classCode,
     }));
-    
+
     return (
         classCodes
     )
@@ -82,38 +82,56 @@ export const RateProfessor: React.FC = () => (
     />
 );
 
-const options: SelectProps['options'] = [{
+const options: SelectProps['options'] = [
+    {
+        label: 'Caring',
+        value: 'caring',
+    },
+    {
+        label: 'Tough Grader',
+        value: "tough-grader"
+    },
+    {
+        label: "Funny",
+        value: "funny"
+    },
+    {
+        label: "Inspirational",
+        value: "inspirational"
+    },
+    {
+        label: "Clear Grading Criteria",
+        value: "clear-grading-criteria"
+    }
 
-    label: 'caring',
-    value: '6563b2c5b8e5ccb84c534c55',
-    }];
+];
 
 const handleChange = (value: string[]) => {
-  console.log(`selected ${value}`);
+    console.log(`selected ${value}`);
 };
 
- export const SelectProfessorTags: React.FC = () => (
-  <Space style={{ width: '100%' }} direction="vertical">
-    <Select
-      mode="multiple"
-      allowClear
-      style={{ width: '100%' }}
-      placeholder="Please select"
-      defaultValue={[]}
-      onChange={handleChange}
-      options={options}
-    />
-  </Space>
+export const SelectProfessorTags: React.FC = () => (
+    <Space style={{ width: '100%' }} direction="vertical">
+        <Select
+            mode="multiple"
+            allowClear
+            style={{ width: '100%' }}
+            placeholder="Please select"
+            defaultValue={[]}
+            onChange={handleChange}
+            options={options}
+        />
+    </Space>
 );
 
 const { TextArea } = Input;
 
 export const ReviewBox: React.FC = () => (
-  <>
-    <br />
-    <br />
-    <TextArea rows={3} placeholder="What would you like to say?" maxLength={450} />
-  </>
+    <>
+        <br />
+        <br />
+        <TextArea rows={3} placeholder="What would you like to say?" maxLength={450} />
+    </>
 );
 
 
