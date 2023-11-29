@@ -4,69 +4,98 @@ import { useState, useEffect } from 'react';
 import type { SelectProps } from 'antd';
 
 
-const onChange = (value: string) => {
-    console.log(`selected ${value}`);
-};
+const filterOption = (input: string, option: any) =>
+    (option ?? '').toLowerCase().includes(input.toLowerCase());
 
-const onSearch = (value: string) => {
-    console.log('search:', value);
-};
+export function SelectClass(props: any) {
+    const [selectedClass, setSelectedClass] = useState<string>('');
+    const [classCodes, setClassCodes] = useState<string[]>([]);
+    const [codesToId, setCodesToId] = useState<Map<string, string>>(new Map());
 
-// Filter `option.label` match the user type `input`
-const filterOption = (input: string, option?: { label: string; value: string }) =>
-    (option?.label ?? '').toLowerCase().includes(input.toLowerCase());
-
-export const SelectClass: React.FC = () => (
-
-
-    <Select
-        showSearch
-        placeholder="Select a class"
-        optionFilterProp=""
-        onChange={onChange}
-        onSearch={onSearch}
-        filterOption={filterOption}
-        options={populateOptions()}
-    />
-);
-
-
-
-function populateOptions() {
-
-    const [data, setData] = useState<null | any>(null)
-    const [isLoading, setLoading] = useState(true)
+    const handleChange = (value: string) => {
+        setSelectedClass(value);
+        props.callback(codesToId.get(value));
+    };
 
     useEffect(() => {
         fetch(`http://localhost:9080/api/v1/courses/codes`)
             .then(res => res.json())
             .then(data => {
-                setData(data)
-                setLoading(false)
+                const codes: string[] = data?.map((item: { _id: string; classCode: string }) => item.classCode) || [];
+                const codesMap: Map<string, string> = new Map();
+                data?.forEach((item: { _id: string; classCode: string }) => {
+                    codesMap.set(item.classCode, item._id);
+                });
+                setClassCodes(codes);
+                setCodesToId(codesMap);
             })
-    }, [])
-    if (data === null) return []
-
-    const classCodes: { label: string; value: string }[] = data?.map((item: { _id: string; classCode: string }) => ({
-        label: item.classCode,
-        value: item.classCode,
-    }));
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }, []);
 
     return (
-        classCodes
-    )
+        <Select
+            showSearch
+            placeholder="Select a class"
+            optionFilterProp=""
+            onChange={handleChange}
+            value={selectedClass}
+            filterOption={filterOption}
+            options={classCodes.map(code => ({ label: code, value: code }))}
+        />
+    );
 }
 
-export const RateProfessor: React.FC = () => (
+// function populateOptions(): { classCodes: string[]; codesToId: Map<string, string>; } {
 
+//     const [data, setData] = useState<null | any>(null)
+//     const [isLoading, setLoading] = useState(true)
 
-    <Select
-        placeholder="Rate your professor"
-        optionFilterProp=""
-        onChange={onChange}
-        filterOption={filterOption}
-        options={
-            [
+//     useEffect(() => {
+//         fetch(`http://localhost:9080/api/v1/courses/codes`)
+//             .then(res => res.json())
+//             .then(data => {
+//                 setData(data)
+//                 setLoading(false)
+//             })
+//     }, [])
+
+//     //if (data === null) return []
+
+//     const classCodes: string[] = data?.map((item: { _id: string; classCode: string }) => (
+//         item.classCode
+//     ));
+
+//     const codesToId: Map<string, string> = new Map();
+
+//     data?.forEach((item: { _id: string; classCode: string }) => {
+//         codesToId.set(item.classCode, item._id);
+//     });
+
+//     return (
+//          {classCodes, codesToId}
+//     )
+// }
+
+export function RateProfessor(props: any) {
+
+    const [selectedRating, setSelectedRating] = useState<string>('');
+
+    const handleChange = (value: string) => {
+        setSelectedRating(value);
+        props.callback(value);
+    };
+
+    return (
+        <Select
+            placeholder="Rate your professor"
+            optionFilterProp=""
+            // onChange={onChange}
+            filterOption={filterOption}
+            onChange={handleChange}
+            value={selectedRating}
+            options={[
                 { label: '1', value: '1' },
                 { label: '2', value: '2' },
                 { label: '3', value: '3' },
@@ -76,11 +105,11 @@ export const RateProfessor: React.FC = () => (
                 { label: '7', value: '7' },
                 { label: '8', value: '8' },
                 { label: '9', value: '9' },
-                { label: '10', value: '10' },
-            ]
-        }
-    />
-);
+
+            ]}
+        />
+    );
+};
 
 const options: SelectProps['options'] = [
     {
@@ -106,8 +135,7 @@ const options: SelectProps['options'] = [
 
 ];
 
-
-export function SelectProfessorTags() {
+export function SelectProfessorTags(props: any) {
 
     const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
@@ -119,6 +147,8 @@ export function SelectProfessorTags() {
 
             console.log('You can only select up to 3 items');
         }
+
+        props.callback(value);
     };
 
     return (
@@ -127,8 +157,8 @@ export function SelectProfessorTags() {
                 mode="multiple"
                 allowClear
                 style={{ width: '100%' }}
-                placeholder="Please select"
-                value = {selectedItems}
+
+                value={selectedItems}
                 onChange={handleChange}
                 options={options}
             />
@@ -138,15 +168,29 @@ export function SelectProfessorTags() {
 
 const { TextArea } = Input;
 
-export const ReviewBox: React.FC = () => (
-    <>
-        <br />
-        <br />
-        <TextArea rows={3} placeholder="What would you like to say?" maxLength={450} />
-    </>
-);
+export function ReviewBox(props: any) {
+    const [review, setReview] = useState<string>('');
 
+    const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+        const value = e.target.value;
+        setReview(value);
+        props.callback(value);
+    };
 
+    return (
+        <>
+            <br />
+            <br />
+            <TextArea
+                rows={3}
+                placeholder="What would you like to say?"
+                maxLength={450}
+                onChange={handleChange}
+                value={review}
+            />
+        </>
+    );
+}
 
 
 
