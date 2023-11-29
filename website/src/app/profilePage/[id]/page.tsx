@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "antd";
 import { useParams } from "next/navigation";
+import router from "next/router";
 
 
 type ReviewType = {
@@ -28,12 +29,8 @@ type ReviewType = {
 export default function ProfilePage() {
   // call backend for data
   const id = useParams()
-  console.log(id)
-
+  console.log("id:", id)
   const [data, setData] = useState<any | null>(null)
-  
-  let profTags = []
-  let courses = []
   
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
@@ -45,34 +42,44 @@ export default function ProfilePage() {
     .catch(err=>console.log(err))
   }, [])
 
-  console.log(data)
+  console.log("data: ",data)
+
+  
   
   if(data === null) return <p>failed to load data</p>
-  for (let i = 0; i < data.professor.tags.length; i++) {
-    if (data.professor.tags[i] && data.professor.tags[i]["tagName"]) {
-      profTags.push(data.professor.tags[i]["tagName"]);
-    }
-  }
-
-  for (let i = 0; i < data.professor.courses.length; i++) {
-    if (data.professor.courses[i] && data.professor.courses[i]["tagName"]) {
-      courses.push(data.professor.courses[i]["tagName"]);
-    }
-  }
-  console.log("profTags: ", profTags)
-  let ratingCount = data.professor.ratingCount
+  
+  if(!(data.constructor === Array)) return <div>No Results found</div>
+  
+  const tags: string[] = data?.professor.tags.map((item: { _id: string; tagName: string }) => (
+    item.tagName
+  ));
+  
+  console.log("profTags: ", tags)
+  let ratingCount = data?.professor?.ratingCount
   return (
     <div className="profilePageLayout">
-      <ProfCard tags={profTags} department={data.professor.department} profDesc={data.professor.background} profName={data.professor.professorName} ratings={data.professor.ratingCount} ratingNum={data.professor.ratingTotal.toFixed(1)} />
+      <ProfCard 
+        tags={tags} 
+        department={data?.professor.department} 
+        profDesc={data?.professor.background} 
+        profName={data?.professor.professorName} 
+        ratings={data?.professor.ratingCount} 
+        ratingNum={data?.professor.ratingTotal.toFixed(1)} 
+        id={String(id)} />
       <div className="numOfUserReviews">{ratingCount} {ratingCount > 1?
-        <>User Reviews</>
+          <>User Reviews</>
         :
-        <>User Review</>
+          <>User Review</>
       } </div>
       <div>
-          {data.reviews.map((key: ReviewType, i: number)=> 
-            <UserCard key={i} userCourseName={key.courseID.classCode} userDesc={key.comment} userTags={key.tags} ratingNum={key.rating} />
-            //<></>
+          {data.map((key: ReviewType, i: number)=> 
+            <UserCard 
+              key={i} 
+              userCourseName={key.courseID.classCode} 
+              userDesc={key.comment} 
+              userTags={key.tags} 
+              ratingNum={key.rating} 
+              />
 
           )}
        
@@ -106,14 +113,18 @@ type profInfoProp = {
   profName: string,
   reviewNum: number,
   ratingNum: number
+  id: string
 }
 
-function Rating({profName, reviewNum, ratingNum}: profInfoProp){
+function Rating({profName, reviewNum, ratingNum, id}: profInfoProp){
+  const ratingPage = () => {
+    router.push("/rating/professor/"+ id);
+  }
   return (
     <div className="ratingLayout">
       <RatingHeader reviewNum={reviewNum} ratingNum={ratingNum}/>
     <div className="ratingFooter">
-      <Button type="link" className="align-self-end">Rate {profName}</Button>
+      <Button type="link" className="align-self-end" onClick={ratingPage}>Rate {profName}</Button>
       </div>
     </div>
   );
@@ -150,7 +161,12 @@ function UserRating({ratingNum}: userRatingProps) {
             Rating
           </div>
           <div className="userRatingNumberText">
-            {ratingNum.toFixed(1)}
+
+            {!(ratingNum===null)?
+            ratingNum.toFixed(1)
+            :
+              <>N/A</>
+            }
           </div>
         </div>
     </div>)
@@ -194,13 +210,14 @@ type ProfCardProps = {
   department: string,
   ratings: number,
   ratingNum: number
+  id: string
 }
 
-function ProfCard({profName, ratings, ratingNum, department, tags, profDesc}:ProfCardProps) {
+function ProfCard({profName, ratings, ratingNum, department, id, tags, profDesc}:ProfCardProps) {
   return (
     <div className="card">
     <div className="card-body profileCardLayout">
-        <Rating profName={profName} reviewNum={ratings} ratingNum={ratingNum}/>
+        <Rating profName={profName} reviewNum={ratings} ratingNum={ratingNum} id={id}/>
         <ProfileBody profName={profName} profDesc={profDesc} tags={tags} department={department}/>
     </div>
 </div>

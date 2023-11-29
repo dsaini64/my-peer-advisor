@@ -25,11 +25,10 @@ export default function ClassPage({ params }: { params: { id: string } }) {
 
 function ClassProfile(content: any) {
   return (
-    <div className="flex-col h-screen w-screen">
+    <div>
         <div>
-          <h1 className='font-bold'>{content.course.classCode}</h1> <h1 >{content.course.courseName}</h1>
-
-
+          <h1>{content.course.classCode}</h1> <h1 >{content.course.courseName}</h1>
+        </div>
       </div>
   )
 }
