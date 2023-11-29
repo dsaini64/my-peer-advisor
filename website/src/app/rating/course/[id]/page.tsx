@@ -12,8 +12,7 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
 
     const [data, setData] = useState<null | any>(null)
     const [isLoading, setLoading] = useState(true)
-    const [tags, setTags] = useState<null | any>(null)
-    //const [professorIdentifier, setProfessorIdentifier] = useState<null | any>(null)
+    const [tags, setTags] = useState<string[]>([])
     const [courseRating, setCourseRating] = useState<null | any>(null)
     const [courseReview, setCourseReview] = useState<string>('')
     const [selectedProfessor, setSelectedProfessor] = useState<string>('');
@@ -96,6 +95,39 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
         }
 
     ];
+
+    const onSubmit = () => {
+        if (selectedProfessor === null || courseRating === null || courseReview === null) {
+            alert("Please fill out all required fields");
+        } else {
+            console.log(selectedProfessor);
+            console.log(courseRating);
+            console.log(tags);
+            console.log(courseReview);
+            const body = {
+                professorIdentifier: selectedProfessor,
+                courseRating: Number(courseRating),
+                courseTags: tags,
+                courseReview: courseReview
+            };
+
+            console.log(body);
+
+            fetch(`http://localhost:9080/api/v1/courses/${params.id}/reviews`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(body),
+            }).then((res) => {
+                if (res.status === 201) {
+                    alert("Review submitted successfully");
+                } else {
+                    alert("Failed to submit review");
+                }
+            });
+        }
+    };
 
     return (
         <div>
@@ -184,7 +216,7 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                     </div>
 
                     <div className='search-bar-2'>
-                        {/* <button onClick={onSubmit}>Submit</button> */}
+                        <button onClick={onSubmit}>Submit</button>
                     </div>
 
                 </div>
