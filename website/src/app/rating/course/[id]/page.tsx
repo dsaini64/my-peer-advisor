@@ -157,9 +157,9 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
 
                     Rate: <span className="profReviewText">{data.course.classCode} | {data.course.courseName}</span>
 
-                    <div>
-                        Select professor
-                        <span className='red-text'>*</span>
+                    <div className='submitFormContent'>
+                        Select professor (required)
+                        
                         <Select 
                             showSearch
                             placeholder="Select a professor"
@@ -172,10 +172,11 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                     </div>
 
 
-                    <div>Rate the course
-                        <span className='red-text'>*</span>
+                    <div className='submitFormContent'>
+                        Rate the course (required)
+                        
                         <Select
-                            placeholder="Rate your professor"
+                            
                             onChange={handleRatingChange}
                             value={courseRating}
                             options={[
@@ -194,7 +195,7 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                         />
                     </div>
 
-                    <div className="selectTags">
+                    <div className='submitFormContent'>
                         Select Tags
                         <Space style={{ width: '100%' }} direction="vertical">
                             <Select
@@ -209,8 +210,9 @@ export default function CourseRatingPage({ params }: { params: { id: string } })
                         </Space>
                     </div>
 
-                    <div>Write a review
-                        <span className='red-text'>*</span>
+                    <div className='submitFormContent'>
+                        Write a review (required)
+                    
                         <>
                             <br />
                             <br />
