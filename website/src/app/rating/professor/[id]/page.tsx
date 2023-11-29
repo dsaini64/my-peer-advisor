@@ -7,7 +7,7 @@ import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../.
 import { on } from 'events';
 
 
-export default function RatingPage({ params }: { params: { id: string } }) {
+export default function ProfessorRatingPage({ params }: { params: { id: string } }) {
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
@@ -45,10 +45,29 @@ export default function RatingPage({ params }: { params: { id: string } }) {
   }
 
   const onSubmit = () => {
-    console.log(courseIdentifier)
-    console.log(professorRating)
-    console.log(tags)
-    console.log(professorReview)
+    if (courseIdentifier === null || professorRating === null || professorReview === null) {
+      alert("Please fill out all required fields")
+    } else {
+      const body = {
+        "courseIdentifier": courseIdentifier,
+        "professorRating": professorRating,
+        "professorReview": professorReview,
+        "tags": tags
+      }
+      fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+      }).then(res => {
+        if (res.status === 200) {
+          alert("Review submitted successfully")
+        } else {
+          alert("Failed to submit review")
+        }
+      })
+    }
   }
 
   return (
