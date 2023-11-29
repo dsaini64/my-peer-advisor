@@ -177,7 +177,7 @@ function CourseCard({courseName, ratings, ratingNum, id, classCode}:CourseCardPr
   return (
       <div   
           onClick={() => {
-              router.push('/profilePage/' + id); // should be variable later on based on prof id from database
+              router.push('/class/' + id); // should be variable later on based on prof id from database
           }}
           className="card">
           <div className="card-body profileCardLayout">
