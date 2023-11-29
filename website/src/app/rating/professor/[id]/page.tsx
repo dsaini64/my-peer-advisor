@@ -9,10 +9,10 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
 
   const [data, setData] = useState<null | any>(null)
   const [isLoading, setLoading] = useState(true)
-  const [tags, setTags] = useState<null | any>(null)
-  const [courseIdentifier, setCourseIdentifier] = useState<null | any>(null)
+  const [tags, setTags] = useState<null[] | any>(null)
+  const [courseIdentifier, setCourseIdentifier] = useState<null | string>(null)
   const [professorRating, setProfessorRating] = useState<null | any>(null)
-  const [professorReview, setProfessorReview] = useState<null | any>(null)
+  const [professorReview, setProfessorReview] = useState<null | string>(null)
 
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
@@ -30,43 +30,48 @@ export default function ProfessorRatingPage({ params }: { params: { id: string }
     setTags(tags)
   }
 
-  function passCourseIdentifier (courseIdentifier: any) {
-    setCourseIdentifier(courseIdentifier)
+  function passCourseIdentifier(courseIdentifier: any) {
+    setCourseIdentifier(courseIdentifier);
   }
 
-  function passProfessorRating (professorRating: any) {
-    setProfessorRating(professorRating)
+  function passProfessorRating(professorRating: any) {
+    setProfessorRating(professorRating);
   }
 
-  function passProfessorReview (professorReview: any) {
-    setProfessorReview(professorReview)
+  function passProfessorReview(professorReview: any) {
+    setProfessorReview(professorReview);
   }
 
   const onSubmit = () => {
     if (courseIdentifier === null || professorRating === null || professorReview === null) {
-      alert("Please fill out all required fields")
+      alert("Please fill out all required fields");
     } else {
+      console.log(courseIdentifier);
+      console.log(professorRating);
+      console.log(tags);
+      console.log(professorReview);
       const body = {
-        "courseIdentifier": courseIdentifier,
-        "professorRating": professorRating,
-        "professorReview": professorReview,
-        "tags": tags
-      }
+        courseIdentifier: courseIdentifier,
+        professorRating: professorRating,
+        professorTags: tags,
+        professorReview: professorReview,
+      };
+
       fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify(body)
-      }).then(res => {
+        body: JSON.stringify(body),
+      }).then((res) => {
         if (res.status === 200) {
-          alert("Review submitted successfully")
+          alert("Review submitted successfully");
         } else {
-          alert("Failed to submit review")
+          alert("Failed to submit review");
         }
-      })
+      });
     }
-  }
+  };
 
   return (
     <div>

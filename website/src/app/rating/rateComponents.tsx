@@ -3,9 +3,6 @@ import { Select, Input, Space } from 'antd';
 import { useState, useEffect } from 'react';
 import type { SelectProps } from 'antd';
 
-const filterOption = (input: string, option: any) =>
-    (option ?? '').toLowerCase().includes(input.toLowerCase());
-
 export function SelectClass(props: any) {
     const [selectedClass, setSelectedClass] = useState<string>('');
     const [classCodes, setClassCodes] = useState<string[]>([]);
@@ -20,7 +17,7 @@ export function SelectClass(props: any) {
         fetch(`http://localhost:9080/api/v1/courses/codes`)
             .then(res => res.json())
             .then(data => {
-                const codes: string[] = data?.map((item: { _id: string; classCode: string }) => item.classCode) || [];
+                const codes: string[] = data?.map((item: { _id: string; classCode: string }) => item.classCode);
                 const codesMap: Map<string, string> = new Map();
                 data?.forEach((item: { _id: string; classCode: string }) => {
                     codesMap.set(item.classCode, item._id);
@@ -37,16 +34,17 @@ export function SelectClass(props: any) {
         <Select
             showSearch
             placeholder="Select a class"
-            optionFilterProp=""
             onChange={handleChange}
             value={selectedClass}
-            filterOption={filterOption}
-            options={classCodes.map(code => ({ label: code, value: code }))}
-        />
-    );
-}
+            filterOption={(input: string, option: any) =>
+                (option?.value ?? '').toLowerCase().includes(input.toLowerCase())
+            }
+            options={classCodes.map((item: string) => ({ label: item, value: item }))}
+            />
+            );
+            }
 
-export function RateProfessor(props: any) {
+            export function RateProfessor(props: any) {
 
     const [selectedRating, setSelectedRating] = useState<string>('');
 
@@ -59,7 +57,6 @@ export function RateProfessor(props: any) {
         <Select
             placeholder="Rate your professor"
             optionFilterProp=""
-            filterOption={filterOption}
             onChange={handleChange}
             value={selectedRating}
             options={[
