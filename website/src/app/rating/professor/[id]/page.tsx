@@ -3,7 +3,7 @@
 import React from 'react';
 import { useRouter, usePathname, useParams } from 'next/navigation';
 import { useState, useEffect } from 'react'
-import { ReviewBox, SelectClass, SelectRating, SelectTags } from '../../rateComponents';
+import { RateProfessor, ReviewBox, SelectClass, SelectProfessorTags } from '../../rateComponents';
 
 
 export default function RatingPage({ params }: { params: { id: string } }) {
@@ -43,12 +43,11 @@ export default function RatingPage({ params }: { params: { id: string } }) {
 
       <div>Rate your professor
         <span className='red-text'>*</span>
-        <SelectRating />
+        <RateProfessor />
       </div>
 
       <div>Select Tags
-        <span className='red-text'>*</span>
-        <SelectTags />
+        <SelectProfessorTags />
       </div>
 
       <div>Write a review
