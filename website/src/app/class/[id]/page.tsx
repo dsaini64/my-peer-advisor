@@ -27,9 +27,9 @@ function ClassProfile(content: any) {
   return (
     <div>
         <div>
-          <h1>{content.course.classCode}</h1> <h1 >{content.course.courseName}</h1>
+          <h1>{content.course.classCode}</h1> <h1>{content.course.courseName}</h1>
         </div>
-      </div>
+    </div>
   )
 }
 

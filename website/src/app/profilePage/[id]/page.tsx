@@ -29,11 +29,12 @@ type ReviewType = {
 export default function ProfilePage() {
   // call backend for data
   const id = useParams()
-  console.log("id:", id)
+  console.log("id:", typeof(id["id"]))
+
   const [data, setData] = useState<any | null>(null)
-  
+  let stringId = String(id["id"])
   useEffect(() => {
-    fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
+    fetch(`http://localhost:9080/api/v1/professors/${stringId}/reviews`)
     .then((response=> response.json()))
     .then(data => {
       setData(data)
@@ -65,7 +66,7 @@ export default function ProfilePage() {
         profName={data?.professor.professorName} 
         ratings={data?.professor.ratingCount} 
         ratingNum={data?.professor.ratingTotal.toFixed(1)} 
-        id={String(id)} />
+        id={stringId} />
       <div className="numOfUserReviews">{ratingCount} {ratingCount > 1?
           <>User Reviews</>
         :
@@ -74,11 +75,11 @@ export default function ProfilePage() {
       <div>
           {data.map((key: ReviewType, i: number)=> 
             <UserCard 
-              key={i} 
-              userCourseName={key.courseID.classCode} 
-              userDesc={key.comment} 
-              userTags={key.tags} 
-              ratingNum={key.rating} 
+                key={i} 
+                userCourseName={key.courseID.classCode} 
+                userDesc={key.comment} 
+                userTags={key.tags} 
+                ratingNum={key.rating} 
               />
 
           )}
