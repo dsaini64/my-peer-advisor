@@ -1,6 +1,8 @@
 import React from 'react';
-import { Select, Input } from 'antd';
+import { Select, Input, Space } from 'antd';
 import { useState, useEffect } from 'react';
+import type { SelectProps } from 'antd';
+
 
 const onChange = (value: string) => {
     console.log(`selected ${value}`);
@@ -55,7 +57,7 @@ function populateOptions() {
     )
 }
 
-export const SelectRating: React.FC = () => (
+export const RateProfessor: React.FC = () => (
 
 
     <Select
@@ -80,32 +82,29 @@ export const SelectRating: React.FC = () => (
     />
 );
 
-export const SelectTags: React.FC = () => (
+const options: SelectProps['options'] = [{
 
+    label: 'caring',
+    value: '6563b2c5b8e5ccb84c534c55',
+    }];
+
+const handleChange = (value: string[]) => {
+  console.log(`selected ${value}`);
+};
+
+ export const SelectProfessorTags: React.FC = () => (
+  <Space style={{ width: '100%' }} direction="vertical">
     <Select
-        placeholder="Rate your professor"
-        optionFilterProp=""
-        onChange={onChange}
-        filterOption={filterOption}
-        options={
-            [
-                { label: '1', value: '1' },
-                { label: '2', value: '2' },
-                { label: '3', value: '3' },
-                { label: '4', value: '4' },
-                { label: '5', value: '5' },
-                { label: '6', value: '6' },
-                { label: '7', value: '7' },
-                { label: '8', value: '8' },
-                { label: '9', value: '9' },
-                { label: '10', value: '10' },
-            ]
-        }
+      mode="multiple"
+      allowClear
+      style={{ width: '100%' }}
+      placeholder="Please select"
+      defaultValue={[]}
+      onChange={handleChange}
+      options={options}
     />
+  </Space>
 );
-
-
-
 
 const { TextArea } = Input;
 
