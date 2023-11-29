@@ -226,7 +226,7 @@ type courseInfoProp = {
 function Rating({courseName, reviewNum, ratingNum, id}: courseInfoProp){
   const {push} = useRouter();
   const ratingPage = () => {
-    push("/rating/professor/" + id);
+    push("/rating/course/" + id);
   }
   return (
     <div className="ratingLayout">
