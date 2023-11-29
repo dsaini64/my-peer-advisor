@@ -106,23 +106,35 @@ const options: SelectProps['options'] = [
 
 ];
 
-const handleChange = (value: string[]) => {
-    console.log(`selected ${value}`);
-};
 
-export const SelectProfessorTags: React.FC = () => (
-    <Space style={{ width: '100%' }} direction="vertical">
-        <Select
-            mode="multiple"
-            allowClear
-            style={{ width: '100%' }}
-            placeholder="Please select"
-            defaultValue={[]}
-            onChange={handleChange}
-            options={options}
-        />
-    </Space>
-);
+export function SelectProfessorTags() {
+
+    const [selectedItems, setSelectedItems] = useState<string[]>([]);
+
+    const handleChange = (value: string[]) => {
+
+        if (value.length <= 3) {
+            setSelectedItems(value);
+        } else {
+
+            console.log('You can only select up to 3 items');
+        }
+    };
+
+    return (
+        <Space style={{ width: '100%' }} direction="vertical">
+            <Select
+                mode="multiple"
+                allowClear
+                style={{ width: '100%' }}
+                placeholder="Please select"
+                value = {selectedItems}
+                onChange={handleChange}
+                options={options}
+            />
+        </Space>
+    );
+}
 
 const { TextArea } = Input;
 
