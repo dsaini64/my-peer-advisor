@@ -332,7 +332,9 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
           setData(reviewList.reviews[i])
           console.log("data Like dislike", data)
             setLikes(data?.likes)
-            setDislikes(data?.dislikes)
+            setDislikes(data?.dislikes) 
+            console.log("Likes: ", likes)
+            console.log("Dislikes: ", dislikes)
         }
         
       }
