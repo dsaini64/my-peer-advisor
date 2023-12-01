@@ -4,6 +4,7 @@ import { Button } from "antd";
 import { useRouter } from "next/navigation";
 import router from "next/router";
 import { SearchBar2 } from "@/app/searchPage/page";
+import { DislikeOutlined, LikeOutlined } from "@ant-design/icons";
 
 
 // type ReviewType = {
@@ -108,7 +109,10 @@ export interface ReviewType {
     professorName: string;
 
   };
-
+  likes: number
+  dislikes: number
+  date:string 
+  id: string
 }
 
 export interface Professor {
@@ -198,6 +202,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
               userDesc={key.comment}
               userTags={key.tags}
               ratingNum={key.rating}
+              id={key.id}
             />
 
           )
@@ -300,20 +305,38 @@ type userBodyProps = {
   userDesc: string,
   userTags: Tag[]
   userProfName: string
+  id: string
 }
 
-function UserBody({ userDesc, userTags, userProfName }: userBodyProps) {
+function UserBody({userDesc, userTags, userProfName, id}: userBodyProps) {
+  const updateLikes = () => {
+    fetch(`http://localhost:9080/api/v1/reviews/${id}/like`, {
+      method: 'PATCH'
+    })
+  }
+
+
+  const updateDislikes = () => {
+    fetch(`http://localhost:9080/api/v1/reviews/${id}/dislike`, {
+      method: 'PATCH'
+    })
+  }
 
   return (
     <div className="userProfileBody">
       <div><h1>{userProfName}</h1></div>
       <div>
-        {userDesc.length > 300 ?
-          <p><ShowMore userDesc={userDesc} /></p> :
-          <p>{userDesc}</p>
-        }
+            {userDesc.length > 300? 
+              <p><ShowMore userDesc={userDesc} /></p>:
+              <p>{userDesc}</p>
+            }
       </div>
-      <div>Tags: {userTags && userTags.map(u => u.tagName).join(", ")}
+      <div>
+        Tags: {userTags && userTags.map(u=>u.tagName).join(", ")}
+      </div>
+      <div className="LikeDislikeButtonsLayout">
+        <Button type="text" icon={<LikeOutlined />} onClick={updateLikes} /> 
+        <Button type="text" icon={<DislikeOutlined />} onClick={updateDislikes} />
       </div>
     </div>
   )
@@ -354,14 +377,16 @@ type UserCardProps = {
   userDesc: string,
   userTags: Tag[]
   ratingNum: number
+  id: string
 }
 
-function UserCard({ userProfName, userDesc, userTags, ratingNum }: UserCardProps) {
+function UserCard({ userProfName, userDesc, userTags, ratingNum, id }: UserCardProps) {
+  console.log("Review id: ", id)
   return (
     <div className="card">
       <div className="card-body profileCardLayout">
         <UserRating ratingNum={ratingNum} />
-        <UserBody userProfName={userProfName} userDesc={userDesc} userTags={userTags} />
+        <UserBody userProfName={userProfName} userDesc={userDesc} userTags={userTags} id={id} />
       </div>
     </div>
   )

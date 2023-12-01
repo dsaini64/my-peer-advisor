@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Button } from "antd";
+import { LikeOutlined, DislikeOutlined }  from "@ant-design/icons";
 import { useRouter } from "next/navigation";
 import router from "next/router";
 import { SearchBar2 } from "@/app/searchPage/page";
@@ -102,13 +103,16 @@ export interface RootData {
 
 export interface ReviewType {
   rating: number;
+  _id: string
   tags: Tag[];
   comment: string;
   courseID: {
     classCode: string;
 
   };
-
+  likes: number
+  dislikes: number
+  date: string 
 }
 
 export interface Professor {
@@ -204,6 +208,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
               userDesc={key.comment}
               userTags={key.tags}
               ratingNum={key.rating}
+              id={key._id}
             />
 
         )
@@ -229,7 +234,7 @@ function ProfileBody(content: profileBodyProps) {
       <h1>{content.profName}</h1>
       {content.department}
       <p>Profile: <a href={content.profDesc}> {content.profDesc}</a></p> {/* display other courses taught as well */}
-      Top Tags: {content.tags.join(",")}
+      Top Tags: {content.tags.join(", ")}
     </div>
   )
 }
@@ -269,11 +274,11 @@ function RatingHeader({reviewNum, ratingNum}:ratingHeaderProps){
       </div>
       <div className="ratingNumberText">
         {!ratingNum ? 
-          <span>N/A</span>:
+          <>N/A</>:
           ratingNum.toFixed(1)
       }
       </div>
-      <div className="reviewNumText"> {reviewNum} ratings</div> 
+      <div className="reviewNumText">{reviewNum} ratings</div> 
     </div>
   )
 }
@@ -291,24 +296,73 @@ function UserRating({ratingNum}: userRatingProps) {
           </div>
           <div className="userRatingNumberText">
 
-            {ratingNum===0?
+            {ratingNum === 0?
               <>N/A</>
             :
               ratingNum.toFixed(1)
             }
           </div>
         </div>
-    </div>)
+    </div>
+    )
 }
 
 type userBodyProps = {
   userDesc: string,
   userTags: Tag[]
   userCourseName: string
+  id?: string
+ 
 }
 
-function UserBody({userDesc, userTags, userCourseName}: userBodyProps) {
-  
+function UserBody({userDesc, userTags, userCourseName, id}: userBodyProps) {
+  const [likes, setLikes] = useState(0)
+  const [dislikes, setDislikes] = useState(0)
+  // useEffect(() => {
+  //   fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
+  //   .then((response => response.json()))
+  //   .then(data => {
+  //     setLikes(data.likes)
+  //     setDislikes(data.dislikes)
+  //   })
+  //   .catch(err => console.log(err))
+  // }, [])
+  const updateLikes = () => {
+    fetch(`http://localhost:9080/api/v1/reviews/${id}/like`, {
+      method: 'PATCH'
+    }).then((res) => {
+      if(res.status == 200) {
+        console.log("Like Successfully")
+      }
+      else if (res.status == 400) {
+        console.log("Error Liking, invalid id")
+      }
+      else {
+        console.log("Can only like once")
+      }
+      setLikes(likes + 1)
+    })
+    .catch((err) => console.log(err))
+  }
+
+  const updateDislikes = () => {
+    fetch(`http://localhost:9080/api/v1/reviews/${id}/dislike`, {
+      method: 'PATCH'
+    }).then((res)=> {
+      if(res.status == 200) {
+        console.log("Disliked Successfully")
+      }
+      else if (res.status == 400){
+        console.log("Error Disliking, invalid id")
+      }
+      else {
+        console.log("Can only dislike once")
+      }
+      setDislikes(dislikes + 1)
+    })
+    .catch((err)=> console.log(err))
+  }
+
   return (
     <div className="userProfileBody">
       <div><h1>{userCourseName}</h1></div>
@@ -318,7 +372,14 @@ function UserBody({userDesc, userTags, userCourseName}: userBodyProps) {
               <p>{userDesc}</p>
             }
       </div>
-      <div>Tags: {userTags && userTags.map(u=>u.tagName).join(", ")}
+      <div>
+        Tags: {userTags && userTags.map(u=>u.tagName).join(", ")}
+      </div>
+      <div className="LikeDislikeButtonsLayout">
+        <Button type="text" icon={<LikeOutlined />} onClick={updateLikes} /> 
+        {likes}
+        <Button type="text" icon={<DislikeOutlined />} onClick={updateDislikes} />
+        {dislikes}
       </div>
     </div>
   )
@@ -344,7 +405,12 @@ function ProfCard({profName, ratings, ratingNum, department, id, tags, profDesc}
           ratingNum={ratingNum} 
           id={id}
         />
-        <ProfileBody profName={profName} profDesc={profDesc} tags={tags} department={department}/>
+        <ProfileBody 
+          profName={profName} 
+          profDesc={profDesc} 
+          tags={tags} 
+          department={department}
+        />
     </div>
 </div>
   )
@@ -355,14 +421,15 @@ type UserCardProps = {
   userDesc: string,
   userTags: Tag[]
   ratingNum: number
+  id?: string
 }
 
-function UserCard({userCourseName, userDesc, userTags, ratingNum}: UserCardProps){
+function UserCard({userCourseName, userDesc, userTags, ratingNum, id}: UserCardProps){
   return (
     <div className="card">
       <div className="card-body profileCardLayout">
         <UserRating ratingNum={ratingNum}/>
-        <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+        <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags} id={id} />
       </div>
     </div>
   )
