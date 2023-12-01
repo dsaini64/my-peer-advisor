@@ -204,6 +204,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
         {data.reviews?data.reviews.map((key: ReviewType, i: number) =>
             <UserCard
               key={i}
+              professorID={params.id}
               userCourseName={key.courseID.classCode}
               userDesc={key.comment}
               userTags={key.tags}
@@ -312,27 +313,39 @@ type userBodyProps = {
   userTags: Tag[]
   userCourseName: string
   id?: string
- 
+  professorID: string
 }
 
-function UserBody({userDesc, userTags, userCourseName, id}: userBodyProps) {
-  const [likes, setLikes] = useState(0)
-  const [dislikes, setDislikes] = useState(0)
-  // useEffect(() => {
-  //   fetch(`http://localhost:9080/api/v1/professors/${id}/reviews`)
-  //   .then((response => response.json()))
-  //   .then(data => {
-  //     setLikes(data.likes)
-  //     setDislikes(data.dislikes)
-  //   })
-  //   .catch(err => console.log(err))
-  // }, [])
+function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBodyProps) {
+  const [likes, setLikes] = useState<number | undefined>(0)
+  const [dislikes, setDislikes] = useState<number | undefined>(0)
+  const [data, setData] = useState<ReviewType>()
+  
+  useEffect(() => {
+    fetch(`http://localhost:9080/api/v1/professors/${professorID}/reviews`)
+    .then((response => response.json()))
+    .then(reviewList => {
+      console.log("Reviews List",reviewList.reviews)
+      for (let i = 0; i < reviewList.reviews.length; i++) {
+        console.log("review type", reviewList.reviews[i])
+        if(reviewList.reviews[i]._id == id) {
+          setData(reviewList.reviews[i])
+          console.log("data Like dislike", data)
+            setLikes(data?.likes)
+            setDislikes(data?.dislikes)
+        }
+        
+      }
+    })
+    .catch(err => console.log(err))
+  }, [])
+
   const updateLikes = () => {
     fetch(`http://localhost:9080/api/v1/reviews/${id}/like`, {
       method: 'PATCH'
     }).then((res) => {
       if(res.status == 200) {
-        console.log("Like Successfully")
+        console.log("Liked Successfully")
       }
       else if (res.status == 400) {
         console.log("Error Liking, invalid id")
@@ -340,7 +353,7 @@ function UserBody({userDesc, userTags, userCourseName, id}: userBodyProps) {
       else {
         console.log("Can only like once")
       }
-      setLikes(likes + 1)
+      //setLikes(likes + 1)
     })
     .catch((err) => console.log(err))
   }
@@ -358,14 +371,15 @@ function UserBody({userDesc, userTags, userCourseName, id}: userBodyProps) {
       else {
         console.log("Can only dislike once")
       }
-      setDislikes(dislikes + 1)
+      //setDislikes(dislikes + 1)
     })
     .catch((err)=> console.log(err))
   }
 
   return (
     <div className="userProfileBody">
-      <div><h1>{userCourseName}</h1></div>
+      <div className="dateFormat">{data?.date}</div>
+      <div><h1>{userCourseName}</h1> </div>
       <div>
             {userDesc.length > 300? 
               <p><ShowMore userDesc={userDesc} /></p>:
@@ -422,14 +436,21 @@ type UserCardProps = {
   userTags: Tag[]
   ratingNum: number
   id?: string
+  professorID: string
 }
 
-function UserCard({userCourseName, userDesc, userTags, ratingNum, id}: UserCardProps){
+function UserCard({userCourseName, userDesc, userTags, ratingNum, id, professorID}: UserCardProps){
   return (
     <div className="card">
       <div className="card-body profileCardLayout">
         <UserRating ratingNum={ratingNum}/>
-        <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags} id={id} />
+        <UserBody 
+          userCourseName={userCourseName} 
+          userDesc={userDesc} 
+          userTags={userTags} 
+          id={id}
+          professorID={professorID}
+        />
       </div>
     </div>
   )

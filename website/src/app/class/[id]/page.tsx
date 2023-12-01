@@ -203,6 +203,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
               userTags={key.tags}
               ratingNum={key.rating}
               id={key.id}
+              courseID={key.professorID}
             />
 
           )
@@ -306,9 +307,10 @@ type userBodyProps = {
   userTags: Tag[]
   userProfName: string
   id: string
+  courseID?: string
 }
 
-function UserBody({userDesc, userTags, userProfName, id}: userBodyProps) {
+function UserBody({userDesc, userTags, userProfName, id, courseID}: userBodyProps) {
   const updateLikes = () => {
     fetch(`http://localhost:9080/api/v1/reviews/${id}/like`, {
       method: 'PATCH'
@@ -378,15 +380,16 @@ type UserCardProps = {
   userTags: Tag[]
   ratingNum: number
   id: string
+  courseID?: string
 }
 
-function UserCard({ userProfName, userDesc, userTags, ratingNum, id }: UserCardProps) {
+function UserCard({ userProfName, userDesc, userTags, ratingNum, id, courseID }: UserCardProps) {
   console.log("Review id: ", id)
   return (
     <div className="card">
       <div className="card-body profileCardLayout">
         <UserRating ratingNum={ratingNum} />
-        <UserBody userProfName={userProfName} userDesc={userDesc} userTags={userTags} id={id} />
+        <UserBody userProfName={userProfName} userDesc={userDesc} userTags={userTags} id={id} courseID={courseID}/>
       </div>
     </div>
   )
