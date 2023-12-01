@@ -7,95 +7,6 @@ import router from "next/router";
 import { SearchBar2 } from "@/app/searchPage/page";
 
 
-// type ReviewType = {
-//   id: string
-//   professorID: string
-//   courseID: {
-//     id:string
-//     classCode: string
-//   }
-//   rating: number
-//   reviewType: string
-//   likes: number
-//   dislikes: number
-//   comment: string
-//   tags: [
-//     {
-//       id: string
-//       tagName: string
-//     }
-//   ]
-//   date: "string"
-//   __v: number
-// }
-// export default function ProfilePage({ params }: { params: { id: string } }) {
-//   // call backend for data
-
-//   const [data, setData] = useState<any | null>(null)
-//   useEffect(() => {
-//     fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
-//     .then((response=> {
-//       if(response.ok) {
-//         console.log("response successful")
-//         return response.json()
-//       }
-//       else {
-//         console.error("Response Failed")
-//       }
-//     }
-    
-//     ))
-//     .then(data => {
-//       setData(data)
-//     })
-//     .catch(err=>console.log(err))
-//   }, [])
-
-//   console.log("data: ", data)
-
-  
-//   if(data === null) return <p>failed to load data</p>
-  
-//   //if(!(data.constructor === Array)) return <div>No Results found</div>
-  
-//   const tags: string[] = data?.professor.tags.map((item: { _id: string; tagName: string }) => (
-//     item.tagName
-//   ));
-  
-//   console.log("profTags: ", tags)
-//   let ratingCount = data?.professor?.ratingCount
-//   return (
-//     <div className="profilePageLayout">
-//       <ProfCard 
-//         tags={tags} 
-//         department={data?.professor.department} 
-//         profDesc={data?.professor.background} 
-//         profName={data?.professor.professorName} 
-//         ratings={data?.professor.ratingCount} 
-//         ratingNum={data?.professor.ratingTotal.toFixed(1)} 
-//         id={params.id} />
-//       <div className="numOfUserReviews">{ratingCount} {ratingCount > 1?
-//           <>User Reviews</>
-//         :
-//           <>User Review</>
-//       } </div>
-//       <div>
-//           {data.reviews.map((key: ReviewType, i: number)=> 
-//             <UserCard 
-//                 key={i} 
-//                 userCourseName={key.courseID.classCode} 
-//                 userDesc={key.comment} 
-//                 userTags={key.tags} 
-//                 ratingNum={key.rating} 
-//               />
-
-//           )}
-       
-//       </div>
-//     </div>
-//   );  
-// }
-
 export interface RootData {
   professor?: Professor;
   reviews?: ReviewType[];
@@ -110,8 +21,8 @@ export interface ReviewType {
     classCode: string;
 
   };
-  likes: number
-  dislikes: number
+  likes?: number
+  dislikes?: number
   date: string 
 }
 
@@ -317,8 +228,8 @@ type userBodyProps = {
 }
 
 function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBodyProps) {
-  const [likes, setLikes] = useState<number | undefined>(0)
-  const [dislikes, setDislikes] = useState<number | undefined>(0)
+  const [likes, setLikes] = useState(0)
+  const [dislikes, setDislikes] = useState(0)
   const [data, setData] = useState<ReviewType>()
   
   useEffect(() => {
@@ -331,8 +242,8 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
         if(reviewList.reviews[i]._id == id) {
           setData(reviewList.reviews[i])
           console.log("data Like dislike", data)
-            setLikes(data?.likes)
-            setDislikes(data?.dislikes) 
+            // setLikes(data?.likes)
+            // setDislikes(data?.dislikes) 
             console.log("Likes: ", likes)
             console.log("Dislikes: ", dislikes)
         }
@@ -355,7 +266,7 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
       else {
         console.log("Can only like once")
       }
-      //setLikes(likes + 1)
+      setLikes(likes + 1)
     })
     .catch((err) => console.log(err))
   }
@@ -373,7 +284,7 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
       else {
         console.log("Can only dislike once")
       }
-      //setDislikes(dislikes + 1)
+      setDislikes(dislikes + 1)
     })
     .catch((err)=> console.log(err))
   }
