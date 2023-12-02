@@ -21,8 +21,8 @@ export interface ReviewType {
     classCode: string;
 
   };
-  likes?: number
-  dislikes?: number
+  likes: number
+  dislikes: number
   date: string 
 }
 
@@ -231,7 +231,16 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
   const [likes, setLikes] = useState(0)
   const [dislikes, setDislikes] = useState(0)
   const [data, setData] = useState<ReviewType>()
+
   
+  const getDate = (dateString:string) => {
+    const date = new Date(dateString);
+    const formattedDate = (date.getMonth() + 1) + '/' + date.getDate() + '/' + date.getFullYear();
+    console.log(formattedDate);
+    return formattedDate
+  }
+
+
   useEffect(() => {
     fetch(`http://localhost:9080/api/v1/professors/${professorID}/reviews`)
     .then((response => response.json()))
@@ -242,10 +251,11 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
         if(reviewList.reviews[i]._id == id) {
           setData(reviewList.reviews[i])
           console.log("data Like dislike", data)
-            // setLikes(data?.likes)
-            // setDislikes(data?.dislikes) 
+            setLikes(data?.likes || 0)
+            setDislikes(data?.dislikes || 0) 
             console.log("Likes: ", likes)
             console.log("Dislikes: ", dislikes)
+
         }
         
       }
@@ -261,6 +271,7 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
       if(res.status == 200) {
         console.log("Liked Successfully")
         setLikes(likes + 1)
+        console.log("likes: ", likes)
       }
       else if (res.status == 400) {
         console.log("Error Liking, invalid id")
@@ -280,20 +291,22 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
       if(res.status == 200) {
         console.log("Disliked Successfully")
         setDislikes(dislikes + 1)
+        console.log("likes: ", dislikes)
       }
       else if (res.status == 400){
         console.log("Error Disliking, invalid id")
       }
       else {
         console.log("Can only dislike once")
+        console.log("dislikes: ", dislikes)
       }
     })
-    .catch((err)=> console.log(err))
+    .catch((err) => console.log(err))
   }
 
   return (
     <div className="userProfileBody">
-      <div className="dateFormat">{data?.date}</div>
+      <div className="dateFormat">{getDate(data?.date || "")}</div>
       <div><h1>{userCourseName}</h1> </div>
       <div>
             {userDesc.length > 300? 
