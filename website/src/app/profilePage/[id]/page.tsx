@@ -255,10 +255,12 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
 
   const updateLikes = () => {
     fetch(`http://localhost:9080/api/v1/reviews/${id}/like`, {
-      method: 'PATCH'
+      method: 'PATCH',
+      credentials: "include"
     }).then((res) => {
       if(res.status == 200) {
         console.log("Liked Successfully")
+        setLikes(likes + 1)
       }
       else if (res.status == 400) {
         console.log("Error Liking, invalid id")
@@ -266,17 +268,18 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
       else {
         console.log("Can only like once")
       }
-      setLikes(likes + 1)
     })
     .catch((err) => console.log(err))
   }
 
   const updateDislikes = () => {
     fetch(`http://localhost:9080/api/v1/reviews/${id}/dislike`, {
-      method: 'PATCH'
+      method: 'PATCH',
+      credentials: "include"
     }).then((res)=> {
       if(res.status == 200) {
         console.log("Disliked Successfully")
+        setDislikes(dislikes + 1)
       }
       else if (res.status == 400){
         console.log("Error Disliking, invalid id")
@@ -284,7 +287,6 @@ function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBod
       else {
         console.log("Can only dislike once")
       }
-      setDislikes(dislikes + 1)
     })
     .catch((err)=> console.log(err))
   }
