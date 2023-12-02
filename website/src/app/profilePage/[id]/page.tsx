@@ -1,99 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Button } from "antd";
+import { LikeOutlined, DislikeOutlined }  from "@ant-design/icons";
 import { useRouter } from "next/navigation";
 import router from "next/router";
 import { SearchBar2 } from "@/app/searchPage/page";
 
-
-// type ReviewType = {
-//   id: string
-//   professorID: string
-//   courseID: {
-//     id:string
-//     classCode: string
-//   }
-//   rating: number
-//   reviewType: string
-//   likes: number
-//   dislikes: number
-//   comment: string
-//   tags: [
-//     {
-//       id: string
-//       tagName: string
-//     }
-//   ]
-//   date: "string"
-//   __v: number
-// }
-// export default function ProfilePage({ params }: { params: { id: string } }) {
-//   // call backend for data
-
-//   const [data, setData] = useState<any | null>(null)
-//   useEffect(() => {
-//     fetch(`http://localhost:9080/api/v1/professors/${params.id}/reviews`)
-//     .then((response=> {
-//       if(response.ok) {
-//         console.log("response successful")
-//         return response.json()
-//       }
-//       else {
-//         console.error("Response Failed")
-//       }
-//     }
-    
-//     ))
-//     .then(data => {
-//       setData(data)
-//     })
-//     .catch(err=>console.log(err))
-//   }, [])
-
-//   console.log("data: ", data)
-
-  
-//   if(data === null) return <p>failed to load data</p>
-  
-//   //if(!(data.constructor === Array)) return <div>No Results found</div>
-  
-//   const tags: string[] = data?.professor.tags.map((item: { _id: string; tagName: string }) => (
-//     item.tagName
-//   ));
-  
-//   console.log("profTags: ", tags)
-//   let ratingCount = data?.professor?.ratingCount
-//   return (
-//     <div className="profilePageLayout">
-//       <ProfCard 
-//         tags={tags} 
-//         department={data?.professor.department} 
-//         profDesc={data?.professor.background} 
-//         profName={data?.professor.professorName} 
-//         ratings={data?.professor.ratingCount} 
-//         ratingNum={data?.professor.ratingTotal.toFixed(1)} 
-//         id={params.id} />
-//       <div className="numOfUserReviews">{ratingCount} {ratingCount > 1?
-//           <>User Reviews</>
-//         :
-//           <>User Review</>
-//       } </div>
-//       <div>
-//           {data.reviews.map((key: ReviewType, i: number)=> 
-//             <UserCard 
-//                 key={i} 
-//                 userCourseName={key.courseID.classCode} 
-//                 userDesc={key.comment} 
-//                 userTags={key.tags} 
-//                 ratingNum={key.rating} 
-//               />
-
-//           )}
-       
-//       </div>
-//     </div>
-//   );  
-// }
 
 export interface RootData {
   professor?: Professor;
@@ -102,13 +14,16 @@ export interface RootData {
 
 export interface ReviewType {
   rating: number;
+  _id: string
   tags: Tag[];
   comment: string;
   courseID: {
     classCode: string;
 
   };
-
+  likes: number
+  dislikes: number
+  date: string 
 }
 
 export interface Professor {
@@ -200,10 +115,12 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
         {data.reviews?data.reviews.map((key: ReviewType, i: number) =>
             <UserCard
               key={i}
+              professorID={params.id}
               userCourseName={key.courseID.classCode}
               userDesc={key.comment}
               userTags={key.tags}
               ratingNum={key.rating}
+              id={key._id}
             />
 
         )
@@ -229,7 +146,7 @@ function ProfileBody(content: profileBodyProps) {
       <h1>{content.profName}</h1>
       {content.department}
       <p>Profile: <a href={content.profDesc}> {content.profDesc}</a></p> {/* display other courses taught as well */}
-      Top Tags: {content.tags.join(",")}
+      Top Tags: {content.tags.join(", ")}
     </div>
   )
 }
@@ -269,11 +186,11 @@ function RatingHeader({reviewNum, ratingNum}:ratingHeaderProps){
       </div>
       <div className="ratingNumberText">
         {!ratingNum ? 
-          <span>N/A</span>:
+          <>N/A</>:
           ratingNum.toFixed(1)
       }
       </div>
-      <div className="reviewNumText"> {reviewNum} ratings</div> 
+      <div className="reviewNumText">{reviewNum} ratings</div> 
     </div>
   )
 }
@@ -291,34 +208,120 @@ function UserRating({ratingNum}: userRatingProps) {
           </div>
           <div className="userRatingNumberText">
 
-            {ratingNum===0?
+            {ratingNum === 0?
               <>N/A</>
             :
               ratingNum.toFixed(1)
             }
           </div>
         </div>
-    </div>)
+    </div>
+    )
 }
 
 type userBodyProps = {
   userDesc: string,
   userTags: Tag[]
   userCourseName: string
+  id?: string
+  professorID: string
 }
 
-function UserBody({userDesc, userTags, userCourseName}: userBodyProps) {
+function UserBody({userDesc, userTags, userCourseName, id, professorID}: userBodyProps) {
+  const [likes, setLikes] = useState(0)
+  const [dislikes, setDislikes] = useState(0)
+  const [data, setData] = useState<ReviewType>()
+
   
+  const getDate = (dateString:string) => {
+    const date = new Date(dateString);
+    const formattedDate = (date.getMonth() + 1) + '/' + date.getDate() + '/' + date.getFullYear();
+    console.log(formattedDate);
+    return formattedDate
+  }
+
+
+  useEffect(() => {
+    fetch(`http://localhost:9080/api/v1/professors/${professorID}/reviews`)
+    .then((response => response.json()))
+    .then(reviewList => {
+      console.log("Reviews List",reviewList.reviews)
+      for (let i = 0; i < reviewList.reviews.length; i++) {
+        console.log("review type", reviewList.reviews[i])
+        if(reviewList.reviews[i]._id == id) {
+          setData(reviewList.reviews[i])
+          console.log("data Like dislike", data)
+            setLikes(data?.likes || 0)
+            setDislikes(data?.dislikes || 0) 
+            console.log("Likes: ", likes)
+            console.log("Dislikes: ", dislikes)
+
+        }
+        
+      }
+    })
+    .catch(err => console.log(err))
+  }, [])
+
+  const updateLikes = () => {
+    fetch(`http://localhost:9080/api/v1/reviews/${id}/like`, {
+      method: 'PATCH',
+      credentials: "include"
+    }).then((res) => {
+      if(res.status == 200) {
+        console.log("Liked Successfully")
+        setLikes(likes + 1)
+        console.log("likes: ", likes)
+      }
+      else if (res.status == 400) {
+        console.log("Error Liking, invalid id")
+      }
+      else {
+        console.log("Can only like once")
+      }
+    })
+    .catch((err) => console.log(err))
+  }
+
+  const updateDislikes = () => {
+    fetch(`http://localhost:9080/api/v1/reviews/${id}/dislike`, {
+      method: 'PATCH',
+      credentials: "include"
+    }).then((res)=> {
+      if(res.status == 200) {
+        console.log("Disliked Successfully")
+        setDislikes(dislikes + 1)
+        console.log("likes: ", dislikes)
+      }
+      else if (res.status == 400){
+        console.log("Error Disliking, invalid id")
+      }
+      else {
+        console.log("Can only dislike once")
+        console.log("dislikes: ", dislikes)
+      }
+    })
+    .catch((err) => console.log(err))
+  }
+
   return (
     <div className="userProfileBody">
-      <div><h1>{userCourseName}</h1></div>
+      <div className="dateFormat">{getDate(data?.date || "")}</div>
+      <div><h1>{userCourseName}</h1> </div>
       <div>
             {userDesc.length > 300? 
               <p><ShowMore userDesc={userDesc} /></p>:
               <p>{userDesc}</p>
             }
       </div>
-      <div>Tags: {userTags && userTags.map(u=>u.tagName).join(", ")}
+      <div>
+        Tags: {userTags && userTags.map(u=>u.tagName).join(", ")}
+      </div>
+      <div className="LikeDislikeButtonsLayout">
+        <Button type="text" icon={<LikeOutlined />} onClick={updateLikes} /> 
+        {likes}
+        <Button type="text" icon={<DislikeOutlined />} onClick={updateDislikes} />
+        {dislikes}
       </div>
     </div>
   )
@@ -344,7 +347,12 @@ function ProfCard({profName, ratings, ratingNum, department, id, tags, profDesc}
           ratingNum={ratingNum} 
           id={id}
         />
-        <ProfileBody profName={profName} profDesc={profDesc} tags={tags} department={department}/>
+        <ProfileBody 
+          profName={profName} 
+          profDesc={profDesc} 
+          tags={tags} 
+          department={department}
+        />
     </div>
 </div>
   )
@@ -355,14 +363,22 @@ type UserCardProps = {
   userDesc: string,
   userTags: Tag[]
   ratingNum: number
+  id?: string
+  professorID: string
 }
 
-function UserCard({userCourseName, userDesc, userTags, ratingNum}: UserCardProps){
+function UserCard({userCourseName, userDesc, userTags, ratingNum, id, professorID}: UserCardProps){
   return (
     <div className="card">
       <div className="card-body profileCardLayout">
         <UserRating ratingNum={ratingNum}/>
-        <UserBody userCourseName={userCourseName} userDesc={userDesc} userTags={userTags}/>
+        <UserBody 
+          userCourseName={userCourseName} 
+          userDesc={userDesc} 
+          userTags={userTags} 
+          id={id}
+          professorID={professorID}
+        />
       </div>
     </div>
   )
